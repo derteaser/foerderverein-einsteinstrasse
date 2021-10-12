@@ -1,0 +1,44 @@
+title: Features
+icon: layers
+
+status:
+  draft: Entwurf
+  listed: Veröffentlicht
+
+options:
+  preview: "{{ page.parent.url }}/#{{ page.slug }}"
+
+sections:
+  content:
+    type: fields
+    fields:
+      headline:
+        type: text
+        required: true
+      intro:
+        type: textarea
+        buttons: false
+      features:
+        type: structure
+        required: true
+        columns:
+          cover:
+            width: 1/4
+          headline:
+            width: 3/4
+        fields:
+          headline:
+            type: text
+            required: true
+          intro:
+            type: writer
+            required: true
+          cover:
+            type: files
+            multiple: false
+            layout: cards
+            query: page.images
+            image:
+              ratio: 16/9
+            uploads:
+              template: image

@@ -1,0 +1,19 @@
+{
+    "name": "kuesters/fv-kita-einsteinstrasse",
+    "description": "Foerderverein Kita Einsteinstrasse Website",
+    "type": "project",
+    "keywords": ["kirby", "cms"],
+    "homepage": "https://www.foerderverein-familienzentrum-einsteinstrasse-neuss.de",
+    "require": {
+        "php": ">=7.4.0|>=8.0",
+        "getkirby/cms": "^3.6.0-beta.1",
+        "pedroborges/kirby-meta-tags": "^2.1",
+        "bnomei/kirby3-robots-txt": "^1.5",
+        "omz13/kirby3-xmlsitemap": "^1.2",
+        "arnoson/kirby-vite": "^2.4",
+        "oblik/kirby-link-field": "^3.0"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}

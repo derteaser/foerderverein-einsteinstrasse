@@ -1,0 +1,42 @@
+title: Call to Action
+icon: bell
+
+status:
+  draft: Entwurf
+  listed: Veröffentlicht
+
+options:
+  preview: "{{ page.parent.url }}/#{{ page.slug }}"
+
+columns:
+  - width: 2/3
+    sections:
+      content:
+        type: fields
+        fields:
+          headline:
+            type: text
+            required: true
+          intro:
+            type: textarea
+            buttons: false
+            required: true
+          link:
+            type: link
+            required: true
+  - width: 1/3
+    sections:
+      media:
+        type: fields
+        fields:
+          background:
+            type: files
+            label: Hintergrundbild
+            multiple: false
+            layout: cards
+            query: page.images
+            image:
+              ratio: 16/9
+            uploads:
+              template: image
+      files: true

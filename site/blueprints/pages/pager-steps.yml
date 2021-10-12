@@ -1,0 +1,39 @@
+title: Aufzählung / Schritte
+icon: list-numbers
+
+status:
+  draft: Entwurf
+  listed: Veröffentlicht
+
+options:
+  preview: "{{ page.parent.url }}/#{{ page.slug }}"
+
+columns:
+  - width: 1/2
+    sections:
+      content:
+        type: fields
+        fields:
+          kicker:
+            type: text
+          headline:
+            type: text
+            required: true
+          intro:
+            type: textarea
+            buttons: false
+            required: true
+  - width: 1/2
+    sections:
+      media:
+        type: fields
+        fields:
+          steps:
+            type: structure
+            label: Schritte
+            required: true
+            fields:
+              description:
+                type: writer
+                label: Beschreibung
+                inline: true

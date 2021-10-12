@@ -1,0 +1,17 @@
+title: Blog Vorschau
+icon: page
+
+status:
+  draft: Entwurf
+  listed: Veröffentlicht
+
+options:
+  preview: "{{ page.parent.url }}/#{{ page.slug }}"
+
+fields:
+  max_articles:
+    type: number
+    label: Maximal angezeigte Artikel
+    min: 2
+    max: 12
+    required: true

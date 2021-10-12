@@ -1,0 +1,6 @@
+type: pages
+headline: Personen
+parent: site.find("persons")
+template: person
+empty: Noch keine Personen vorhanden
+info: "{{ page.function }}"

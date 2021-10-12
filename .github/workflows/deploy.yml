@@ -1,0 +1,33 @@
+name: Deploy to Live
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@main
+    - name: Create local changes
+      run: |
+        yarn install
+        yarn run build
+    - name: Commit and push local changes
+      uses: stefanzweifel/git-auto-commit-action@v4.11.0
+      with:
+        commit_message: Apply theme changes
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.SSH_HOST }}
+        username: ${{ secrets.SSH_USERNAME }}
+        password: ${{ secrets.SSH_PASSWORD }}
+        port: ${{ secrets.SSH_PORT }}
+        script: |
+          cd talk-am-pegel
+          git pull
+          php80 /usr/bin/composer install --no-dev -d ${PWD}

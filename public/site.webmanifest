@@ -1,0 +1,15 @@
+{
+    "name": "FV Kita Einsteinstraße",
+    "short_name": "Einsteinstraße",
+    "icons": [
+        {
+            "src": "/google-touch-icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#522CAF",
+    "background_color": "#ffffff",
+    "start_url": "https://www.foerderverein-familienzentrum-einsteinstrasse-neuss.de/",
+    "display": "fullscreen"
+}

@@ -1,0 +1,36 @@
+title: Blog-Artikel
+icon: page
+num: date
+
+status:
+  draft: true
+  listed: true
+
+columns:
+  - width: 2/3
+    fields:
+      intro:
+        type: writer
+        inline: true
+      text:
+        type: blocks
+
+  - width: 1/3
+    sections:
+      meta:
+        type: fields
+        fields:
+          main_image:
+            extends: fields/main-image
+            label: Teaser-Bild
+            image:
+              cover: true
+              ratio: 16/9
+          date:
+            type: date
+            time: true
+            default: now
+            label: Datum
+          tags: true
+      files:
+        headline: Dateien

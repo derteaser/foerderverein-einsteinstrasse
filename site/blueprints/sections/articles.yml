@@ -1,0 +1,7 @@
+type: pages
+headline: Artikel
+parent: site.find("blog")
+template: article
+empty: Noch keine Artikel vorhanden
+info: "{{ page.date }}"
+sortBy: date desc

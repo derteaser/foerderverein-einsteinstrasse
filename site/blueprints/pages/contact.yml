@@ -1,0 +1,9 @@
+title: Kontakt
+
+options:
+  changeSlug: false
+  changeStatus: false
+  duplicate: false
+  delete: false
+  hideOptions: true
+

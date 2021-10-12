@@ -1,0 +1,28 @@
+title: Personen
+icon: user
+
+options:
+  changeSlug: false
+  changeStatus: false
+  create: false
+  duplicate: false
+  delete: false
+  hideOptions: true
+  preview: false
+
+status:
+  listed: false
+  draft: false
+
+sections:
+  drafts:
+    extends: sections/persons
+    headline: Unveröffentlichte Personen
+    status: draft
+  listed:
+    extends: sections/persons
+    headline: Veröffentlichte Personen
+    status: unlisted
+    layout: cardlets
+    image:
+      cover: true

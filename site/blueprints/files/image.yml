@@ -1,0 +1,10 @@
+title: Bild
+
+accept:
+  mime: image/*
+  type: image
+
+fields:
+  alt:
+    type: text
+    label: Alternativtext

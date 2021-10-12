@@ -1,0 +1,17 @@
+title: Homepage
+icon: home
+
+sections:
+  parts:
+    headline: Abschnitte
+    type: pages
+    status: all
+    info: "{{ page.intendedTemplate }}"
+    image: icon
+    templates:
+      - pager-hero
+      - pager-steps
+      - pager-cta
+      - pager-blog
+      - pager-team
+      - pager-features

@@ -1,0 +1,35 @@
+title: Team
+icon: users
+
+status:
+  draft: Entwurf
+  listed: Veröffentlicht
+
+options:
+  preview: "{{ page.parent.url }}/#{{ page.slug }}"
+
+columns:
+  - width: 1/2
+    sections:
+      content:
+        type: fields
+        fields:
+          kicker:
+            type: text
+          headline:
+            type: text
+            required: true
+          intro:
+            type: textarea
+            buttons: false
+  - width: 1/2
+    sections:
+      media:
+        type: fields
+        fields:
+          persons:
+            type: pages
+            label: Personen
+            required: true
+            template: person
+            query: site.find('persons')

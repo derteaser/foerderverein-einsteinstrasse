@@ -1,0 +1,88 @@
+title: Site
+
+tabs:
+  pages:
+    label: Seiten
+    columns:
+      left:
+        width: 1/2
+        sections:
+          blog:
+            extends: sections/articles
+            headline: Blog
+            layout: cardlets
+            image:
+              cover: true
+      right:
+        width: 1/2
+        sections:
+          pages:
+            headline: Seiten
+          files:
+            headline: Dateien
+  contact:
+    label: Kontakt/Social
+    columns:
+      left:
+        width: 2/3
+        fields:
+          addressHeadline:
+            type: headline
+            label: Anschrift
+          address:
+            type: text
+            label: Straße, Hausnummer
+          postal_code:
+            type: text
+            label: Postleitzahl
+            width: 1/4
+          city:
+            type: text
+            label: Ort
+            width: 3/4
+          phoneMailHeadline:
+            type: headline
+            label: Telefon & E-Mail
+          phone:
+            type: tel
+            label: Telefon
+            width: 1/2
+          email:
+            type: email
+            label: E-Mail
+            width: 1/2
+          socialHeadline:
+            type: headline
+            label: Social / Links
+          facebook:
+            type: text
+            icon: facebook
+            width: 1/2
+          instagram:
+            type: text
+            icon: instagram
+            width: 1/2
+          diakonie:
+            type: url
+            width: 1/2
+          amazon_smile:
+            type: url
+            width: 1/2
+      right:
+        width: 1/3
+        fields:
+          main_image:
+            extends: fields/main-image
+            label: Fallback Bild für Social Media
+            required: true
+            image:
+              cover: true
+          description:
+            type: textarea
+            buttons: false
+            label: Beschreibung für Social Media und Meta Tags
+  navigation:
+    fields:
+      footer_navigation:
+        label: Footer
+        type: pages
