@@ -1,0 +1,24 @@
+Title: Mitglied werden
+
+----
+
+Headline: Werden Sie Mitglied
+
+----
+
+Intro: Förderer kann jeder werden! Eltern, Großeltern, Verwandte, Paten, Freunde… Lassen Sie uns dazu die unterzeichnete Beitrittserklärung postalisch zukommen. Die Adresse finden Sie auf der Rückseite unseres Flyers.
+
+----
+
+Link:
+
+type: file
+value: flyer.pdf
+text: Flyer herunterladen
+popup: true
+
+----
+
+Background:
+
+- img_9835.jpg

@@ -1,0 +1,30 @@
+Title: Willkommen
+
+----
+
+Headline: Willkommen beim Förderverein des Familienzentrums Einsteinstraße
+
+----
+
+Buttons:
+
+- 
+  link:
+    type: page
+    value: home
+    text: Mitglied werden
+    hash: mitglied-werden
+  primary: 'true'
+- 
+  link:
+    type: page
+    text: Unterstützen
+    hash: unterstuetzen
+    value: home
+  primary: 'false'
+
+----
+
+Cover:
+
+- logo-fv-einsteinstrasse.png

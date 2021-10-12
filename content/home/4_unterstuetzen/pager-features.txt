@@ -1,0 +1,37 @@
+Title: Unterstützen
+
+----
+
+Headline: Unterstützen Sie uns
+
+----
+
+Intro: 
+
+----
+
+Features:
+
+- 
+  headline: Spenden
+  intro: '<p>Spenden Sie unverbindlich auf unser Vereinskonto:</p><p>Inhaber: Förderverein evangelisches Familienzentrum Einsteinstraße Neuss e.V.<br>IBAN: DE32 3055 0000 0093 6119 37<br>BIC: WELADEDNXXX Sparkasse Neuss</p>'
+  cover:
+    - >
+      jan-antonin-kolar-i_5klz6zgzi-unsplash.jpeg
+  link:
+    type: url
+    value: null
+- 
+  headline: Amazon Smile
+  intro: '<p>Unterstützen Sie uns, indem Sie auf <a href="https://smile.amazon.de/ch/122-578-83691" rel="noopener noreferrer nofollow">www.smile.amazon.de</a> einkaufen.</p><p>Mit dem Wohltätigkeitsprogramm Amazon Smile können Sie online einkaufen und gleichzeitig Gutes tun. 0,5% der Einkaufssumme Ihrer qualifizierten Verkäufe gehen an uns.</p>'
+  cover:
+    - daniel-eledut-a8knfpidipi-unsplash.jpeg
+  link:
+    type: url
+    value: ""
+    popup: true
+- 
+  headline: Shop
+  intro: '<p>Hier kommt unser toller neuer Shop hin.</p>'
+  cover:
+    - mike-petrucci-c9fqyqiecds-unsplash.jpeg

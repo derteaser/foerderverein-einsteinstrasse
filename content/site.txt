@@ -1,0 +1,55 @@
+Title: Förderverein evangelisches Familienzentrum Einsteinstraße Neuss e.V.
+
+----
+
+Address: Einsteinstraße 196
+
+----
+
+Postal-code: 41464
+
+----
+
+City: Neuss
+
+----
+
+Phone: 02131 - 899520
+
+----
+
+Email: vorstand@foerderverein-familienzentrum-einsteinstrasse-neuss.de
+
+----
+
+Facebook: fv_kita_einsteinstrasse_neuss-102503312032527
+
+----
+
+Instagram: fv_kita_einsteinstrasse_neuss
+
+----
+
+Diakonie: https://www.diakonie-rkn.de/neuss-west-familienzentrum-einsteinstrasse/
+
+----
+
+Amazon-smile: https://smile.amazon.de/ch/122-578-83691
+
+----
+
+Main-image:
+
+- logo1-1024x461.png
+
+----
+
+Description: Ziel des gemeinnützigen Fördervereins ist es, das evangelische Familienzentrum Einsteinstraße Neuss bei der Umsetzung von Projekten und besonderen Aktivitäten zu unterstützen.
+
+----
+
+Footer-navigation:
+
+- kontakt
+- impressum
+- datenschutz

@@ -1,0 +1,23 @@
+Title: Der Eiswagen war da!
+
+----
+
+Intro: 
+
+----
+
+Text: [{"content":{"location":"kirby","image":["1996abbc-298b-4581-ba6b-56406564e272.jpg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"0aeee276-7e25-4681-a51f-bc10d9970778","isHidden":false,"type":"image"},{"content":{"text":"<p>Ende Juni 2021 bereitete der F\u00f6rderverein den Kindern und Erziehern des evangelischen Familienzentrums Einsteinstra\u00dfe Neuss eine besondere \u00dcberraschung und schickte einen Eiswagen zur KiTa. F\u00fcr Gro\u00df und Klein gab es leckeres italienisches Eis. Hmmmmmm, lecker!<\/p>"},"id":"2dcf3a9d-fd5e-4dfd-b2ff-87763da98350","isHidden":false,"type":"text"},{"content":{"images":["560c17d3-21b9-49cd-98b0-7338598e8156-2.jpg","e28eea3d-17be-4e41-b606-d9553bfa5e78.jpg","c37fb06d-30f1-41b3-829e-06f00bb45f94.jpg"]},"id":"aef1d776-565c-4357-ae5e-ac7f9dfa7d3e","isHidden":false,"type":"gallery"}]
+
+----
+
+Main-image:
+
+- 1996abbc-298b-4581-ba6b-56406564e272.jpg
+
+----
+
+Date: 2021-06-30 15:00:00
+
+----
+
+Tags: eis, sommer

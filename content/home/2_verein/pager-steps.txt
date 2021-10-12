@@ -1,0 +1,33 @@
+Title: Verein
+
+----
+
+Kicker: 
+
+----
+
+Headline: Der Verein
+
+----
+
+Intro: Ziel des gemeinnützigen Fördervereins ist es, das evangelische Familienzentrum Einsteinstraße Neuss bei der Umsetzung von Projekten und besonderen Aktivitäten zu unterstützen. Dazu zählen zum Beispiel:
+
+----
+
+Steps:
+
+- 
+  description: >
+    Unterstützung bei der Erweiterung der
+    Inneneinrichtung und der Außenanlage
+- 
+  description: >
+    Unterstützung bei Festen, Ausflügen
+    und Exkursionen
+- 
+  description: 'Anschaffung von Spiel- und Bastelmaterialien'
+- 
+  description: >
+    Unterstützung bedürftiger Kinder bei
+    der Teilnahme an
+    Gemeinschaftsveranstaltungen

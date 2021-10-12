@@ -1,0 +1,5 @@
+Title: Datenschutz
+
+----
+
+Text: [{"content":{"level":"h2","text":"<strong>Datenschutzerkl\u00e4rung<\/strong>"},"id":"9d35afa2-753b-4c03-811c-aae5dc5ca262","isHidden":false,"type":"heading"},{"content":{"text":"<p>Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:<br>Vorsitzende: Serap D\u00fcz\u00fcng\u00fc,<br>c\/o Evangelisches Familienzentrum Einsteinstra\u00dfe Neuss, Einsteinstra\u00dfe 196, 41464 Neuss<\/p>"},"id":"c6597c7f-5ad1-4469-8b5b-acd8231a1f42","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"<strong>Ihre Betroffenenrechte<\/strong>"},"id":"4bdad5cf-3c1d-4e02-b139-aa21b3fad440","isHidden":false,"type":"heading"},{"content":{"text":"<p>Unter den angegebenen Kontaktdaten unseres Datenschutzbeauftragten k\u00f6nnen Sie jederzeit folgende Rechte aus\u00fcben:<\/p>"},"id":"db8a6fd3-3f89-4267-b4c1-cf1eebd61587","isHidden":false,"type":"text"}]

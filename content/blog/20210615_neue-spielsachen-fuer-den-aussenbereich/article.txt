@@ -1,0 +1,23 @@
+Title: Neue Spielsachen für den Außenbereich
+
+----
+
+Intro: Die Sonne lacht mit dem Vorstand des Fördervereins um die Wette bei diesem schönen Anlass:
+
+----
+
+Text: [{"content":{"location":"kirby","image":["uebergabe_spielsachen.jpeg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"6fdced29-8b4c-4dd6-9755-e5be7a8e7338","isHidden":false,"type":"image"},{"content":{"text":"<p>Im Juni 2021 konnte der F\u00f6rderverein die angeschafften Spielsachen f\u00fcr den Au\u00dfenbereich an die Leitung des evangelischen Familienzentrums Einsteinstra\u00dfe Neuss \u00fcbergeben.<\/p><p>Passend zum Sommerwetter k\u00f6nnen die Kinder sich \u00fcber neue Spielsachen f\u00fcr den Au\u00dfenbereich freuen.<\/p><p>Ein gro\u00dfes Dankesch\u00f6n an alle Mitglieder und F\u00f6rderer, die durch ihre Mitgliedsbeitr\u00e4ge und Spenden diese Anschaffungen m\u00f6glich gemacht haben. Die Kinder freuen sich und das ist einfach toll! Neben einem Wasser- und Matschtisch gab es viele neue Eimer, Schaufeln und Harken, neue Baustellenfahrzeuge f\u00fcr den Sandkasten und ein Set Verkehrsschilder.<\/p>"},"id":"7b6710d1-b2a9-4230-8fbc-cfbc0e3b2fa1","isHidden":false,"type":"text"}]
+
+----
+
+Main-image:
+
+- uebergabe_spielsachen.jpeg
+
+----
+
+Date: 2021-06-15 00:00:00
+
+----
+
+Tags: spielzeug

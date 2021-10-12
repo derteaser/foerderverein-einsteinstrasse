@@ -1,0 +1,21 @@
+Title: Vorstand
+
+----
+
+Kicker: Sprechen Sie uns gerne an
+
+----
+
+Headline: Der Vorstand
+
+----
+
+Intro: 
+
+----
+
+Persons:
+
+- persons/serap-duezuengue
+- persons/julia-albers
+- persons/silvia-tafurt-loll
