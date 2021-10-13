@@ -18,7 +18,7 @@
     "concurrently": "^6.2.1",
     "heroicons": "^1.0.4",
     "postcss": "^8.3.6",
-    "postcss-cli": "^8.3.1",
+    "postcss-cli": "^9.0.1",
     "postcss-import": "^14.0.2",
     "postcss-nested": "^5.0.6",
     "shx": "^0.3.3",
