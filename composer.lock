@@ -581,16 +581,16 @@
         },
         {
             "name": "oblik/kirby-link-field",
-            "version": "3.0.2",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OblikStudio/kirby-link-field.git",
-                "reference": "e076d88206a9c39ca95b7b2ecef570ead7ceae62"
+                "reference": "9c5fab20e6bc82849884501ef47be38784071eb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OblikStudio/kirby-link-field/zipball/e076d88206a9c39ca95b7b2ecef570ead7ceae62",
-                "reference": "e076d88206a9c39ca95b7b2ecef570ead7ceae62",
+                "url": "https://api.github.com/repos/OblikStudio/kirby-link-field/zipball/9c5fab20e6bc82849884501ef47be38784071eb3",
+                "reference": "9c5fab20e6bc82849884501ef47be38784071eb3",
                 "shasum": ""
             },
             "require": {
@@ -619,9 +619,9 @@
             "description": "Kirby 3 field for all types of links.",
             "support": {
                 "issues": "https://github.com/OblikStudio/kirby-link-field/issues",
-                "source": "https://github.com/OblikStudio/kirby-link-field/tree/3.0.2"
+                "source": "https://github.com/OblikStudio/kirby-link-field/tree/3.0.3"
             },
-            "time": "2020-03-04T07:42:28+00:00"
+            "time": "2021-10-21T08:54:39+00:00"
         },
         {
             "name": "omz13/kirby3-xmlsitemap",
@@ -1059,5 +1059,5 @@
         "php": ">=7.4.0|>=8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }
