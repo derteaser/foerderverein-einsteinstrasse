@@ -18,7 +18,7 @@ $buttons = $section->buttons()->toStructure();
                 <?php if ($button->primary()->toBool() === true): ?>
                   <a class="inline-block w-full md:w-auto mb-2 md:mb-0 py-5 px-8 mr-6 text-center text-sm font-bold uppercase bg-yellow-500 hover:bg-yellow-400 transition duration-200" <?= $link->attr() ?>><?= $link->title() ?></a>
                 <?php else: ?>
-                  <a class="inline-block w-full md:w-auto py-5 px-8 text-center text-sm text-white font-bold uppercase border border-white hover:border-gray-50 transition duration-200" <?= $link->attr() ?>><?= $link->title() ?></a>
+                  <a class="inline-block w-full md:w-auto py-5 px-8 text-center text-sm text-white font-bold uppercase border border-white hover:bg-blue-800 hover:border-blue-800 transition duration-200" <?= $link->attr() ?>><?= $link->title() ?></a>
                 <?php endif ?>
               <?php endforeach ?>
             </div>
