@@ -5,7 +5,7 @@ use Oblik\LinkField\Link;
 
 $buttons = $section->buttons()->toStructure();
 ?>
-<section class="relative pb-20 bg-blue-300 overflow-hidden" id="<?= $section->slug() ?>">
+<section class="relative pb-20 -mb-12 bg-blue-300 overflow-hidden" id="<?= $section->slug() ?>">
   <div class="relative pt-12 md:pt-0">
     <div class="container px-4 mx-auto">
       <div class="flex flex-col-reverse md:flex-row items-center -mx-4">
@@ -32,5 +32,5 @@ $buttons = $section->buttons()->toStructure();
       </div>
     </div>
   </div>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="absolute bottom-0"><path fill="#522CAF" fill-opacity="1" d="M0,224L40,218.7C80,213,160,203,240,202.7C320,203,400,213,480,224C560,235,640,245,720,240C800,235,880,213,960,208C1040,203,1120,213,1200,208C1280,203,1360,181,1400,170.7L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="absolute bottom-0"><path fill="#3B8337" fill-opacity="1" d="M0,224L40,218.7C80,213,160,203,240,202.7C320,203,400,213,480,224C560,235,640,245,720,240C800,235,880,213,960,208C1040,203,1120,213,1200,208C1280,203,1360,181,1400,170.7L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
 </section>

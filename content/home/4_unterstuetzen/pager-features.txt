@@ -31,7 +31,17 @@ Features:
     value: ""
     popup: true
 - 
+  headline: PS-Sparen
+  intro: '<p>Durch die Teilnahme an <a href="https://www.sparkasse-neuss.de/de/home/privatkunden/sparen-und-anlegen/ps-lotterie-sparen.html" target="_blank" rel="noopener noreferrer">PS - der Lotterie der Sparkasse</a> tun Sie viel Gutes. Denn mit 25 Cent des Lotterie­einsatzes fördern Sie automatisch eine Vielzahl von gemein­nützigen Projekten oder Anschaffungen. So engagieren Sie sich gemeinsam mit Ihrer Sparkasse nachhaltig vor Ort.</p>'
+  cover:
+    - piggy-bank-g370042ae0_1920.jpeg
+- 
+  headline: socialfunders
+  intro: '<p><a href="https://www.socialfunders.org/" target="_blank" rel="noopener noreferrer">socialfunders</a> ist die einfachste Möglichkeit für Unternehmen gesellschaftliches Engagement zu zeigen und wirksam zu kommunizieren. Gemeinsam mit Kunden, Mitarbeitern und Partnern.</p>'
+  cover:
+    - gero-camp-tjp5irsrrsu-unsplash.jpeg
+- 
   headline: Shop
-  intro: '<p>Hier kommt unser toller neuer Shop hin.</p>'
+  intro: '<p>Coming soon!</p>'
   cover:
     - mike-petrucci-c9fqyqiecds-unsplash.jpeg
