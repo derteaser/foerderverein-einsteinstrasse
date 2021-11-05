@@ -1,0 +1,23 @@
+Title: Puppentheater mit dem Grüffelo
+
+----
+
+Intro: 
+
+----
+
+Text: [{"content":{"location":"kirby","image":["grueffelo_puppentheater.jpg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"05e273e9-55c7-43da-abe6-df8b9e7727d8","isHidden":false,"type":"image"},{"content":{"text":"<p>Das war ein besonderer Tag f\u00fcr die Kinder im evangelischen Familienzentrum Einsteinstra\u00dfe in Neuss.\u00a0<br>Auf Einladung des F\u00f6rdervereins hat das \u201ePuppentheater f\u00fcr Kinder\u201c das St\u00fcck \u201eDer Gr\u00fcffelo\u201c f\u00fcr die Kinder\u00a0aufgef\u00fchrt.\u00a0<\/p><p>Dank der tollen B\u00fchne und der tollen Figuren kam richtige Theater-Atmosph\u00e4re auf und die Kinder waren total begeistert.\u00a0<\/p><p>So eine tolle Vorf\u00fchrung sieht man schlie\u00dflich nicht alle Tage.\u00a0<\/p>"},"id":"5ba17b3a-92ee-4906-990b-a41f7eea6d6e","isHidden":false,"type":"text"}]
+
+----
+
+Main-image:
+
+- grueffelo_puppentheater.jpg
+
+----
+
+Date: 2021-11-05 10:00:00
+
+----
+
+Tags: 

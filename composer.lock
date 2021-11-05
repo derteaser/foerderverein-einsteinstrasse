@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f9a33334be58767b229f5ac9bf7d092",
+    "content-hash": "7972342976c893a8ee553fe6884ea19e",
     "packages": [
         {
             "name": "arnoson/kirby-vite",
@@ -167,21 +167,21 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.14.1",
+            "version": "2.14.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "15ead64e9828f0fc90932114429c4f7923570cb1"
+                "reference": "f056f1fe935d9ed86e698905a957334029899895"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/15ead64e9828f0fc90932114429c4f7923570cb1",
-                "reference": "15ead64e9828f0fc90932114429c4f7923570cb1",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/f056f1fe935d9ed86e698905a957334029899895",
+                "reference": "f056f1fe935d9ed86e698905a957334029899895",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.5.9 || ^7.0 || ^8.0",
-                "psr/log": "^1.0.1"
+                "psr/log": "^1.0.1 || ^2.0 || ^3.0"
             },
             "require-dev": {
                 "mockery/mockery": "^0.9 || ^1.0",
@@ -226,7 +226,7 @@
             ],
             "support": {
                 "issues": "https://github.com/filp/whoops/issues",
-                "source": "https://github.com/filp/whoops/tree/2.14.1"
+                "source": "https://github.com/filp/whoops/tree/2.14.4"
             },
             "funding": [
                 {
@@ -234,33 +234,34 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-08-29T12:00:00+00:00"
+            "time": "2021-10-03T12:00:00+00:00"
         },
         {
             "name": "getkirby/cms",
-            "version": "3.6.0-rc.1",
+            "version": "3.6.0-rc.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/kirby.git",
-                "reference": "78dde3f49b483f5163c34910a3ecc62bd839eb1f"
+                "reference": "3b4f5d2c044bb22b149df30eb2c7a900e011ac2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/kirby/zipball/78dde3f49b483f5163c34910a3ecc62bd839eb1f",
-                "reference": "78dde3f49b483f5163c34910a3ecc62bd839eb1f",
+                "url": "https://api.github.com/repos/getkirby/kirby/zipball/3b4f5d2c044bb22b149df30eb2c7a900e011ac2d",
+                "reference": "3b4f5d2c044bb22b149df30eb2c7a900e011ac2d",
                 "shasum": ""
             },
             "require": {
                 "claviska/simpleimage": "3.6.3",
                 "ext-ctype": "*",
                 "ext-mbstring": "*",
-                "filp/whoops": "2.14.1",
+                "filp/whoops": "2.14.4",
                 "getkirby/composer-installer": "^1.2.1",
                 "laminas/laminas-escaper": "2.9.0",
                 "michelf/php-smartypants": "1.8.1",
                 "mustangostang/spyc": "0.6.3",
-                "php": ">=7.3.0 <8.1.0",
+                "php": ">=7.4.0 <8.1.0",
                 "phpmailer/phpmailer": "6.5.1",
+                "psr/log": "1.1.4",
                 "true/punycode": "2.1.1"
             },
             "type": "kirby-cms",
@@ -306,7 +307,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-10-19T10:15:35+00:00"
+            "time": "2021-11-05T14:42:21+00:00"
         },
         {
             "name": "getkirby/composer-installer",

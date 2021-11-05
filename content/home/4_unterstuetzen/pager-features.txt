@@ -37,7 +37,7 @@ Features:
     - piggy-bank-g370042ae0_1920.jpeg
 - 
   headline: socialfunders
-  intro: '<p><a href="https://www.socialfunders.org/" target="_blank" rel="noopener noreferrer">socialfunders</a> ist die einfachste Möglichkeit für Unternehmen gesellschaftliches Engagement zu zeigen und wirksam zu kommunizieren. Gemeinsam mit Kunden, Mitarbeitern und Partnern.</p>'
+  intro: '<p><a href="https://www.socialfunders.org/organization/foerderverein-ev-familienzentrum-einsteinstrasse-neuss-e-v/" target="_blank" rel="noopener noreferrer">socialfunders</a> ist die einfachste Möglichkeit für Unternehmen gesellschaftliches Engagement zu zeigen und wirksam zu kommunizieren. Gemeinsam mit Kunden, Mitarbeitern und Partnern.</p>'
   cover:
     - gero-camp-tjp5irsrrsu-unsplash.jpeg
 - 

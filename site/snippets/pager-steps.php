@@ -3,7 +3,7 @@
 
 $steps = $section->steps()->toStructure();
 ?>
-<section class="py-24 overflow-hidden bg-grass-green" id="<?= $section->slug() ?>">
+<section class="py-24 overflow-hidden bg-blue-900" id="<?= $section->slug() ?>">
   <div class="container px-4 mx-auto">
     <div class="flex flex-wrap items-center -mx-4">
       <div class="w-full lg:w-2/5 px-4 mb-20 lg:mb-0">
