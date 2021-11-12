@@ -8,6 +8,7 @@
     "dev": "shx touch src/.lock && concurrently \"npm:server\" \"npm:vite\"",
     "server": "php -S localhost:8888 -t public server.php",
     "build": "shx rm -f src/.lock && vite build",
+    "cert": "rm -rf .cert && mkdir -p .cert && mkcert -key-file ./.cert/key.pem -cert-file ./.cert/cert.pem 'localhost'",
     "icons": "node icons.js"
   },
   "devDependencies": {

@@ -28,9 +28,13 @@ export default ({ mode }) => ({
   server: {
     cors: true,
     // Only important if you use a non-localhost php server, like laravel valet:
-    hmr: { host: '127.0.0.1', protocol: 'ws'},
+    hmr: { host: 'localhost', protocol: 'wss'},
     port: 3000,
-    strictPort: true
+    strictPort: true,
+    https: {
+      key: fs.readFileSync('./.cert/key.pem'),
+      cert: fs.readFileSync('./.cert/cert.pem'),
+    },
   },
 
   build: {

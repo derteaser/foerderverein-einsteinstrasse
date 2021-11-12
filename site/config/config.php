@@ -1,5 +1,6 @@
 <?php
 
+use Kirby\Cms\File;
 use Kirby\Cms\Html;
 use Kirby\Cms\Page;
 use Kirby\Toolkit\Str;
@@ -79,17 +80,6 @@ return [
         }
 
         return [
-            'default' => [
-                'json-ld' => [
-                    'WebPage' => [
-                        'name' => $page->title()->value(),
-                        'url' => $page->url(),
-                        'inLanguage' => 'de_DE',
-                        'image' => $image->url(),
-                    ]
-                ],
-                'robots' => 'index,follow,noodp'
-            ],
             'home' => [
                 'title' => $site->title(),
                 'meta' => [

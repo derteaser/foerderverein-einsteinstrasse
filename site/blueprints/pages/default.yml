@@ -1,6 +1,22 @@
-title: Default Page
-preset: page
-fields:
-  text:
-    label: Text
-    type: blocks
+title: Einfache Seite
+
+columns:
+  - width: 2/3
+      fields:
+        text:
+          label: Text
+          type: blocks
+  - width: 1/3
+    sections:
+      meta:
+        type: fields
+        fields:
+          main_image:
+            extends: fields/main-image
+            label: Teaser-Bild
+            image:
+              cover: true
+              ratio: 16/9
+          tags: true
+      files:
+        headline: Dateien

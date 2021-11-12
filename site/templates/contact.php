@@ -9,10 +9,9 @@ use Kirby\Cms\Site;
 ?>
 
 <?php snippet('header') ?>
-<section class="container mx-auto mt-16 px-6 lg:px-24 xl:px-32 text-center">
+<section class="container mx-auto py-16 px-6 lg:px-24 xl:px-32 text-center prose max-w-screen-lg">
   <h2 class="text-xl mb-4 leading-relaxed"><?= $site->title() ?></h2>
-  <p><?= $site->address() ?></p>
-  <p><?= $site->postal_code() ?> <?= $site->city() ?></p>
-  <p><?= Html::email($site->email(), null, ['class' => 'text-tap-red-500 hover:text-tap-red-600']) ?></p>
+  <p><?= $site->address() ?><br><?= $site->postal_code() ?> <?= $site->city() ?></p>
+  <p><?= Html::email($site->email()) ?></p>
 </section>
 <?php snippet('footer') ?>

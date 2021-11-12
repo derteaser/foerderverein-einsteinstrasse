@@ -48,3 +48,4 @@ Icon
 /public/media/*
 /public/assets/*
 /public/assets
+/.cert/*
