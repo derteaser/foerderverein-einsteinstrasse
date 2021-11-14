@@ -22,16 +22,18 @@ $features = $section->features()->toStructure();
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-6">
       <?php foreach ($features as $feature): ?>
-        <div class="bg-white">
-          <?php if ($image = $feature->cover()->toFile()): ?>
-            <?php $resizedImage = $image->thumb('feature') ?>
-            <img class="w-full h-64 lg:h-72 object-cover" src="<?= $resizedImage->url() ?>" width="<?= $resizedImage->width() ?>" height="<?= $resizedImage->height() ?>" alt="">
-          <?php endif ?>
-          <div class="py-16 px-10 text-center">
-            <h3 class="mb-4 text-lg text-blue-800 font-bold uppercase font-heading"><?= $feature->headline() ?></h3>
-            <div class="prose prose-gray-500"><?= $feature->intro() ?></div>
+        <?php if ($feature->public()->toBool()): ?>
+          <div class="bg-white">
+            <?php if ($image = $feature->cover()->toFile()): ?>
+              <?php $resizedImage = $image->thumb('feature') ?>
+              <img class="w-full h-64 lg:h-72 object-cover" src="<?= $resizedImage->url() ?>" width="<?= $resizedImage->width() ?>" height="<?= $resizedImage->height() ?>" alt="">
+            <?php endif ?>
+            <div class="py-16 px-10 text-center">
+              <h3 class="mb-4 text-lg text-blue-800 font-bold uppercase font-heading"><?= $feature->headline() ?></h3>
+              <div class="prose prose-gray-500"><?= $feature->intro() ?></div>
+            </div>
           </div>
-        </div>
+        <?php endif ?>
       <?php endforeach ?>
     </div>
   </div>

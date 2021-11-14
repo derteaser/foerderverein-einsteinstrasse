@@ -25,7 +25,9 @@ sections:
           cover:
             width: 1/4
           headline:
-            width: 3/4
+            width: 1/2
+          public:
+            width: 1/4
         fields:
           headline:
             type: text
@@ -42,3 +44,9 @@ sections:
               ratio: 16/9
             uploads:
               template: image
+          public:
+            type: toggle
+            label: Öffentlich
+            text:
+              - Nein
+              - Ja
