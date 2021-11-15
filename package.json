@@ -16,7 +16,7 @@
     "@tailwindcss/typography": "^0.4.1",
     "autoprefixer": "^10.4.0",
     "bigpicture": "^2.5.3",
-    "concurrently": "^6.2.1",
+    "concurrently": "^6.4.0",
     "heroicons": "^1.0.5",
     "postcss": "^8.3.11",
     "postcss-cli": "^9.0.2",
