@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2e28dae9d85fb769df78f5ed67ec6a93",
+    "content-hash": "c6350863e97cf8b4395bfe58f378e3cd",
     "packages": [
         {
             "name": "arnoson/kirby-vite",
@@ -238,16 +238,16 @@
         },
         {
             "name": "getkirby/cms",
-            "version": "3.6.0-rc.5",
+            "version": "3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/kirby.git",
-                "reference": "e49fd8265823ec630085aa310c335864b8f8e65c"
+                "reference": "9ea05e38dbeb471657e3066651568fc29763ef06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/kirby/zipball/e49fd8265823ec630085aa310c335864b8f8e65c",
-                "reference": "e49fd8265823ec630085aa310c335864b8f8e65c",
+                "url": "https://api.github.com/repos/getkirby/kirby/zipball/9ea05e38dbeb471657e3066651568fc29763ef06",
+                "reference": "9ea05e38dbeb471657e3066651568fc29763ef06",
                 "shasum": ""
             },
             "require": {
@@ -307,7 +307,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-11-12T15:56:35+00:00"
+            "time": "2021-11-16T13:49:22+00:00"
         },
         {
             "name": "getkirby/composer-installer",
@@ -1051,9 +1051,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "getkirby/cms": 5
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
