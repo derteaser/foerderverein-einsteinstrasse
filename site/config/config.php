@@ -12,6 +12,9 @@ return [
     'date'  => [
         'handler' => 'strftime'
     ],
+    'panel' => [
+        'language' => 'de'
+    ],
     'thumbs' => [
         'presets' => [
             'default' => ['width' => 1036, 'quality' => 80],
