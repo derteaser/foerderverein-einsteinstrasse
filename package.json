@@ -12,8 +12,8 @@
     "icons": "node icons.js"
   },
   "devDependencies": {
-    "@tailwindcss/aspect-ratio": "^0.3.0",
-    "@tailwindcss/typography": "^0.4.1",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/typography": "^0.5.0",
     "autoprefixer": "^10.4.0",
     "bigpicture": "^2.5.3",
     "concurrently": "^6.4.0",
@@ -25,8 +25,8 @@
     "shx": "^0.3.3",
     "simple-icons": "^6.1.0",
     "svg-mixer": "^2.3.14",
-    "tailwindcss": "^2.2.19",
-    "tailwindcss-debug-screens": "^2.2.0",
+    "tailwindcss": "^3.0.0",
+    "tailwindcss-debug-screens": "^2.2.1",
     "vite": "^2.7.1",
     "vite-plugin-live-reload": "^2.1.0"
   }

@@ -29,9 +29,6 @@ module.exports = {
       ],
     },
     extend: {
-      colors: {
-        'grass-green': '#3B8337',
-      },
       typography: (theme) => ({
         DEFAULT: {
           css: {

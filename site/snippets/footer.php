@@ -5,7 +5,7 @@ use Kirby\Cms\Site;
 $logo = asset('img/logo.svg');
 ?>
 
-<footer class="py-24 bg-blue-50">
+<footer class="py-24 bg-blue-50 print:hidden">
   <div class="container mx-auto px-4 mb-10">
     <div class="max-w-2xl mx-auto text-center">
       <a class="inline-block mb-10 text-blue-800 text-lg font-semibold" href="/">
