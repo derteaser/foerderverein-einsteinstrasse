@@ -9,7 +9,7 @@
       <?php if ($page->intro()->isNotEmpty()): ?>
         <p class="mb-10 text-xl text-gray-500 print:text-black"><?= $page->intro() ?></p>
       <?php endif ?>
-      <div class="prose prose-lg text-gray-500 print:text-black max-w-none">
+      <div class="blocks print:text-black max-w-none">
         <?= $page->text()->toBlocks() ?>
       </div>
     </div>
