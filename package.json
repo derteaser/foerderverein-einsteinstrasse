@@ -27,7 +27,7 @@
     "svg-mixer": "^2.3.14",
     "tailwindcss": "^3.0.7",
     "tailwindcss-debug-screens": "^2.2.1",
-    "vite": "^2.7.3",
+    "vite": "^2.7.4",
     "vite-plugin-live-reload": "^2.1.0"
   }
 }
