@@ -12,7 +12,7 @@ const templates = fs
 const input = Object.fromEntries([
   ...templates.map(template => [
     template,
-   `${templateDir}/${template}/index.js`
+    `${templateDir}/${template}/index.js`
   ]),
   ['shared', resolve(__dirname, `${root}/index.js`)]
 ])
@@ -28,13 +28,13 @@ export default ({ mode }) => ({
   server: {
     cors: true,
     // Only important if you use a non-localhost php server, like laravel valet:
-    hmr: { host: 'localhost', protocol: 'wss'},
+    hmr: { host: 'localhost', protocol: mode === 'development' ? 'wss' : 'ws'},
     port: 3000,
     strictPort: true,
-    https: {
+    https: mode === 'development' ? {
       key: fs.readFileSync('./.cert/key.pem'),
       cert: fs.readFileSync('./.cert/cert.pem'),
-    },
+    } : false,
   },
 
   build: {
