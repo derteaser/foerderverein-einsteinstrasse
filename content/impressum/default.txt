@@ -2,4 +2,12 @@ Title: Impressum
 
 ----
 
-Text: [{"content":{"text":"<p>Betreiber und verantwortlich im Sinne des Telemediengesetzes:<\/p><p>F\u00f6rderverein evangelisches Familienzentrum Einsteinstra\u00dfe Neuss e.V.<br>Einsteinstra\u00dfe 196<br>41464 Neuss<\/p><p>Gesch\u00e4ftsf\u00fchrerin: Serap D\u00fcz\u00fcng\u00fc<br>Registergericht: Amtsgericht Neuss<br>Registernummer: VR 3049<\/p><p>Kontakt: <u>vorstand@foerderverein-familienzentrum-einsteinstrasse-neuss.de<\/u><\/p>"},"id":"71fc8f43-0a0e-4f08-bd00-8db449baad9c","isHidden":false,"type":"text"}]
+Text: <p>Betreiber und verantwortlich im Sinne des Telemediengesetzes:</p><p>Förderverein evangelisches Familienzentrum Einsteinstraße Neuss e.V.<br>Einsteinstraße 196<br>41464 Neuss</p><p>Geschäftsführerin: Serap Düzüngü<br>Registergericht: Amtsgericht Neuss<br>Registernummer: VR 3049</p><p>Kontakt: <u><a href="mailto:vorstand@foerderverein-familienzentrum-einsteinstrasse-neuss.de">vorstand@foerderverein-familienzentrum-einsteinstrasse-neuss.de</a></u></p>
+
+----
+
+Main-image: 
+
+----
+
+Tags: 

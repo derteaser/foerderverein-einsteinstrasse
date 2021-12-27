@@ -7,7 +7,7 @@
     <div class="max-w-2xl mx-auto">
       <h1 class="mb-10 text-5xl font-bold font-heading text-purple-800"><?= $page->title() ?></h1>
       <div class="blocks">
-        <?= $page->text()->toBlocks() ?>
+        <?= $page->text() ?>
       </div>
     </div>
   </div>

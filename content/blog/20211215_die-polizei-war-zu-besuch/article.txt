@@ -1,0 +1,24 @@
+Title: Die Polizei war zu Besuch
+
+----
+
+Intro: Das war ein spannender Tag für die Kinder der Kita Einsteinstraße in der letzten Woche: Die Polizei war zu Besuch.
+
+----
+
+Text: [{"content":{"location":"kirby","image":["267995628_271995421624790_1823582552861060698_n.jpeg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"fc4e56ce-de1b-47a3-9262-8eaf8671608b","isHidden":false,"type":"image"},{"content":{"text":"<p>Voller Freude wurden die beiden Polizisten mit ihrem Polizeiauto begr\u00fc\u00dft. \u201eIch m\u00f6chte auch mal Polizist werden\u201c, antworteten einige Kinder stolz auf die Frage, was sie denn mal werden m\u00f6chten, wenn sie gro\u00df sind. Es durfte sich jedes Kind auch mal ins das Polizeiauto setzen und anschauen. Dabei wurden auch Blaulicht und Sirene eingeschaltet. Die Polizisten \ud83d\udc6e\u200d\u2640\ufe0f haben viele Fragen beantwortet. Das war ein toller Tag!<br><br>Wir danken ganz herzlich den beiden netten Polizisten und freuen uns auf ein Wiedersehen im evangelischen Familienzentrum Einsteinstra\u00dfe Neuss.<\/p>"},"id":"022910c5-44b0-4daf-b75a-a49f1444095c","isHidden":false,"type":"text"}]
+
+----
+
+Main-image:
+
+- >
+  267222563_1299250747241175_3012964465875832341_n.jpeg
+
+----
+
+Date: 2021-12-15 14:00:00
+
+----
+
+Tags: polizei
