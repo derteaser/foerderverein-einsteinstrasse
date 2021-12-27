@@ -15,6 +15,7 @@ jobs:
     - name: Create local changes
       run: |
         yarn install
+        yarn run cert
         yarn run build
     - name: Commit and push local changes
       uses: stefanzweifel/git-auto-commit-action@v4.11.0
