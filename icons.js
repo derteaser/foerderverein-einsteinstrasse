@@ -21,6 +21,7 @@ mixer([
   'node_modules/simple-icons/icons/facebook.svg',
   'node_modules/simple-icons/icons/instagram.svg',
   // Misc
+  'node_modules/heroicons/solid/heart.svg',
   'node_modules/heroicons/outline/home.svg',
 ], { spriteConfig: { usages: false }, spriteClass: MySprite } )
     .then(result => result.write('public/img/icons.svg'));

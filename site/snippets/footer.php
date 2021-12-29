@@ -13,7 +13,7 @@ $logo = asset('img/logo.svg');
       </a>
       <ul class="mb-8 flex flex-wrap space-x-10 items-center justify-center text-sm">
         <?php foreach ($site->footer_navigation()->toPages() as $nav): ?>
-          <li class="mb-2 md:mb-0"><a href="<?= $nav->url() ?>" class="text-blue-500 hover:text-blue-600"><?= $nav->title() ?></a></li>
+          <li class="mb-2 md:mb-0"><a href="<?= $nav->url() ?>" class="text-blue-500 hover:text-blue-600 hover:underline"><?= $nav->title() ?></a></li>
         <?php endforeach ?>
       </ul>
       <div class="flex justify-center">
@@ -32,7 +32,10 @@ $logo = asset('img/logo.svg');
       </div>
     </div>
   </div>
-  <p class="text-center text-sm text-gray-500 pt-8 px-4 border-t border-gray-100">©<?= date('Y') ?> <?= $site->title() ?></p>
+  <div class="text-center text-sm text-gray-500 pt-8 px-4 border-t border-gray-100">
+    <p>©<?= date('Y') ?> <?= $site->title() ?></p>
+    <p>Made with <?php snippet('icon', ['name' => 'heart', 'cssClasses' => 'inline-block fill-current w-4 h-4']) ?> and <a href="https://getkirby.com" class="hover:underline" target="_blank" rel="noopener">Kirby</a></p>
+  </div>
 </footer>
 
 <?= vite()->js() ?>
