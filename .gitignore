@@ -49,3 +49,4 @@ Icon
 /public/assets/*
 /public/assets
 /.cert/*
+/.idea/*
