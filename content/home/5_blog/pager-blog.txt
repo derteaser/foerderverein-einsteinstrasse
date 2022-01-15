@@ -2,4 +2,4 @@ Title: Blog
 
 ----
 
-Max-articles: 2
+Max-articles: 5

@@ -1,0 +1,23 @@
+Title: Eine Toniebox zu Nikolaus
+
+----
+
+Intro: 
+
+----
+
+Text: [{"content":{"images":["image.jpg","image-1.jpg","image-2.jpg"]},"id":"5c1be492-0291-4b8b-8c81-8441dab5c605","isHidden":false,"type":"gallery"},{"content":{"text":"<p>Der F\u00f6rderverein hat sich mit dem Nikolaus zusammen getan und jeder Gruppe der KiTa Einsteinstrasse eine tolle Toniebox zukommen lassen. Danke, lieber Nikolaus f\u00fcr die sch\u00f6n \u00dcbergabe dieser besonderen Geschenke. Die Kinder werden sicher ganz lange Freude an den Boxen haben.<\/p>"},"id":"b5e33c00-f318-410e-b8bf-9beeb13aa753","isHidden":false,"type":"text"}]
+
+----
+
+Main-image:
+
+- image.jpg
+
+----
+
+Date: 2021-12-07 00:00:00
+
+----
+
+Tags: nikolaus
