@@ -11,7 +11,8 @@
         "bnomei/kirby3-robots-txt": "^1.5",
         "omz13/kirby3-xmlsitemap": "^1.2",
         "arnoson/kirby-vite": "^2.4",
-        "oblik/kirby-link-field": "^3.0"
+        "oblik/kirby-link-field": "^3.0",
+        "paulmorel/fathom-analytics": "^1.0"
     },
     "config": {
         "optimize-autoloader": true,

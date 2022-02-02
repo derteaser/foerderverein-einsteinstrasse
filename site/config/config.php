@@ -162,4 +162,8 @@ return [
             ]
         ];
     },
+    'paulmorel.fathom-analytics' => [
+        'siteId' => 'OCEABQLD',
+        //'customDomain' => 'https://better-innovative.foerderverein-familienzentrum-einsteinstrasse-neuss.de'
+    ]
 ];
