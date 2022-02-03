@@ -7,6 +7,7 @@ use Kirby\Cms\Page;
  * @method Field intro()
  * @method Field link()
  * @method Field background()
+ * @method Field fathom_event()
  */
 class PagerCtaPage extends Page {
 

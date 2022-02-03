@@ -24,6 +24,12 @@ columns:
           link:
             type: link
             required: true
+          fathom_event:
+            type: text
+            label: Fathom Event ID
+            maxlength: 8
+            placeholder: XXXXXXXX
+            help: Siehe https://usefathom.com/docs/features/events
   - width: 1/3
     sections:
       media:
