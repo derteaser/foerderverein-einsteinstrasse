@@ -50,3 +50,4 @@ Icon
 /public/assets
 /.cert/*
 /.idea/*
+/site/config/config.*.php
