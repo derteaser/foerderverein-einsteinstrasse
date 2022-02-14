@@ -2046,10 +2046,10 @@ sigmund@^1.0.1:
   resolved "https://registry.yarnpkg.com/sigmund/-/sigmund-1.0.1.tgz#3ff21f198cad2175f9f3b781853fd94d0d19b590"
   integrity sha1-P/IfGYytIXX587eBhT/ZTQ0ZtZA=
 
-simple-icons@^6.8.0:
-  version "6.8.0"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-6.8.0.tgz#ee837f4222dc00b600d90ec0025f52ea44c2c749"
-  integrity sha512-Ow1ISgCpRZuXa1xvwVqUrep6xqdtNmcgqd9pCtMgni7m1XmQI56EuSSJYAbyvCcoakXVcbtHFajtPXEd86iMCA==
+simple-icons@^6.10.0:
+  version "6.10.0"
+  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-6.10.0.tgz#4a4b5bfdb8474d881f5a69102b84613092406f9b"
+  integrity sha512-ttZNI13dH3vHII0/qWwXH1ipSZd5zX9eMh0kMTi8c2V32ON/IFl8fNL9k4MaP5lGy5KpEAchfRZ5NeMynpWRjg==
 
 slash@^4.0.0:
   version "4.0.0"
