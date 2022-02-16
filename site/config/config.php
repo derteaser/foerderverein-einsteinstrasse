@@ -5,8 +5,17 @@ use Kirby\Cms\Html;
 use Kirby\Cms\Page;
 use Kirby\Toolkit\Str;
 
+require_once __DIR__ . '/../plugins/kirby3-dotenv/global.php';
+
+loadenv([
+    'dir' => realpath(__DIR__ . '/../../')
+]);
+
 return [
-    'debug' => false,
+    'debug' => filter_var(env('APP_DEBUG'), FILTER_VALIDATE_BOOLEAN),
+    'auth' => [
+        'methods' => explode(',', env('AUTH_METHODS'))
+    ],
     'slugs' => 'de',
     'locale' => 'de_DE.utf-8',
     'date'  => [
@@ -14,6 +23,17 @@ return [
     ],
     'panel' => [
         'language' => 'de'
+    ],
+    'email' => [
+        'transport' => [
+            'type' => 'smtp',
+            'host' => env('EMAIL_HOST'),
+            'port' => 465,
+            'security' => true,
+            'auth' => true,
+            'username' => env('EMAIL_USERNAME'),
+            'password' => env('EMAIL_PASSWORD'),
+        ]
     ],
     'thumbs' => [
         'presets' => [
@@ -162,8 +182,10 @@ return [
             ]
         ];
     },
+    'arnoson.kirby-vite.devServer' => env('VITE_DEV_SERVER'),
     'paulmorel.fathom-analytics' => [
-        'siteId' => 'OCEABQLD',
+        'siteId' => env('FATHOM_SITE_ID'),
+        'sharePassword' => env('FATHOM_SHARE_PASSWORD')
         //'customDomain' => 'https://better-innovative.foerderverein-familienzentrum-einsteinstrasse-neuss.de'
     ]
 ];
