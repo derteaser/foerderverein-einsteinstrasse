@@ -25,7 +25,7 @@
     "shx": "^0.3.4",
     "simple-icons": "^6.8.0",
     "svg-mixer": "^2.3.14",
-    "tailwindcss": "^3.0.22",
+    "tailwindcss": "^3.0.23",
     "tailwindcss-debug-screens": "^2.2.1",
     "vite": "^2.8.3",
     "vite-plugin-live-reload": "^2.1.0"
