@@ -1,0 +1,21 @@
+Title: Frühlingsboten für die Kita
+
+----
+
+Intro: Der Förderverein hat ein Stück Frühling in die Kita Einsteinstraße gesendet.
+
+----
+
+Text: [{"content":{"location":"kirby","image":["img_5456.jpeg"],"src":"","alt":"","caption":"","link":"","ratio":"16\/9","crop":"true"},"id":"7e6eef6a-0ea0-4408-8e07-d6212d2359b0","isHidden":false,"type":"image"},{"content":{"text":"<p>50 bunte Bl\u00fcmchen wurden \u00fcbergeben, die die Kinder zusammen mit ihren Erzieherinnen und Erziehern einpflanzen werden.<\/p><p>Das macht richtig Lust auf noch mehr Sonne und den Fr\u00fchling.<\/p>"},"id":"bbc2043c-e872-44a3-ad55-2b9273421dd6","isHidden":false,"type":"text"}]
+
+----
+
+Main-image: - img_5456.jpeg
+
+----
+
+Date: 2022-03-11 13:55:00
+
+----
+
+Tags: frühling, blumen

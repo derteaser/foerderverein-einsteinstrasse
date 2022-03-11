@@ -1,0 +1,23 @@
+Title: Erfolgreiche Flaschen Challenge
+
+----
+
+Intro: Unsere Flaschen Challenge im Februar 2022 war ein riesiger Erfolg!
+
+----
+
+Text: [{"content":{"location":"kirby","image":["bottles-g85eb3c331_1920.jpg"],"src":"","alt":"","caption":"","link":"","ratio":"21\/9","crop":"true"},"id":"5f458064-2eb3-45e1-88d0-11eaf1b77b59","isHidden":false,"type":"image"},{"content":{"text":"<p>Wir danken allen Unterst\u00fctzern, die ein Ergebnis von <strong>459 gespendeten Flaschen<\/strong> m\u00f6glich gemacht haben.\u00a0<\/p><p>Von lieben Menschen, die zuhause keine Mehrwegflaschen nutzen, haben wir au\u00dferdem Spenden auf unser Vereinskonto erhalten. Auch daf\u00fcr ganz herzlichen Dank.<\/p>"},"id":"2c7c13f2-f146-460d-9552-8c7a86093785","isHidden":false,"type":"text"}]
+
+----
+
+Main-image:
+
+- bottles-g85eb3c331_1920.jpg
+
+----
+
+Date: 2022-03-07 13:20:00
+
+----
+
+Tags: pfand, Flaschen-challenge
