@@ -2001,10 +2001,10 @@ sigmund@^1.0.1:
   resolved "https://registry.yarnpkg.com/sigmund/-/sigmund-1.0.1.tgz#3ff21f198cad2175f9f3b781853fd94d0d19b590"
   integrity sha1-P/IfGYytIXX587eBhT/ZTQ0ZtZA=
 
-simple-icons@^6.8.0:
-  version "6.12.0"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-6.12.0.tgz#92bf40b332d759d2fdd7f59929e00c90e921e7c8"
-  integrity sha512-SLupP1dHUcrLSDHpOfjy4u010IYj79QzFkH460ITfGElvo9cB1V2hO4krz0aSZpRWFglwtFJIYPaIOKHp4+NBw==
+simple-icons@^6.14.0:
+  version "6.14.0"
+  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-6.14.0.tgz#0440e5a9354e6c83ffd4db70fd7b49ddd6f050a9"
+  integrity sha512-G1BloriCtFDxdxLPJJ7Ri4ffYp4ET/KOvpqTWaFUxeHcGognm468hmXp5g7auPYxKg2OsPqJ1zCYEjCRMqFtMg==
 
 slash@^4.0.0:
   version "4.0.0"
