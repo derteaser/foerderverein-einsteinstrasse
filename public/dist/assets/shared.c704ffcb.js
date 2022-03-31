@@ -1,1 +1,0 @@
-import{B as l}from"./vendor.f3b16d72.js";(function(){const r=document.querySelectorAll(".image-gallery a");for(let t=0;t<r.length;t++)r[t].addEventListener("click",function(e){e.preventDefault(),console.log(e.currentTarget.parentNode),l({el:e.target,imgSrc:e.currentTarget.getAttribute("href"),gallery:".image-gallery"})})})();

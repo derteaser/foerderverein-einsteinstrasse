@@ -1,11 +1,8 @@
 {
   "index.js": {
-    "file": "assets/shared.c704ffcb.js",
+    "file": "assets/shared.7dfd8ba0.js",
     "src": "index.js",
     "isEntry": true,
-    "imports": [
-      "_vendor.f3b16d72.js"
-    ],
     "css": [
       "assets/shared.cf296cb1.css"
     ],
@@ -41,8 +38,5 @@
       "assets/quicksand-v24-latin-700.defe9910.ttf",
       "assets/quicksand-v24-latin-700.1524d838.svg"
     ]
-  },
-  "_vendor.f3b16d72.js": {
-    "file": "assets/vendor.f3b16d72.js"
   }
 }
