@@ -202,10 +202,10 @@ base@^0.11.1:
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
 
-bigpicture@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/bigpicture/-/bigpicture-2.6.1.tgz#a63bd865fd4ecbe3fb0352d7fd9dfe9b61caa3be"
-  integrity sha512-acqSwD1ZdGYZN3MFAP8CXEpeFE9LqiBa53AFTGlchNkR6YIYvcxVKwC8zsbdQGcABApTDUEj7tYTqxD2WN+t2A==
+bigpicture@^2.6.2:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/bigpicture/-/bigpicture-2.6.2.tgz#5099f65d4a4fb7de714b5d4c3244498373ddede0"
+  integrity sha512-IZmRDr7ZSJLDtDvOP/dfqvJhMBqV/tGQAl3UgvkaCzePIkHYlYV/uCg9349E4RPF3ng7QM+eqFZ2CY7tE6pLMA==
 
 binary-extensions@^2.0.0:
   version "2.2.0"
