@@ -1,0 +1,23 @@
+Title: Aktion Ostertüte
+
+----
+
+Intro: 
+
+----
+
+Text: [{"content":{"text":"<p>In den Wochen vor Ostern konnten die s\u00fc\u00dfen Osterp\u00e4ckchen des F\u00f6rdervereins in der KiTa Einsteinstra\u00dfe erworben werden. Wir freuen uns \u00fcber rund 60 verkaufte Osterp\u00e4ckchen zu Gunsten der Kasse des F\u00f6rdervereins.<\/p>"},"id":"b363cdbf-04bb-4365-bb41-2a50574a05dc","isHidden":false,"type":"text"},{"content":{"images":["ostertopf.jpg","ostertueten.jpg"]},"id":"0989d364-a836-4ed5-9987-ec8187fa6318","isHidden":false,"type":"gallery"}]
+
+----
+
+Main-image:
+
+- 2022.03_aktion-ostertuete.jpg
+
+----
+
+Date: 2022-04-16 13:45:00
+
+----
+
+Tags: ostern

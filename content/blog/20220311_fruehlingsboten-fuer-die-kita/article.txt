@@ -6,11 +6,14 @@ Intro: Der Förderverein hat ein Stück Frühling in die Kita Einsteinstraße ge
 
 ----
 
-Text: [{"content":{"location":"kirby","image":["img_5456.jpeg"],"src":"","alt":"","caption":"","link":"","ratio":"16\/9","crop":"true"},"id":"7e6eef6a-0ea0-4408-8e07-d6212d2359b0","isHidden":false,"type":"image"},{"content":{"text":"<p>50 bunte Bl\u00fcmchen wurden \u00fcbergeben, die die Kinder zusammen mit ihren Erzieherinnen und Erziehern einpflanzen werden.<\/p><p>Das macht richtig Lust auf noch mehr Sonne und den Fr\u00fchling.<\/p>"},"id":"bbc2043c-e872-44a3-ad55-2b9273421dd6","isHidden":false,"type":"text"}]
+Text: [{"content":{"text":"<p>Wir finden: Den Fr\u00fchling kann man nicht sch\u00f6ner willkommen hei\u00dfen als mit vielen bunten Blumen. Aus diesem Grund hat der F\u00f6rderverein f\u00fcr die Kinder der KiTa Einsteinstra\u00dfe wundersch\u00f6ne Blumen besorgt, die die Kinder zusammen mit den Erziehern eingepflanzt haben. In K\u00fcrze wird sogar noch ein Insektenhotel erg\u00e4nzt.\u00a0<\/p>"},"id":"bbc2043c-e872-44a3-ad55-2b9273421dd6","isHidden":false,"type":"text"},{"content":{"images":["img_5456.jpeg","645725a2-db25-4024-9b2e-653d1688aa4d_1_105_c.jpeg","7597b3e6-64ed-47ca-8775-764121d19575_1_105_c.jpeg","07883c6a-b92b-4e8e-8a7d-827a40e29403_1_105_c.jpeg","a0f23668-6d2f-4290-ae2c-197161fad2c2_1_105_c.jpeg","fbd7dc38-61fc-490e-808d-62fe2c49ea19_1_105_c.jpeg","202cadcb-2836-4568-854e-750f2f665173.jpeg","5a1cd1db-76eb-4f02-944b-ce985db2b0b3_1_105_c.jpeg","d4ca0d6f-e77d-4210-b45e-e4ed812f4b57_1_105_c.jpeg"]},"id":"cdb20c9a-ea31-41c7-acb0-2ec44a9aa468","isHidden":false,"type":"gallery"}]
 
 ----
 
-Main-image: - img_5456.jpeg
+Main-image:
+
+- >
+  202cadcb-2836-4568-854e-750f2f665173.jpeg
 
 ----
 
