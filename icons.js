@@ -23,5 +23,6 @@ mixer([
   // Misc
   'node_modules/heroicons/solid/heart.svg',
   'node_modules/heroicons/outline/home.svg',
+  'node_modules/heroicons/outline/zoom-in.svg',
 ], { spriteConfig: { usages: false }, spriteClass: MySprite } )
     .then(result => result.write('public/img/icons.svg'));
