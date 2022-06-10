@@ -1,0 +1,23 @@
+Title: Gut für hier. Gut fürs Wir.
+
+----
+
+Intro: Wir brauchen deine Stimme um ein ganz tolles Projekt für die Kinder der KiTa Einsteinstraße in Neuss umsetzen zu können.
+
+----
+
+Text: [{"content":{"location":"kirby","image":["signet_gutfuerhier.png"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"6e696fb4-7bf8-4ed1-8b9e-eb76cba29687","isHidden":false,"type":"image"},{"content":{"text":"<p>B\u00fccher sind f\u00fcr unsere Kinder ein wahrer Schatz. B\u00fccher regen die Fantasie der Kinder an und geben Ihnen die M\u00f6glichkeit, in verschiedene Welten einzutauchen. Wer erinnert sich nicht gerne an das gem\u00fctliche Vorlesen mit Mama, Papa, Oma oder Opa oder an das heimliche Lesen spannender B\u00fccher mit der Taschenlampe unter der Bettdecke?\u00a0B\u00fccher er\u00f6ffnen den Kindern die Welt der Sprache. Und Sprache ist der Schl\u00fcssel zur Welt.\u00a0<\/p><p>Leider haben nicht alle Kinder Zugang zu B\u00fcchern und zum Thema Lesen.\u00a0Unser Projekt zielt darauf ab, den Kindern, die das evangelische Familienzentrum Einsteinstra\u00dfe Neuss besuchen, den Zugang zu kindgerechter Literatur zu erm\u00f6glichen und den Grundstein f\u00fcr Freude am Lesen, an B\u00fcchern und an Literatur zu legen. Es werden Spenden ben\u00f6tigt, um kindgerechte Literatur anzuschaffen und eine gem\u00fctliche Leseecke einzurichten.<\/p><p><a href=\"https:\/\/www.aldi-gutfuerswir.de\/voting-organization\/nordrhein-westfalen41464neussholzheimer-weg-44\/foerderverein-ev-familienzentrum-einsteinstrasse-neuss-e-v\/\" target=\"_blank\" rel=\"noopener noreferrer\">Unterst\u00fctze unser Projekt und schenke den Kindern Freude am Lesen!<\/a><\/p>"},"id":"42b66d72-c81c-4ba1-89ec-82157480f753","isHidden":false,"type":"text"},{"content":{"images":["insta_post_aldi_gutfuerswir.png","61c83e4e7939.png","5662b3dc8ede.png"]},"id":"8ef629fd-24ca-493a-832a-f2c67a0a113a","isHidden":false,"type":"gallery"},{"content":{"text":"<p>Vom <strong>23.5. \u2013 3.7.2022<\/strong> kannst du uns unterst\u00fctzen, indem du bei ALDI einkaufen gehst und deine Stimme f\u00fcr uns abgibst. ALDI spendet f\u00fcr die 3 meistgew\u00e4hlten Projekte pro Filiale tolle Preisgelder. Und so einfach geht\u2019s:<\/p><p>\ud83d\udecd\ufe0f  Je Einkauf* bei ALDI S\u00dcD f\u00fcr 20\u20ac erh\u00e4ltst du einen Code<\/p><p>\ud83d\udda5\ufe0f  Gehe auf <a href=\"https:\/\/www.aldi-gutfuerswir.de\/voting-organization\/nordrhein-westfalen41464neussholzheimer-weg-44\/foerderverein-ev-familienzentrum-einsteinstrasse-neuss-e-v\/\" target=\"_blank\" rel=\"noopener noreferrer\">aldi-gutf\u00fcrswir.de<\/a><\/p><p>\ud83d\uddf3\ufe0f  Gib deine Stimme f\u00fcr unser Projekt ab und sag es weiter!<\/p><p><br>*1 Kaufakt, ausgenommen sind Gutscheinkarten, Cashback sowie online bezahlte ALDI Onlineshop Artikel. Die Ausgabe der Stimmen erfolgt nur solange der Vorrat reicht. N\u00e4here Infos unter <a href=\"https:\/\/www.aldi-gutfuerswir.de\/teilnahmebedingungen\/\" target=\"_blank\" rel=\"noopener noreferrer\">aldi-gutf\u00fcrswir.de\/teilnahmebedingungen<\/a>.<\/p>"},"id":"5ec3b9da-7de1-4022-bcbc-6847a4fe4ba2","isHidden":false,"type":"text"}]
+
+----
+
+Main-image:
+
+- f08cb778f35e_1500x948.jpg
+
+----
+
+Date: 2022-05-24 18:25:00
+
+----
+
+Tags: 
