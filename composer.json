@@ -6,14 +6,14 @@
     "homepage": "https://www.foerderverein-familienzentrum-einsteinstrasse-neuss.de",
     "require": {
         "php": ">=8.0",
-        "getkirby/cms": "^3.6.0",
-        "pedroborges/kirby-meta-tags": "^2.1",
-        "bnomei/kirby3-robots-txt": "^1.5",
-        "omz13/kirby3-xmlsitemap": "^1.2",
-        "arnoson/kirby-vite": "^2.4",
-        "oblik/kirby-link-field": "^3.0",
-        "paulmorel/fathom-analytics": "^1.0",
-        "bnomei/kirby3-dotenv": "^2.0"
+        "getkirby/cms": "3.6.6",
+        "pedroborges/kirby-meta-tags": "2.1.0",
+        "bnomei/kirby3-robots-txt": "1.5.0",
+        "omz13/kirby3-xmlsitemap": "1.2.1",
+        "arnoson/kirby-vite": "2.5.1",
+        "oblik/kirby-link-field": "3.0.3",
+        "paulmorel/fathom-analytics": "1.0.0",
+        "bnomei/kirby3-dotenv": "2.0.4"
     },
     "config": {
         "optimize-autoloader": true,
