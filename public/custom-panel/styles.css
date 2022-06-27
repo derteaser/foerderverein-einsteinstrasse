@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --font-sans:'Roboto',-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.k-topbar {
+  --bg: #512082;
+}
+
+.k-header::before {
+  float: right;
+  content: '';
+  margin-top: 0;
+  width: 100px;
+  height: 40px;
+  background-image: url('../img/logo.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  clear: right;
+}

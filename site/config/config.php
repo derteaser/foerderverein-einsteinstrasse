@@ -22,7 +22,8 @@ return [
         'handler' => 'strftime'
     ],
     'panel' => [
-        'language' => 'de'
+        'language' => 'de',
+        'css' => 'custom-panel/styles.css'
     ],
     'email' => [
         'transport' => [
