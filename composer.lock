@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dd6ae9d9c83c6f3e78ebeed077c60447",
+    "content-hash": "98585f75dabc637547a3abc5f475a67d",
     "packages": [
         {
             "name": "arnoson/kirby-vite",
@@ -690,16 +690,16 @@
         },
         {
             "name": "oblik/kirby-link-field",
-            "version": "4.0.0",
+            "version": "4.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OblikStudio/kirby-link-field.git",
-                "reference": "8c1ea2bc9ecc6fc2d1443a3ea7be5d1028a041fa"
+                "reference": "d7f6422c57c6cdc55fa418555eb36949515c3438"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OblikStudio/kirby-link-field/zipball/8c1ea2bc9ecc6fc2d1443a3ea7be5d1028a041fa",
-                "reference": "8c1ea2bc9ecc6fc2d1443a3ea7be5d1028a041fa",
+                "url": "https://api.github.com/repos/OblikStudio/kirby-link-field/zipball/d7f6422c57c6cdc55fa418555eb36949515c3438",
+                "reference": "d7f6422c57c6cdc55fa418555eb36949515c3438",
                 "shasum": ""
             },
             "require": {
@@ -741,7 +741,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-06-28T05:25:52+00:00"
+            "time": "2022-06-28T18:18:46+00:00"
         },
         {
             "name": "omz13/kirby3-xmlsitemap",
