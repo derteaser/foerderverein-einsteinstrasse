@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9622c08d25fca461c9ba6e5f579222f8",
+    "content-hash": "dd6ae9d9c83c6f3e78ebeed077c60447",
     "packages": [
         {
             "name": "arnoson/kirby-vite",
@@ -690,25 +690,21 @@
         },
         {
             "name": "oblik/kirby-link-field",
-            "version": "3.0.3",
+            "version": "4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OblikStudio/kirby-link-field.git",
-                "reference": "9c5fab20e6bc82849884501ef47be38784071eb3"
+                "reference": "8c1ea2bc9ecc6fc2d1443a3ea7be5d1028a041fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OblikStudio/kirby-link-field/zipball/9c5fab20e6bc82849884501ef47be38784071eb3",
-                "reference": "9c5fab20e6bc82849884501ef47be38784071eb3",
+                "url": "https://api.github.com/repos/OblikStudio/kirby-link-field/zipball/8c1ea2bc9ecc6fc2d1443a3ea7be5d1028a041fa",
+                "reference": "8c1ea2bc9ecc6fc2d1443a3ea7be5d1028a041fa",
                 "shasum": ""
             },
             "require": {
-                "getkirby/cms": "^3.2",
+                "getkirby/cms": "^3.7.0-rc.2",
                 "getkirby/composer-installer": "^1.1"
-            },
-            "require-dev": {
-                "oblik/kirby-tester": "^1.2",
-                "phpunit/phpunit": "^9.0"
             },
             "type": "kirby-plugin",
             "extra": {
@@ -720,17 +716,32 @@
             ],
             "authors": [
                 {
+                    "name": "Oblik Studio",
+                    "email": "hello@oblik.studio",
+                    "homepage": "https://oblik.studio/"
+                },
+                {
                     "name": "Hristiyan Dodov",
                     "email": "h.dodov@gmail.com",
-                    "homepage": "https://dodov.me/"
+                    "homepage": "https://dodov.dev/"
                 }
             ],
             "description": "Kirby 3 field for all types of links.",
+            "keywords": [
+                "kirby",
+                "kirby-plugin"
+            ],
             "support": {
                 "issues": "https://github.com/OblikStudio/kirby-link-field/issues",
-                "source": "https://github.com/OblikStudio/kirby-link-field/tree/3.0.3"
+                "source": "https://github.com/OblikStudio/kirby-link-field"
             },
-            "time": "2021-10-21T08:54:39+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/OblikStudio",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-06-28T05:25:52+00:00"
         },
         {
             "name": "omz13/kirby3-xmlsitemap",
