@@ -45,11 +45,27 @@ return [
             'person' => ['width' => 500, 'height' => 500, 'crop' => true]
         ]
     ],
-    'bnomei.robots-txt.sitemap' => 'sitemap.xml',
-    'omz13.xmlsitemap' => [
-        'includeUnlistedWhenTemplateIs' => ['contact', 'default', 'blog'],
-        'excludeChildrenWhenTemplateIs' => ['home']
+    'routes' => [
+        [
+            'pattern' => 'sitemap.xml',
+            'method' => 'GET',
+            'action'  => function () {
+                $options = [
+                    'images'       => false,
+                    'videos'       => false,
+                    'xsl'          => false
+                ];
+
+                return site()->index()->published()->filter(function (Page $page) {
+                    return match ($page->template()->name()) {
+                        'persons', 'person' => false,
+                        default => !$page->parent() || $page->parent()->template() != 'home',
+                    };
+                })->sitemap($options);
+            }
+        ]
     ],
+    'bnomei.robots-txt.sitemap' => 'sitemap.xml',
     'pedroborges.meta-tags.default' => function ($page, $site) {
         $image = $page->main_image()->toFile();
         if (!$image) {

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dbc69953af3528b74285652d5cd4c738",
+    "content-hash": "82b91f2a5214add0cfbdb4dbcd99ab6a",
     "packages": [
         {
             "name": "arnoson/kirby-vite",
@@ -108,6 +108,88 @@
                 }
             ],
             "time": "2021-06-30T12:36:20+00:00"
+        },
+        {
+            "name": "bnomei/kirby3-feed",
+            "version": "1.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bnomei/kirby3-feed.git",
+                "reference": "e9a0a4b780ddfa510702d13981c878fddf638acd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bnomei/kirby3-feed/zipball/e9a0a4b780ddfa510702d13981c878fddf638acd",
+                "reference": "e9a0a4b780ddfa510702d13981c878fddf638acd",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.2",
+                "php": ">=7.3.0"
+            },
+            "require-dev": {
+                "getkirby/cms": "^3.5",
+                "php-coveralls/php-coveralls": "^2.4",
+                "phpunit/phpunit": "^9.5"
+            },
+            "suggest": {
+                "bnomei/kirby3-htmlhead": "Best-practice HTML Head Element extendable with snippets.",
+                "bnomei/kirby3-robots-txt": "Automatic robots.txt. Detects xmlsitemap.",
+                "bnomei/kirby3-security-headers": "CPS headers to make the the web a saver place. Sensible defaults with zero configuration."
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "kirby-cms-path": "tests/kirby"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Bnomei\\": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Meilick",
+                    "email": "b@bnomei.com"
+                }
+            ],
+            "description": "Generate a RSS/JSON/Sitemap-Feed from a Pages-Collection",
+            "keywords": [
+                "Sitemap",
+                "feed",
+                "json",
+                "kirby3",
+                "kirby3-cms",
+                "kirby3-plugin",
+                "rss",
+                "rss-feed"
+            ],
+            "support": {
+                "issues": "https://github.com/bnomei/kirby3-feed/issues",
+                "source": "https://github.com/bnomei/kirby3-feed/tree/v1.5.2"
+            },
+            "funding": [
+                {
+                    "url": "https://buymeacoff.ee/bnomei",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://paypal.me/bnomei",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/bnomei",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/bnomei",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2022-02-12T21:00:23+00:00"
         },
         {
             "name": "bnomei/kirby3-robots-txt",
@@ -742,65 +824,6 @@
                 }
             ],
             "time": "2022-06-28T18:18:46+00:00"
-        },
-        {
-            "name": "omz13/kirby3-xmlsitemap",
-            "version": "1.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/omz13/kirby3-xmlsitemap.git",
-                "reference": "905940bbc171130e545423da16ec475cb7494be7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/omz13/kirby3-xmlsitemap/zipball/905940bbc171130e545423da16ec475cb7494be7",
-                "reference": "905940bbc171130e545423da16ec475cb7494be7",
-                "shasum": ""
-            },
-            "require": {
-                "getkirby/composer-installer": "^1.1",
-                "php": ">=7.1"
-            },
-            "require-dev": {
-                "getkirby/cms": "^3.0.1",
-                "jakub-onderka/php-parallel-lint": "^1.0",
-                "localheinz/composer-normalize": "^1.0.0",
-                "omz13/omz13-coding-standard": "dev-master",
-                "phpcompatibility/php-compatibility": "^8.2",
-                "phpmd/phpmd": "^2.6",
-                "phpstan/phpstan": "^0.11",
-                "phpstan/phpstan-strict-rules": "^0.11",
-                "roave/security-advisories": "dev-master"
-            },
-            "type": "kirby-plugin",
-            "autoload": {
-                "psr-4": {
-                    "omz13\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "David Somers",
-                    "email": "dsomers@omz13.com",
-                    "homepage": "https://meldingstuff.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "kirby3 plugin to generate an xml-based sitemap",
-            "keywords": [
-                "Sitemap",
-                "kirby3",
-                "plugin"
-            ],
-            "support": {
-                "issues": "https://github.com/omz13/kirby3-xmlsitemap/issues",
-                "source": "https://github.com/omz13/kirby3-xmlsitemap/tree/master"
-            },
-            "time": "2019-04-24T20:37:51+00:00"
         },
         {
             "name": "paulmorel/fathom-analytics",
