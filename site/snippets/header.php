@@ -23,6 +23,7 @@ use Kirby\Cms\Page;
   <?= vite()->client() ?>
   <?= vite()->css() ?>
   <?php //vite()->css($entry) ?>
+  <link rel="alternate" type="application/rss+xml" title="Blog" href="<?= site()->url() ?>/feed"/>
   <?php snippet('fathom-analytics-embed') ?>
 </head>
 <body class="<?= $kirby->option('debug') ? ' debug-screens' : ''?>">
