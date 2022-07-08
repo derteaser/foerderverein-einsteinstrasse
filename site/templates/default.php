@@ -1,7 +1,7 @@
 <?php
 /** @var DefaultPage $page */
 ?>
-<?php snippet('header') ?>
+<?php layout() ?>
 <section class="py-20">
   <div class="container px-4 mx-auto">
     <div class="max-w-2xl mx-auto">
@@ -12,4 +12,3 @@
     </div>
   </div>
 </section>
-<?php snippet('footer') ?>
