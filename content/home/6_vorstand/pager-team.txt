@@ -18,4 +18,4 @@ Persons:
 
 - persons/nazan-iwersen-baser
 - persons/julia-albers
-- persons/silvia-tafurt-loll
+- persons/dagmar-hindges
