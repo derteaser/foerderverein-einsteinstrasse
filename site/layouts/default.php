@@ -2,12 +2,15 @@
 use Kirby\Cms\App;
 use Kirby\Cms\Page;
 use Kirby\Cms\Site;
+use Kirby\Filesystem\Asset;
+use Kirby\Image\Image;
 
 /** @var string $titleTag */
 /** @var Page $page */
 /** @var Site|Page $site */
 /** @var App $kirby */
 
+/** @var Asset|Image $logo */
 $logo = asset('img/logo.svg');
 ?>
 <!DOCTYPE html>
