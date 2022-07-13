@@ -2,6 +2,7 @@
 
 module.exports = {
   content: [
+    'site/layouts/**/*.php',
     'site/snippets/**/*.php',
     'site/templates/**/*.php',
   ],
