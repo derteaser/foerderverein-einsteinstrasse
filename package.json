@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "0.4.0",
-    "@tailwindcss/typography": "0.5.3",
+    "@tailwindcss/typography": "0.5.4",
     "autoprefixer": "10.4.7",
     "bigpicture": "2.6.2",
     "concurrently": "7.2.2",
