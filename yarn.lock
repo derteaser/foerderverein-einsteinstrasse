@@ -2260,13 +2260,13 @@ util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
 
-vite-plugin-live-reload@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/vite-plugin-live-reload/-/vite-plugin-live-reload-2.1.0.tgz#95b9235cbade635f315a34ba540eb76f3641a122"
-  integrity sha512-NKIcVqrraPUZbsUKCKs+0StqKAmbAh2csbFxMWTXGDUeOoHAFni9H0CxtQelrYT5bQCV9FT/RveAM8q8bMdnQQ==
+vite-plugin-live-reload@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/vite-plugin-live-reload/-/vite-plugin-live-reload-3.0.0.tgz#694b293a1648e8d3de9fb80bbf470e8f9f470fb7"
+  integrity sha512-1ucmNc/UxiKvzudcVzgs+bTM3FHOLcso6U7kto2ujQsBoQolxAV7mMbqWtQ5jetm0hRiOvMada7QsP+IIK7+7w==
   dependencies:
-    chalk "^4.1.0"
     chokidar "^3.5.0"
+    picocolors "^1.0.0"
 
 vite@3.0.0:
   version "3.0.0"
