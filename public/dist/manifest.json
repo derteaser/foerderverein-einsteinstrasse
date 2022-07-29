@@ -124,7 +124,7 @@
     "src": "index.js",
     "isEntry": true,
     "css": [
-      "assets/index.aa619b44.css"
+      "assets/index.f484d5e6.css"
     ],
     "assets": [
       "assets/roboto-v19-latin-100.77db1ab3.eot",
@@ -160,7 +160,7 @@
     ]
   },
   "index.css": {
-    "file": "assets/index.aa619b44.css",
+    "file": "assets/index.f484d5e6.css",
     "src": "index.css"
   }
 }
