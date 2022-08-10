@@ -6,7 +6,7 @@
     "homepage": "https://www.foerderverein-familienzentrum-einsteinstrasse-neuss.de",
     "require": {
         "php": ">=8.0",
-        "getkirby/cms": "3.7.2",
+        "getkirby/cms": "3.7.3",
         "getkirby/layouts": "1.0.1",
         "pedroborges/kirby-meta-tags": "2.1.0",
         "bnomei/kirby3-robots-txt": "1.5.0",
