@@ -17,7 +17,7 @@
     "autoprefixer": "10.4.8",
     "bigpicture": "2.6.2",
     "concurrently": "7.3.0",
-    "heroicons": "2.0.2",
+    "heroicons": "2.0.4",
     "postcss": "8.4.16",
     "postcss-cli": "10.0.0",
     "postcss-import": "14.1.0",
