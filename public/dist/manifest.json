@@ -107,10 +107,6 @@
     "file": "assets/roboto-v19-latin-regular.f23d5a8b.svg",
     "src": "assets/fonts/roboto-v19-latin-regular.svg"
   },
-  "assets/fonts/roboto-v19-latin-italic.svg": {
-    "file": "assets/roboto-v19-latin-italic.75c12901.svg",
-    "src": "assets/fonts/roboto-v19-latin-italic.svg"
-  },
   "assets/fonts/quicksand-v24-latin-regular.svg": {
     "file": "assets/quicksand-v24-latin-regular.3ac24cb4.svg",
     "src": "assets/fonts/quicksand-v24-latin-regular.svg"
@@ -118,6 +114,10 @@
   "assets/fonts/quicksand-v24-latin-700.svg": {
     "file": "assets/quicksand-v24-latin-700.1524d838.svg",
     "src": "assets/fonts/quicksand-v24-latin-700.svg"
+  },
+  "assets/fonts/roboto-v19-latin-italic.svg": {
+    "file": "assets/roboto-v19-latin-italic.75c12901.svg",
+    "src": "assets/fonts/roboto-v19-latin-italic.svg"
   },
   "index.js": {
     "file": "assets/shared.08df161a.js",
