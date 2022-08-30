@@ -20,7 +20,7 @@
     "heroicons": "2.0.8",
     "postcss": "8.4.16",
     "postcss-cli": "10.0.0",
-    "postcss-import": "14.1.0",
+    "postcss-import": "15.0.0",
     "postcss-nested": "5.0.6",
     "shx": "0.3.4",
     "simple-icons": "7.9.0",
