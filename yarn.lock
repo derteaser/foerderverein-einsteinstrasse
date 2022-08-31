@@ -975,10 +975,10 @@ he@^1.1.1:
   resolved "https://registry.yarnpkg.com/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
 
-heroicons@2.0.8:
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/heroicons/-/heroicons-2.0.8.tgz#15439498d2c0fce21b85054ed03bb5648a5ef29f"
-  integrity sha512-0NPZGBpmsQIh//9WK4ZtlJpWj8WCW0fqDJQ+1DBEVbVIvb/iFILcVw1QLePY252SEykRIx4DWgZ4zrWVlOdCUg==
+heroicons@2.0.10:
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/heroicons/-/heroicons-2.0.10.tgz#ab421e0190cfc4fcf642a116b80b9a2ee55f149f"
+  integrity sha512-4f2UYy2cf2oHswZzdH2frENVk89RV/RLoNnDL577ulV1xsdTWBkM39Gzo2e9AXgTWJ3H95ol/Qs9JBSSU+APBg==
 
 htmlparser2@^3.9.2:
   version "3.10.1"
