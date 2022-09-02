@@ -12,7 +12,7 @@
     "icons": "node icons.js"
   },
   "devDependencies": {
-    "@tailwindcss/aspect-ratio": "0.4.1",
+    "@tailwindcss/aspect-ratio": "0.4.2",
     "@tailwindcss/typography": "0.5.6",
     "autoprefixer": "10.4.8",
     "bigpicture": "2.6.2",
