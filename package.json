@@ -14,7 +14,7 @@
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "0.4.2",
     "@tailwindcss/typography": "0.5.7",
-    "autoprefixer": "10.4.10",
+    "autoprefixer": "10.4.11",
     "bigpicture": "2.6.2",
     "concurrently": "7.4.0",
     "heroicons": "2.0.11",
