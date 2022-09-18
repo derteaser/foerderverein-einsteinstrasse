@@ -1953,10 +1953,10 @@ sigmund@^1.0.1:
   resolved "https://registry.yarnpkg.com/sigmund/-/sigmund-1.0.1.tgz#3ff21f198cad2175f9f3b781853fd94d0d19b590"
   integrity sha512-fCvEXfh6NWpm+YSuY2bpXb/VIihqWA6hLsgboC+0nl71Q7N7o2eaCW8mJa/NLvQhs6jpd3VZV4UiUQlV6+lc8g==
 
-simple-icons@7.11.0:
-  version "7.11.0"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-7.11.0.tgz#20bab5ab23a0d1431fb95f2e1cd42f035cb41deb"
-  integrity sha512-RpPJ8UHLOcsNHn1Ms+TP5fCUwv7xc+S/sZF9QilRP594PQ7bgjvhMwIHslx1kCOP09FDOo+LIelRFc55QHfojw==
+simple-icons@7.12.0:
+  version "7.12.0"
+  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-7.12.0.tgz#f2801d24c079e4bd98650086ca4645696d706bc3"
+  integrity sha512-jw5zIeLPuLbuIu3iQeThI+BPaafbFR/vn9yssOsatHUuVW5/DgNa0BxNp1GQf8VxVcRKIRWS5UNbw6SrSQBbLg==
 
 slash@^4.0.0:
   version "4.0.0"
