@@ -4,27 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "82cf84bbea0b5b436e30ae777bb163a3",
+    "content-hash": "55f41125c5e2628369ff9202d715afae",
     "packages": [
         {
             "name": "arnoson/kirby-vite",
-            "version": "v2.5.2",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/arnoson/kirby-vite.git",
-                "reference": "96049ee4d37d61d7b63b8f68005211b4e297f327"
+                "reference": "818c92f138e4a7bd7a9c4c451364a10854deb415"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/arnoson/kirby-vite/zipball/96049ee4d37d61d7b63b8f68005211b4e297f327",
-                "reference": "96049ee4d37d61d7b63b8f68005211b4e297f327",
+                "url": "https://api.github.com/repos/arnoson/kirby-vite/zipball/818c92f138e4a7bd7a9c4c451364a10854deb415",
+                "reference": "818c92f138e4a7bd7a9c4c451364a10854deb415",
                 "shasum": ""
             },
             "require": {
                 "getkirby/composer-installer": "^1.2"
             },
             "require-dev": {
-                "getkirby/cms": "^3.6",
+                "getkirby/cms": "^3.7",
                 "phpunit/phpunit": "^9.5"
             },
             "type": "kirby-plugin",
@@ -35,9 +35,9 @@
             "description": "Vite helper for Kirby CMS",
             "support": {
                 "issues": "https://github.com/arnoson/kirby-vite/issues",
-                "source": "https://github.com/arnoson/kirby-vite/tree/v2.5.2"
+                "source": "https://github.com/arnoson/kirby-vite/tree/v3.0.0"
             },
-            "time": "2022-07-25T16:06:31+00:00"
+            "time": "2022-09-20T12:07:42+00:00"
         },
         {
             "name": "bnomei/kirby3-dotenv",
