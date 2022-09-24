@@ -18,7 +18,7 @@ jobs:
         yarn run build
         yarn run icons
     - name: Commit and push local changes
-      uses: stefanzweifel/git-auto-commit-action@v4.14.1
+      uses: stefanzweifel/git-auto-commit-action@v4.15.0
       with:
         commit_message: Apply theme changes
     - name: executing remote ssh commands using password
