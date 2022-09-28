@@ -28,7 +28,7 @@ if ($count == 1) {
         <img class="w-full h-full object-center object-cover m-0" src="<?= $image->thumb('gallery')->url() ?>" data-bp="<?= $image->thumb()->url() ?>" alt="">
         <div class="absolute flex items-center justify-center">
           <div class="rounded-full bg-white/60 backdrop-blur-sm w-12 h-12 sm:w-16 sm:h-16 flex items-center justify-center group-hover:scale-110 transition-all">
-            <?php snippet('icon', ['name' => 'zoom-in', 'cssClasses' => 'text-gray-700 w-8 h-8']) ?>
+            <?php snippet('icon', ['name' => 'magnifying-glass-plus', 'cssClasses' => 'text-gray-700 w-8 h-8']) ?>
           </div>
         </div>
       </a>
