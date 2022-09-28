@@ -13,16 +13,16 @@ class MySprite extends mixer.Sprite {
 
 mixer([
   // Directions
-  'node_modules/heroicons/outline/chevron-left.svg',
-  'node_modules/heroicons/outline/chevron-right.svg',
+  'node_modules/heroicons/24/outline/chevron-left.svg',
+  'node_modules/heroicons/24/outline/chevron-right.svg',
   // Brands
   'node_modules/simple-icons/icons/amazon.svg',
   'src/img/diakonie.svg',
   'node_modules/simple-icons/icons/facebook.svg',
   'node_modules/simple-icons/icons/instagram.svg',
   // Misc
-  'node_modules/heroicons/solid/heart.svg',
-  'node_modules/heroicons/outline/home.svg',
-  'node_modules/heroicons/outline/zoom-in.svg',
+  'node_modules/heroicons/20/solid/heart.svg',
+  'node_modules/heroicons/24/outline/home.svg',
+  'node_modules/heroicons/24/outline/zoom-in.svg',
 ], { spriteConfig: { usages: false }, spriteClass: MySprite } )
     .then(result => result.write('public/img/icons.svg'));
