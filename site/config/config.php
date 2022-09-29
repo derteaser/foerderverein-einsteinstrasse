@@ -210,7 +210,6 @@ return [
             ]
         ];
     },
-    'arnoson.kirby-vite.devServer' => env('VITE_DEV_SERVER'),
     'paulmorel.fathom-analytics' => [
         'siteId' => env('FATHOM_SITE_ID'),
         'sharePassword' => env('FATHOM_SHARE_PASSWORD'),

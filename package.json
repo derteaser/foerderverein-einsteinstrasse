@@ -4,11 +4,8 @@
   "author": "Jens Kuesters",
   "license": "MIT",
   "scripts": {
-    "vite": "vite",
-    "dev": "shx touch src/.lock && concurrently \"npm:server\" \"npm:vite\"",
-    "server": "php -S localhost:8888 -t public server.php",
-    "build": "shx rm -f src/.lock && vite build",
-    "cert": "rm -rf .cert && mkdir -p .cert && mkcert -key-file ./.cert/key.pem -cert-file ./.cert/cert.pem 'localhost'",
+    "dev": "vite",
+    "build": "vite build",
     "icons": "node icons.js"
   },
   "devDependencies": {
@@ -16,18 +13,18 @@
     "@tailwindcss/typography": "0.5.7",
     "autoprefixer": "10.4.12",
     "bigpicture": "2.6.2",
-    "concurrently": "7.4.0",
     "heroicons": "2.0.11",
     "postcss": "8.4.16",
     "postcss-cli": "10.0.0",
     "postcss-import": "15.0.0",
     "postcss-nested": "5.0.6",
-    "shx": "0.3.4",
     "simple-icons": "7.13.0",
     "svg-mixer": "2.3.14",
     "tailwindcss": "3.1.8",
     "tailwindcss-debug-screens": "2.2.1",
     "vite": "3.1.4",
-    "vite-plugin-live-reload": "3.0.0"
+    "vite-plugin-kirby": "0.1.1",
+    "vite-plugin-live-reload": "3.0.1",
+    "vite-plugin-mkcert": "1.10.1"
   }
 }
