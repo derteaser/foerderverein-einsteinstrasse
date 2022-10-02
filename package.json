@@ -18,7 +18,7 @@
     "postcss-cli": "10.0.0",
     "postcss-import": "15.0.0",
     "postcss-nested": "5.0.6",
-    "simple-icons": "7.13.0",
+    "simple-icons": "7.14.0",
     "svg-mixer": "2.3.14",
     "tailwindcss": "3.1.8",
     "tailwindcss-debug-screens": "2.2.1",
