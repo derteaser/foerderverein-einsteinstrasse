@@ -10,9 +10,7 @@ Text: [{"content":{"location":"kirby","image":["bottles-g85eb3c331_1920.jpg"],"s
 
 ----
 
-Main-image:
-
-- bottles-g85eb3c331_1920.jpg
+Main-image: - bottles-g85eb3c331_1920.jpg
 
 ----
 
@@ -21,3 +19,7 @@ Date: 2022-03-07 13:20:00
 ----
 
 Tags: pfand, Flaschen-challenge
+
+----
+
+Uuid: xRYSA5qHIyTOecre
