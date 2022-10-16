@@ -13,7 +13,7 @@
         "arnoson/kirby-vite": "3.0.1",
         "oblik/kirby-link-field": "4.0.1",
         "paulmorel/fathom-analytics": "1.0.0",
-        "bnomei/kirby3-dotenv": "2.0.4",
+        "bnomei/kirby3-dotenv": "2.1.0",
         "bnomei/kirby3-feed": "1.5.2"
     },
     "config": {
