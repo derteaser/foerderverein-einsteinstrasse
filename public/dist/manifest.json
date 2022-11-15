@@ -23,13 +23,13 @@
     "file": "assets/quicksand-v24-latin-700.42969c29.eot",
     "src": "assets/fonts/quicksand-v24-latin-700.eot"
   },
-  "assets/fonts/roboto-v19-latin-300.woff2": {
-    "file": "assets/roboto-v19-latin-300.29f6da0a.woff2",
-    "src": "assets/fonts/roboto-v19-latin-300.woff2"
-  },
   "assets/fonts/roboto-v19-latin-100.woff2": {
     "file": "assets/roboto-v19-latin-100.12823d58.woff2",
     "src": "assets/fonts/roboto-v19-latin-100.woff2"
+  },
+  "assets/fonts/roboto-v19-latin-300.woff2": {
+    "file": "assets/roboto-v19-latin-300.29f6da0a.woff2",
+    "src": "assets/fonts/roboto-v19-latin-300.woff2"
   },
   "assets/fonts/roboto-v19-latin-regular.woff2": {
     "file": "assets/roboto-v19-latin-regular.48c3fa6f.woff2",
@@ -47,13 +47,13 @@
     "file": "assets/quicksand-v24-latin-700.bbfb13a0.woff2",
     "src": "assets/fonts/quicksand-v24-latin-700.woff2"
   },
-  "assets/fonts/roboto-v19-latin-300.woff": {
-    "file": "assets/roboto-v19-latin-300.76b05400.woff",
-    "src": "assets/fonts/roboto-v19-latin-300.woff"
-  },
   "assets/fonts/roboto-v19-latin-100.woff": {
     "file": "assets/roboto-v19-latin-100.c4ead4de.woff",
     "src": "assets/fonts/roboto-v19-latin-100.woff"
+  },
+  "assets/fonts/roboto-v19-latin-300.woff": {
+    "file": "assets/roboto-v19-latin-300.76b05400.woff",
+    "src": "assets/fonts/roboto-v19-latin-300.woff"
   },
   "assets/fonts/roboto-v19-latin-regular.woff": {
     "file": "assets/roboto-v19-latin-regular.c1dc87f9.woff",
@@ -71,13 +71,13 @@
     "file": "assets/quicksand-v24-latin-700.a91649d8.woff",
     "src": "assets/fonts/quicksand-v24-latin-700.woff"
   },
-  "assets/fonts/roboto-v19-latin-300.ttf": {
-    "file": "assets/roboto-v19-latin-300.b4c96f55.ttf",
-    "src": "assets/fonts/roboto-v19-latin-300.ttf"
-  },
   "assets/fonts/roboto-v19-latin-100.ttf": {
     "file": "assets/roboto-v19-latin-100.fc4caef3.ttf",
     "src": "assets/fonts/roboto-v19-latin-100.ttf"
+  },
+  "assets/fonts/roboto-v19-latin-300.ttf": {
+    "file": "assets/roboto-v19-latin-300.b4c96f55.ttf",
+    "src": "assets/fonts/roboto-v19-latin-300.ttf"
   },
   "assets/fonts/roboto-v19-latin-regular.ttf": {
     "file": "assets/roboto-v19-latin-regular.0b1d7f87.ttf",
@@ -95,13 +95,13 @@
     "file": "assets/quicksand-v24-latin-700.defe9910.ttf",
     "src": "assets/fonts/quicksand-v24-latin-700.ttf"
   },
-  "assets/fonts/roboto-v19-latin-300.svg": {
-    "file": "assets/roboto-v19-latin-300.70e6369f.svg",
-    "src": "assets/fonts/roboto-v19-latin-300.svg"
-  },
   "assets/fonts/roboto-v19-latin-100.svg": {
     "file": "assets/roboto-v19-latin-100.26275512.svg",
     "src": "assets/fonts/roboto-v19-latin-100.svg"
+  },
+  "assets/fonts/roboto-v19-latin-300.svg": {
+    "file": "assets/roboto-v19-latin-300.70e6369f.svg",
+    "src": "assets/fonts/roboto-v19-latin-300.svg"
   },
   "assets/fonts/roboto-v19-latin-regular.svg": {
     "file": "assets/roboto-v19-latin-regular.f23d5a8b.svg",
