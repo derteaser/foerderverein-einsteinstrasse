@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7c8ac21f7dbe51a01f6bb5190dced06b",
+    "content-hash": "caab4aaf345e1e3049b9a34995915673",
     "packages": [
         {
             "name": "arnoson/kirby-vite",
@@ -907,21 +907,24 @@
         },
         {
             "name": "oblik/kirby-link-field",
-            "version": "4.0.1",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OblikStudio/kirby-link-field.git",
-                "reference": "d7f6422c57c6cdc55fa418555eb36949515c3438"
+                "reference": "e348d4c2c7f0b1deef51da4a6f81bd76ca0533b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OblikStudio/kirby-link-field/zipball/d7f6422c57c6cdc55fa418555eb36949515c3438",
-                "reference": "d7f6422c57c6cdc55fa418555eb36949515c3438",
+                "url": "https://api.github.com/repos/OblikStudio/kirby-link-field/zipball/e348d4c2c7f0b1deef51da4a6f81bd76ca0533b9",
+                "reference": "e348d4c2c7f0b1deef51da4a6f81bd76ca0533b9",
                 "shasum": ""
             },
             "require": {
-                "getkirby/cms": "^3.7.0-rc.2",
+                "getkirby/cms": "^3.8",
                 "getkirby/composer-installer": "^1.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5"
             },
             "type": "kirby-plugin",
             "extra": {
@@ -939,7 +942,7 @@
                 },
                 {
                     "name": "Hristiyan Dodov",
-                    "email": "h.dodov@gmail.com",
+                    "email": "hello@dodov.dev",
                     "homepage": "https://dodov.dev/"
                 }
             ],
@@ -958,7 +961,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-06-28T18:18:46+00:00"
+            "time": "2022-11-20T08:50:30+00:00"
         },
         {
             "name": "paulmorel/fathom-analytics",
