@@ -10,9 +10,7 @@ Email: kasse@foerderverein-einsteinstrasse.de
 
 ----
 
-Main-image:
-
-- julia_albers.jpg
+Main-image: - julia_albers.jpg
 
 ----
 
@@ -29,3 +27,7 @@ Linkedin:
 ----
 
 Xing: 
+
+----
+
+Uuid: PuUOphqbWgvxF8Ic
