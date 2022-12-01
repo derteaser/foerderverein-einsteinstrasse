@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "caab4aaf345e1e3049b9a34995915673",
+    "content-hash": "c355fd5b2ed83e3201343c9778b3ef66",
     "packages": [
         {
             "name": "arnoson/kirby-vite",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/arnoson/kirby-vite.git",
-                "reference": "e59dfd34b109ff54ef1078751738234be83d7f6b"
+                "reference": "76c6aad3b2c4c2dfcc58ecdc38b6340a89c3a437"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/arnoson/kirby-vite/zipball/e59dfd34b109ff54ef1078751738234be83d7f6b",
-                "reference": "e59dfd34b109ff54ef1078751738234be83d7f6b",
+                "url": "https://api.github.com/repos/arnoson/kirby-vite/zipball/76c6aad3b2c4c2dfcc58ecdc38b6340a89c3a437",
+                "reference": "76c6aad3b2c4c2dfcc58ecdc38b6340a89c3a437",
                 "shasum": ""
             },
             "require": {
@@ -40,9 +40,9 @@
             "description": "Vite helper for Kirby CMS",
             "support": {
                 "issues": "https://github.com/arnoson/kirby-vite/issues",
-                "source": "https://github.com/arnoson/kirby-vite/tree/v3.0.1"
+                "source": "https://github.com/arnoson/kirby-vite/tree/v3.0.3"
             },
-            "time": "2022-10-06T14:48:49+00:00"
+            "time": "2022-12-01T15:03:29+00:00"
         },
         {
             "name": "bnomei/kirby3-dotenv",
