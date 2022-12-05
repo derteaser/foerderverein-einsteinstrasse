@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c355fd5b2ed83e3201343c9778b3ef66",
+    "content-hash": "0ba46b5288637510e9265b6743cd40d9",
     "packages": [
         {
             "name": "arnoson/kirby-vite",
@@ -128,21 +128,21 @@
         },
         {
             "name": "bnomei/kirby3-feed",
-            "version": "1.5.2",
+            "version": "1.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bnomei/kirby3-feed.git",
-                "reference": "e9a0a4b780ddfa510702d13981c878fddf638acd"
+                "reference": "c532faa7a95a63f6129b02d0df86b6b047cf2240"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/kirby3-feed/zipball/e9a0a4b780ddfa510702d13981c878fddf638acd",
-                "reference": "e9a0a4b780ddfa510702d13981c878fddf638acd",
+                "url": "https://api.github.com/repos/bnomei/kirby3-feed/zipball/c532faa7a95a63f6129b02d0df86b6b047cf2240",
+                "reference": "c532faa7a95a63f6129b02d0df86b6b047cf2240",
                 "shasum": ""
             },
             "require": {
                 "getkirby/composer-installer": "^1.2",
-                "php": ">=7.3.0"
+                "php": ">=8.0"
             },
             "require-dev": {
                 "getkirby/cms": "^3.5",
@@ -186,7 +186,7 @@
             ],
             "support": {
                 "issues": "https://github.com/bnomei/kirby3-feed/issues",
-                "source": "https://github.com/bnomei/kirby3-feed/tree/v1.5.2"
+                "source": "https://github.com/bnomei/kirby3-feed/tree/v1.5.3"
             },
             "funding": [
                 {
@@ -206,7 +206,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2022-02-12T21:00:23+00:00"
+            "time": "2022-12-05T10:34:41+00:00"
         },
         {
             "name": "bnomei/kirby3-robots-txt",
