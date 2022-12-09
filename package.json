@@ -16,7 +16,7 @@
     "heroicons": "2.0.13",
     "postcss": "8.4.19",
     "postcss-cli": "10.1.0",
-    "postcss-import": "15.0.1",
+    "postcss-import": "15.1.0",
     "postcss-nested": "6.0.0",
     "simple-icons": "8.0.0",
     "svg-mixer": "2.3.14",
