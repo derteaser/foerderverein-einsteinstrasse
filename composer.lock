@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e038a4372f081cfff2cf929342ea8dc4",
+    "content-hash": "33e4d5bd77bfb3f98c2716b979e1bdb3",
     "packages": [
         {
             "name": "arnoson/kirby-vite",
@@ -907,16 +907,16 @@
         },
         {
             "name": "oblik/kirby-link-field",
-            "version": "5.0.0",
+            "version": "5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OblikStudio/kirby-link-field.git",
-                "reference": "e348d4c2c7f0b1deef51da4a6f81bd76ca0533b9"
+                "reference": "858a862ac901b4d82c5de2c29ab2851c8c93fd1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OblikStudio/kirby-link-field/zipball/e348d4c2c7f0b1deef51da4a6f81bd76ca0533b9",
-                "reference": "e348d4c2c7f0b1deef51da4a6f81bd76ca0533b9",
+                "url": "https://api.github.com/repos/OblikStudio/kirby-link-field/zipball/858a862ac901b4d82c5de2c29ab2851c8c93fd1f",
+                "reference": "858a862ac901b4d82c5de2c29ab2851c8c93fd1f",
                 "shasum": ""
             },
             "require": {
@@ -961,7 +961,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-11-20T08:50:30+00:00"
+            "time": "2022-12-15T06:02:09+00:00"
         },
         {
             "name": "paulmorel/fathom-analytics",
