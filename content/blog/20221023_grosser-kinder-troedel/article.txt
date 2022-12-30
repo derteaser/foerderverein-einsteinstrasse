@@ -1,0 +1,25 @@
+Title: Großer Kinder-Trödel
+
+----
+
+Intro: Was für ein kunterbunter Nachmittag gestern in der KiTa Einsteinstraße in Neuss!
+
+----
+
+Text: [{"content":{"text":"<p>Der erste Tr\u00f6delmarkt nach l\u00e4ngerer Pause war ein toller Erfolg und hat allen richtig viel Spa\u00df gemacht. Neben sch\u00f6nen Dingen f\u00fcr Kinder gab es leckeren Kuchen und W\u00fcrstchen vom Grill. Wenn das mal kein perfekter Nachmittag ist!<\/p><p>Der F\u00f6rderverein freut sich \u00fcber einen sch\u00f6nen Bonus f\u00fcr die Vereinskasse. Es gibt schon viele Ideen, wie das Geld f\u00fcr die Kinder der KiTa Einsteinstra\u00dfe eingesetzt werden kann.<\/p>"},"id":"5805632c-e7de-4a1b-8fcc-a06c4e4b646a","isHidden":false,"type":"text"},{"content":{"images":["file:\/\/7iOQzJRrBb4iYO0a","file:\/\/b4SGzxTOphT3refl","file:\/\/jeDEtI4ePeB1TeSZ","file:\/\/kyTSn2KsMITFFgkm","file:\/\/IUwpgjBU8cir26Rs","file:\/\/YOaKIsMoz43DRMXa"],"caption":"","ratio":"","crop":"false"},"id":"b22792f4-dd16-46f4-a9fb-3ca497c0cb13","isHidden":false,"type":"gallery"},{"content":{"text":"<p>Danke an die Erzieherinnen und Erzieher der KiTa Einsteinstra\u00dfe, die sich viel M\u00fche mit den Vorbereitungen dieses Nachmittags gemacht haben!<\/p><p>Danke an den Elternbeirat f\u00fcr die tatkr\u00e4ftige Unterst\u00fctzung!<\/p>"},"id":"79284783-c1ad-4fb4-9253-4a4b2142c5fc","isHidden":false,"type":"text"}]
+
+----
+
+Main-image: - file://7iOQzJRrBb4iYO0a
+
+----
+
+Date: 2022-10-23 14:55:00
+
+----
+
+Tags: 
+
+----
+
+Uuid: p5HW7kB0bTGpuuMr

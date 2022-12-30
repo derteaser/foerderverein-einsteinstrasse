@@ -1,0 +1,25 @@
+Title: Rabe Socke war zu Besuch
+
+----
+
+Intro: 
+
+----
+
+Text: [{"content":{"text":"<p>Was f\u00fcr ein besonderer Tag heute im evangelischen Familienzentrum Einsteinstra\u00dfe in Neuss: das Puppentheater war im Haus!<\/p><p>F\u00fcr die Kinder wurde das St\u00fcck \u201eRabe Socke\u201c aufgef\u00fchrt. Alle hatten Spa\u00df und freuten sich \u00fcber diese kleine Besonderheit im KiTa-Alltag.<\/p>"},"id":"b7a9511e-fbff-4beb-a85e-32215a68be20","isHidden":false,"type":"text"},{"content":{"images":["file:\/\/VHGyuj3ewiqbzFta","file:\/\/ELkpR055eNuhMHD6","file:\/\/0hr59gXuBOEISM9J","file:\/\/XRzSm2R35yFHSCLG"],"caption":"","ratio":"","crop":"false"},"id":"1f9ac80c-d7c3-424c-8d9e-069bb58852a8","isHidden":false,"type":"gallery"},{"content":{"text":"<p>Danke an unsere Mitglieder und Spender, die diese sch\u00f6nen Aktionen f\u00fcr die Kinder m\u00f6glich machen!<\/p>"},"id":"24ad715f-7033-4efb-8ad2-b41219393d73","isHidden":false,"type":"text"}]
+
+----
+
+Main-image: - file://8oNVpuhpg7KCN7iX
+
+----
+
+Date: 2022-11-10 14:40:00
+
+----
+
+Tags: 
+
+----
+
+Uuid: XjyUJsXf8P7s1FBz

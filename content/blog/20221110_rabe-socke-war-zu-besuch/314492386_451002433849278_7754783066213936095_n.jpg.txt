@@ -1,0 +1,5 @@
+Uuid: ELkpR055eNuhMHD6
+
+----
+
+Template: blocks/image

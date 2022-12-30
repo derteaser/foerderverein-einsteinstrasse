@@ -10,9 +10,7 @@ Text: [{"content":{"text":"<p>Bei der von Aldi S\u00fcd initiierten Aktion \u201
 
 ----
 
-Main-image:
-
-- gut-fuers-hier.jpeg
+Main-image: - gut-fuers-hier.jpeg
 
 ----
 
@@ -21,3 +19,7 @@ Date: 2022-07-04 10:30:00
 ----
 
 Tags: 
+
+----
+
+Uuid: et6qFWBIk1GBmhJa
