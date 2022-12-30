@@ -1,0 +1,23 @@
+Title: Ausflug in den Zoo
+
+----
+
+Intro: 
+
+----
+
+Text: [{"content":{"text":"<p>Am 8. Juli 2022 ging es f\u00fcr die Kinder der KiTa Einsteinstra\u00dfe zusammen mit ihren Erzieherinnen und Erziehern in den Krefelder Zoo. Das war ein ganz besonderer und spannender Tag f\u00fcr die Kinder.\u00a0<\/p><p>Mit zwei gro\u00dfen Bussen wurden die Kinder zum Zoo gefahren, wo sie viele Tiere aus n\u00e4chster N\u00e4he entdecken konnten.\u00a0<\/p><p>Der F\u00f6rderverein hat f\u00fcr die Kinder und Erzieherinnen und Erzieher die Kosten f\u00fcr die Busse und die Eintrittsgelder \u00fcbernommen.<\/p>"},"id":"8b22f1db-ba15-4494-85e1-4bab95b9ed8d","isHidden":false,"type":"text"},{"content":{"images":["tiger.jpg","zooausflug.jpg"]},"id":"39746063-0884-4da6-9b2a-9a81e8ee93d9","isHidden":false,"type":"gallery"}]
+
+----
+
+Main-image:
+
+- tiger.jpg
+
+----
+
+Date: 2022-07-09 10:25:00
+
+----
+
+Tags: ausflug, zoo

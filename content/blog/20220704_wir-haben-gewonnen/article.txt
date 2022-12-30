@@ -1,0 +1,23 @@
+Title: Wir haben gewonnen!
+
+----
+
+Intro: 
+
+----
+
+Text: [{"content":{"text":"<p>Bei der von Aldi S\u00fcd initiierten Aktion \u201eGut f\u00fcr hier - gut f\u00fcrs Wir\u201c konnten wir den 1. Platz erreichen! Wir freuen uns \u00fcber ein Preisgeld in H\u00f6he von 1.500\u20ac und danken allen ganz herzlich, die unser Projekt unterst\u00fctzt und unseren Sieg m\u00f6glich gemacht haben.<\/p><p>Die Kinder der KiTa Einsteinstra\u00dfe k\u00f6nnen sich auf eine sch\u00f6ne Leseecke und neue B\u00fccher freuen.<\/p>"},"id":"b11b752c-65a6-40c1-8ba9-3d9fb0babf25","isHidden":false,"type":"text"}]
+
+----
+
+Main-image:
+
+- gut-fuers-hier.jpeg
+
+----
+
+Date: 2022-07-04 10:30:00
+
+----
+
+Tags: 

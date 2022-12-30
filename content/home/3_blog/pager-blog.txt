@@ -1,0 +1,5 @@
+Title: Blog
+
+----
+
+Max-articles: 5
