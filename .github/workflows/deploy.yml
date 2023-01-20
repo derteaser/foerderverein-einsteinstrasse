@@ -31,4 +31,4 @@ jobs:
         script: |
           cd einstein
           git pull
-          php80 /usr/bin/composer install --no-dev -d ${PWD}
+          php81 /usr/bin/composer install --no-dev -d ${PWD}
