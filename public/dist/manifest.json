@@ -120,7 +120,7 @@
     "src": "assets/fonts/quicksand-v24-latin-700.svg"
   },
   "index.css": {
-    "file": "assets/index-72bac4f8.css",
+    "file": "assets/index-abd2f388.css",
     "src": "index.css"
   },
   "index.js": {
@@ -128,7 +128,7 @@
     "src": "index.js",
     "isEntry": true,
     "css": [
-      "assets/index-72bac4f8.css"
+      "assets/index-abd2f388.css"
     ],
     "assets": [
       "assets/roboto-v19-latin-100-77db1ab3.eot",
