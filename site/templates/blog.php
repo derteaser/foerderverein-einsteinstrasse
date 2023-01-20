@@ -1,8 +1,7 @@
 <?php
 /** @var BlogPage $page */
-$articles = collection('latest-blog-articles');
-?>
-<?php layout() ?>
+$articles = collection('latest-blog-articles'); ?>
+<?php snippet('layout', slots: true); ?>
 <section class="py-20">
   <div class="container px-4 mx-auto">
     <div class="max-w-2xl mx-auto">
@@ -11,7 +10,7 @@ $articles = collection('latest-blog-articles');
     <div class="flex flex-wrap -mx-4 -mb-20">
       <?php foreach ($articles as $article): ?>
         <?php snippet('teasers/one-column', compact('article')); ?>
-      <?php endforeach ?>
+      <?php endforeach; ?>
     </div>
   </div>
 </section>

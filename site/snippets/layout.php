@@ -4,11 +4,13 @@ use Kirby\Cms\Page;
 use Kirby\Cms\Site;
 use Kirby\Filesystem\Asset;
 use Kirby\Image\Image;
+use Kirby\Template\Slot;
 
 /** @var string $titleTag */
 /** @var Page $page */
 /** @var Site|Page $site */
 /** @var App $kirby */
+/** @var Slot $slot */
 
 /** @var Asset|Image $logo */
 $logo = asset('img/logo.svg');
@@ -33,8 +35,7 @@ $logo = asset('img/logo.svg');
     <?php snippet('header-navigation') ?>
 <?php endif ?>
 
-<?php slot() ?>
-<?php endslot() ?>
+<?= $slot ?>
 
 <footer class="py-24 bg-blue-50 print:hidden">
     <div class="container mx-auto px-4 mb-10">

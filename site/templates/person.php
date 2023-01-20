@@ -6,7 +6,7 @@ use Kirby\Cms\Page;
 /** @var File $mainImage */
 ?>
 
-<?php layout() ?>
+<?php snippet('layout', slots: true); ?>
 <section class="flex mx-auto justify-center p-6 lg:p-24 xl:p-32 overflow-hidden">
-  <?php snippet('person', ['person' => $page]) ?>
+  <?php snippet('person', ['person' => $page]); ?>
 </section>

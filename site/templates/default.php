@@ -1,7 +1,7 @@
 <?php
 /** @var DefaultPage $page */
 ?>
-<?php layout() ?>
+<?php snippet('layout', slots: true); ?>
 <section class="py-20">
   <div class="container px-4 mx-auto">
     <div class="max-w-2xl mx-auto">

@@ -1,0 +1,7 @@
+{
+    "phpVersion": "8.1",
+    "singleQuote": true,
+    "trailingCommaPHP": true,
+    "braceStyle": "1tbs",
+    "printWidth": 120
+}
