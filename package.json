@@ -21,7 +21,7 @@
     "postcss-nested": "6.0.0",
     "prettier": "^2.8.3",
     "prettier-plugin-tailwindcss": "^0.2.1",
-    "simple-icons": "8.4.0",
+    "simple-icons": "8.5.0",
     "svg-mixer": "2.3.14",
     "tailwindcss": "3.2.6",
     "tailwindcss-debug-screens": "2.2.1",
