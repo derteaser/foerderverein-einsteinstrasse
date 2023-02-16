@@ -2499,10 +2499,10 @@ vite-plugin-live-reload@3.0.1, vite-plugin-live-reload@^3.0.1:
     chokidar "^3.5.0"
     picocolors "^1.0.0"
 
-vite-plugin-mkcert@1.13.0:
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/vite-plugin-mkcert/-/vite-plugin-mkcert-1.13.0.tgz#78d1f4a7175673ce3b5985f053355b807cc98d51"
-  integrity sha512-oQ69Eu/QH47UpOF0Hm35STNoxb4W6PGQPNiOR+hsHivCnHt5RU1CaXJuA/0zq/82YiR32TXSTTlohv0VVX8eVA==
+vite-plugin-mkcert@1.13.1:
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/vite-plugin-mkcert/-/vite-plugin-mkcert-1.13.1.tgz#02034f0df17d773b1964d7c101f7ddbc9c8d96f2"
+  integrity sha512-0daZMGEpQDN6LniLn1b9J7IRk2Ddp+euN4Wly/CGe4XkOoB2OHJM7ucpMfSS2MVjfd3GrO1hxyV7Ma0OeTsG7A==
   dependencies:
     "@octokit/rest" "^19.0.5"
     axios "^1.2.2"
