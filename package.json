@@ -14,7 +14,7 @@
     "@tailwindcss/typography": "0.5.9",
     "autoprefixer": "10.4.13",
     "bigpicture": "2.6.2",
-    "heroicons": "2.0.15",
+    "heroicons": "2.0.16",
     "postcss": "8.4.21",
     "postcss-cli": "10.1.0",
     "postcss-import": "15.1.0",
