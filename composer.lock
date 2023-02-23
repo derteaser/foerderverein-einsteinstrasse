@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e3d895160c6152ca5a76cb4bf0d3f4f5",
+    "content-hash": "9359c7c86c44d552f1128fafca18b8b1",
     "packages": [
         {
             "name": "arnoson/kirby-vite",
@@ -46,16 +46,16 @@
         },
         {
             "name": "bnomei/kirby3-dotenv",
-            "version": "2.1.1",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bnomei/kirby3-dotenv.git",
-                "reference": "6a8058cad8b17e4a010c46ec2cc77b1a916f08b6"
+                "reference": "4cc9baefe5faebcdafa5d7dc3eff986f241d1244"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/kirby3-dotenv/zipball/6a8058cad8b17e4a010c46ec2cc77b1a916f08b6",
-                "reference": "6a8058cad8b17e4a010c46ec2cc77b1a916f08b6",
+                "url": "https://api.github.com/repos/bnomei/kirby3-dotenv/zipball/4cc9baefe5faebcdafa5d7dc3eff986f241d1244",
+                "reference": "4cc9baefe5faebcdafa5d7dc3eff986f241d1244",
                 "shasum": ""
             },
             "require": {
@@ -104,7 +104,7 @@
             ],
             "support": {
                 "issues": "https://github.com/bnomei/kirby3-dotenv/issues",
-                "source": "https://github.com/bnomei/kirby3-dotenv/tree/v2.1.1"
+                "source": "https://github.com/bnomei/kirby3-dotenv/tree/v2.2.0"
             },
             "funding": [
                 {
@@ -124,7 +124,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2023-02-22T10:23:33+00:00"
+            "time": "2023-02-23T11:39:03+00:00"
         },
         {
             "name": "bnomei/kirby3-feed",
