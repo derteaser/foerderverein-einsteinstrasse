@@ -13,7 +13,7 @@
         "oblik/kirby-link-field": "5.2.2",
         "paulmorel/fathom-analytics": "1.0.0",
         "bnomei/kirby3-dotenv": "2.2.0",
-        "bnomei/kirby3-feed": "1.5.7"
+        "bnomei/kirby3-feed": "1.5.8"
     },
     "config": {
         "optimize-autoloader": true,
