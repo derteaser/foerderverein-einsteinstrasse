@@ -1,0 +1,25 @@
+Title: Die Ostertüten sind wieder da
+
+----
+
+Intro: 
+
+----
+
+Text: [{"content":{"location":"kirby","image":["file:\/\/FJ81zb3FDbHZNMwT"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"2c0d2e66-67bb-4470-8f9d-92c32b1ba2d5","isHidden":false,"type":"image"},{"content":{"text":"<p>Unsere Ostert\u00fcten haben schon Tradition: seit Gr\u00fcndung unseres F\u00f6rdervereins gab es in den Jahren 2021 und 2022 eine Ostert\u00fcte und auch in diesem Jahr haben wir uns etwas Sch\u00f6nes f\u00fcr euch ausgedacht: ihr k\u00f6nnt eine leckere Backmischung in einem liebevoll gestalteten Glas erwerben. Die s\u00fc\u00dfen Hasen eignen sich prima als Geschenk oder Mitbringsel zu Ostern \ud83d\udc23. Sie sehen nicht nur toll aus - aus dem Inhalt k\u00f6nnt ihr leckere Kekse backen. <\/p><p>Die Hasen sind ab sofort f\u00fcr 6\u20ac pro St\u00fcck im B\u00fcro der KiTa Einsteinstra\u00dfe k\u00e4uflich zu erwerben. Die Einnahmen flie\u00dfen komplett in unseren F\u00f6rderverein.<\/p>"},"id":"bce9eb15-980e-4989-b9de-e3aab058be53","isHidden":false,"type":"text"}]
+
+----
+
+Main-image: - file://FJ81zb3FDbHZNMwT
+
+----
+
+Date: 2023-03-07 19:25:00
+
+----
+
+Tags: ostern
+
+----
+
+Uuid: KFujvygvB8axgL0f
