@@ -8,22 +8,22 @@ use Kirby\Toolkit\Str;
 require_once __DIR__ . '/../plugins/kirby3-dotenv/global.php';
 
 loadenv([
-    'dir' => realpath(__DIR__ . '/../../')
+    'dir' => realpath(__DIR__ . '/../../'),
 ]);
 
 return [
     'debug' => filter_var(env('APP_DEBUG'), FILTER_VALIDATE_BOOLEAN),
     'auth' => [
-        'methods' => explode(',', env('AUTH_METHODS'))
+        'methods' => explode(',', env('AUTH_METHODS')),
     ],
     'slugs' => 'de',
     'locale' => 'de_DE.utf-8',
-    'date'  => [
-        'handler' => 'strftime'
+    'date' => [
+        'handler' => 'strftime',
     ],
     'panel' => [
         'language' => 'de',
-        'css' => 'custom-panel/styles.css'
+        'css' => 'custom-panel/styles.css',
     ],
     'email' => [
         'transport' => [
@@ -34,7 +34,7 @@ return [
             'auth' => true,
             'username' => env('EMAIL_USERNAME'),
             'password' => env('EMAIL_PASSWORD'),
-        ]
+        ],
     ],
     'thumbs' => [
         'presets' => [
@@ -42,39 +42,46 @@ return [
             'one-column-teaser' => ['width' => 740, 'quality' => 80],
             'feature' => ['width' => 610, 'height' => 260, 'crop' => true, 'quality' => 80],
             'gallery' => ['width' => 610, 'height' => 610, 'crop' => true, 'quality' => 80],
-            'person' => ['width' => 500, 'height' => 500, 'crop' => true]
-        ]
+            'person' => ['width' => 500, 'height' => 500, 'crop' => true],
+        ],
     ],
     'routes' => [
         [
             'pattern' => 'sitemap.xml',
             'method' => 'GET',
-            'action'  => function () {
+            'action' => function () {
                 $options = [
-                    'images'       => false,
-                    'videos'       => false,
-                    'xsl'          => false
+                    'images' => false,
+                    'videos' => false,
+                    'xsl' => false,
                 ];
 
-                return site()->index()->published()->filter(function (Page $page) {
-                    return match ($page->template()->name()) {
-                        'persons', 'person' => false,
-                        default => !$page->parent() || $page->parent()->template() != 'home',
-                    };
-                })->sitemap($options);
-            }
-        ], [
+                return site()
+                    ->index()
+                    ->published()
+                    ->filter(function (Page $page) {
+                        return match ($page->template()->name()) {
+                            'persons', 'person' => false,
+                            default => !$page->parent() || $page->parent()->template() != 'home',
+                        };
+                    })
+                    ->sitemap($options);
+            },
+        ],
+        [
             'pattern' => 'feed',
             'method' => 'GET',
-            'action'  => function () {
+            'action' => function () {
                 $options = [
-                    'title'       => site()->title(),
-                    'link'        => 'blog'
+                    'title' => site()->title(),
+                    'link' => 'blog',
                 ];
 
-                return collection('latest-blog-articles')->limit(10)->feed($options);
-            }
-        ]
+                return collection('latest-blog-articles')
+                    ->limit(10)
+                    ->feed($options);
+            },
+        ],
     ],
     'bnomei.robots-txt.sitemap' => 'sitemap.xml',
     'pedroborges.meta-tags.default' => function ($page, $site) {
@@ -84,17 +91,17 @@ return [
         }
 
         $description = null;
-        if ($text = $page->text() && $blocks = $page->text()->toBlocks()) {
+        if ($text = $page->text() && ($blocks = $page->text()->toBlocks())) {
             if ($block = $blocks->filterBy('type', 'paragraph')->first()) {
                 $description = Html::decode(Str::excerpt($block->content(), 155));
             }
         }
 
         return [
-            'title' => $page->title() . " | " . $site->title(),
+            'title' => $page->title() . ' | ' . $site->title(),
             'meta' => [
                 'description' => $description,
-                'robots' => 'index,follow,noodp'
+                'robots' => 'index,follow,noodp',
             ],
             'link' => [
                 'canonical' => $page->url(),
@@ -106,22 +113,22 @@ return [
                 'url' => $page->url(),
                 'description' => $description,
                 'locale' => 'de_DE',
-                'namespace:image' => function() use ($image) {
+                'namespace:image' => function () use ($image) {
                     $thumb = $image->crop(1200, 630);
                     return [
                         'image' => $thumb->url(),
                         'height' => $thumb->height(),
                         'width' => $thumb->width(),
-                        'type' => $thumb->mime()
+                        'type' => $thumb->mime(),
                     ];
-                }
+                },
             ],
             'twitter' => [
                 'card' => 'summary_large_image',
                 'site' => $site->twitter(),
                 'title' => $page->title(),
-                'image' => $image->url()
-            ]
+                'image' => $image->url(),
+            ],
         ];
     },
     'pedroborges.meta-tags.templates' => function ($page, $site) {
@@ -146,9 +153,12 @@ return [
                         'url' => $site->url(),
                         'inLanguage' => 'de_DE',
                         'image' => $image->url(),
-                        'sameAs' => ['https://www.facebook.com/' . $site->facebook()->value(), 'https://instagram.com' . $site->instagram()->value()],
-                    ]
-                ]
+                        'sameAs' => [
+                            'https://www.facebook.com/' . $site->facebook()->value(),
+                            'https://instagram.com' . $site->instagram()->value(),
+                        ],
+                    ],
+                ],
             ],
             'article' => [
                 'meta' => [
@@ -170,13 +180,13 @@ return [
                         'url' => $page->url(),
                         'inLanguage' => 'de_DE',
                         'image' => $image->url(),
-                    ]
+                    ],
                 ],
                 'og' => [
                     'type' => 'article',
                     'namespace:article' => [
-                        'published_time' => $page->date('c')
-                    ]
+                        'published_time' => $page->date('c'),
+                    ],
                 ],
                 'twitter' => [
                     'card' => 'summary',
@@ -186,12 +196,12 @@ return [
                             $crop = $image->resize(1280, 1280);
                             return [
                                 'image' => $crop->url(),
-                                'alt' => $image->alt()
+                                'alt' => $image->alt(),
                             ];
                         }
                         return null;
-                    }
-                ]
+                    },
+                ],
             ],
             'contact' => [
                 'json-ld' => [
@@ -200,19 +210,18 @@ return [
                         'url' => $page->url(),
                         'inLanguage' => 'de_DE',
                         'image' => $image->url(),
-                    ]
-                ]
+                    ],
+                ],
             ],
             'person' => [
                 'meta' => [
-                    'robots' => 'noindex,nofollow,noodp'
-                ]
-            ]
+                    'robots' => 'noindex,nofollow,noodp',
+                ],
+            ],
         ];
     },
     'paulmorel.fathom-analytics' => [
         'siteId' => env('FATHOM_SITE_ID'),
         'sharePassword' => env('FATHOM_SHARE_PASSWORD'),
-        'customDomain' => env('FATHOM_CUSTOM_DOMAIN')
-    ]
+    ],
 ];
