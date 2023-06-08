@@ -1,0 +1,25 @@
+Title: Von der Raupe zum Schmetterling
+
+----
+
+Intro: 
+
+----
+
+Text: [{"content":{"location":"kirby","image":["file://qjYVAdwoMnVYWvw1"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"ee9baa90-3d7c-4565-80d3-ed895feabcca","isHidden":false,"type":"image"},{"content":{"text":"<p>Der Förderverein hat jeder Gruppe der KiTa Einsteinstraße ein spannendes Set geschenkt, mit dem die Kinder die Entwicklung von der Raupe zum Schmetterling erleben können. Die ersten Raupen haben sich bereits verpuppt und wir warten gespannt darauf, dass die Schmetterlinge schlüpfen. </p><p>Passend zum Thema haben die Kinder gebastelt.</p>"},"id":"8ecf58fe-a45a-4eb9-ac83-100f835d0de3","isHidden":false,"type":"text"},{"content":{"images":["file://LGrA1WtL1EgH9HWE","file://rHq9FYK0u6J0OMUu","file://Ng0buZcOE39kjQE9","file://pZg2coi6XVNSFylP"],"caption":"","ratio":"","crop":"false"},"id":"e3531bd6-87c1-4b17-9759-d22a26a03a8c","isHidden":false,"type":"gallery"}]
+
+----
+
+Main-image: - file://pZg2coi6XVNSFylP
+
+----
+
+Date: 2023-06-01 10:05:00
+
+----
+
+Tags: raupen
+
+----
+
+Uuid: jqvz1KlMFu9y4ygq

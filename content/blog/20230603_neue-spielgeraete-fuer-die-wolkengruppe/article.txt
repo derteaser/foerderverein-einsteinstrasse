@@ -1,0 +1,25 @@
+Title: Neue Spielgeräte für die Wolkengruppe
+
+----
+
+Intro: Den Kleinsten in der KiTa Einsteinstraße hat der Förderverein diese schönen Spielgeräten zum klettern, spielen und erkunden geschenkt.
+
+----
+
+Text: [{"content":{"location":"kirby","image":["file://IerucPJ8ql9S1pJ0"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"5ac97a52-7496-4ef5-9468-58fbaa2f27f4","isHidden":false,"type":"image"},{"content":{"text":"<p>Viel Spaß damit, liebe Wolkengruppe.</p>"},"id":"35ac4b9a-03ff-442c-9239-74159ac30d63","isHidden":false,"type":"text"}]
+
+----
+
+Main-image: - file://IerucPJ8ql9S1pJ0
+
+----
+
+Date: 2023-06-03 10:15:00
+
+----
+
+Tags: wolkengruppe, spielgeräte
+
+----
+
+Uuid: lIRDudaS3z3sZqr9

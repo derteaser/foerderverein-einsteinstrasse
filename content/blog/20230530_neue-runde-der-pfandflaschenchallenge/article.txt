@@ -1,0 +1,25 @@
+Title: Neue Runde der Pfandflaschenchallenge
+
+----
+
+Intro: Unsere Flaschenchallenge war ein Erfolg! Vielen Dank an alle, die ihre Pfandflaschen gespendet und unsere Aktion unterstützt haben.
+
+----
+
+Text: [{"content":{"location":"kirby","image":["file://vNXiUuw6ozucavG6"],"src":"","alt":"","caption":"","link":"","ratio":"16/9","crop":"true"},"id":"ca1ba097-b864-4a04-9e5e-70039f17beda","isHidden":false,"type":"image"},{"content":{"text":"<p>Es sind viele Flaschen gespendet worden und die Kinder können sich auf den Eiswagen freuen, der die KiTa bald besuchen wird. </p>"},"id":"090674f7-fc92-4ece-a13a-eb4d489585d7","isHidden":false,"type":"text"}]
+
+----
+
+Main-image: - file://vNXiUuw6ozucavG6
+
+----
+
+Date: 2023-05-30 10:20:00
+
+----
+
+Tags: pfandflaschen
+
+----
+
+Uuid: fMSjcD6mK4NP0Tww

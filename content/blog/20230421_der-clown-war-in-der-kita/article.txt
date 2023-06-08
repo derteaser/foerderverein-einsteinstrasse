@@ -1,0 +1,25 @@
+Title: Der Clown war in der KiTa
+
+----
+
+Intro: Das war ein riesengroßer Spaß und eine tolle Überraschung für die Kinder! Ein Clown besuchte die KiTa und sorgte mit einer tollen Show für viel gute Laune!
+
+----
+
+Text: [{"content":{"images":["file://WAplDnh923QUd9aW","file://uvJjvABEHJ9D60b8"],"caption":"","ratio":"","crop":"false"},"id":"413caeb4-b12a-4378-91bc-bf67bf7b155a","isHidden":false,"type":"gallery"}]
+
+----
+
+Main-image: - file://uvJjvABEHJ9D60b8
+
+----
+
+Date: 2023-04-21 10:20:00
+
+----
+
+Tags: 
+
+----
+
+Uuid: g0bofmCHtVsSUh0v
