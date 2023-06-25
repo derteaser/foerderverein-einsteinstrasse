@@ -2206,10 +2206,10 @@ sigmund@^1.0.1:
   resolved "https://registry.yarnpkg.com/sigmund/-/sigmund-1.0.1.tgz#3ff21f198cad2175f9f3b781853fd94d0d19b590"
   integrity sha512-fCvEXfh6NWpm+YSuY2bpXb/VIihqWA6hLsgboC+0nl71Q7N7o2eaCW8mJa/NLvQhs6jpd3VZV4UiUQlV6+lc8g==
 
-simple-icons@9.2.0:
-  version "9.2.0"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-9.2.0.tgz#648a7242cf1d7ee5df84be053df3d2cc7e62d0fe"
-  integrity sha512-BwLa76uMHBZKN1+L7Qmboj47mcFADiA/dfAePOd3arSPv6JMRNptJ2FNDBLuqkKliWG2W9XuBKhunuv+GzPpLA==
+simple-icons@9.3.0:
+  version "9.3.0"
+  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-9.3.0.tgz#99abcb189819c1745e26a21ba9d120c26138360a"
+  integrity sha512-T6x3teIpPdMc8nibYvE56Va1eF+l8Puk//1YYtCxQP4wbGRzYxgwZTl18YCjoFLnu/0exehwyR2hMEFZV3lflg==
 
 slash@^4.0.0:
   version "4.0.0"
