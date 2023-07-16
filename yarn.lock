@@ -2215,10 +2215,10 @@ sigmund@^1.0.1:
   resolved "https://registry.yarnpkg.com/sigmund/-/sigmund-1.0.1.tgz#3ff21f198cad2175f9f3b781853fd94d0d19b590"
   integrity sha512-fCvEXfh6NWpm+YSuY2bpXb/VIihqWA6hLsgboC+0nl71Q7N7o2eaCW8mJa/NLvQhs6jpd3VZV4UiUQlV6+lc8g==
 
-simple-icons@9.5.0:
-  version "9.5.0"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-9.5.0.tgz#1c37a5452692d70468abb0880f6200071f29e188"
-  integrity sha512-FEtVYBJgsQb+Oz2f6DBbPipOl/9QVAEPvxZj1bllsoRsYL2LfufvhPDSLUdmpClUUDW5UjphBoEwBQvqJ1p3lg==
+simple-icons@9.6.0:
+  version "9.6.0"
+  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-9.6.0.tgz#d61e61d0f11e06354dcc1e03c31ef7ae65d268fe"
+  integrity sha512-FIU1gM30p26vdKMyj+aX3BAbiKpZMf3DL3YwtcJMoC2UE/QaxCZnZQ08kmnRlId6MvQMx4HD9AgeOds63xplaA==
 
 slash@^4.0.0:
   version "4.0.0"
