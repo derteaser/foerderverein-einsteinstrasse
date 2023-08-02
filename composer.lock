@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a24940d473f0f771e67e017edbbdd0b6",
+    "content-hash": "4311452fd695d84f51cbe2573a7b1ed2",
     "packages": [
         {
             "name": "arnoson/kirby-vite",
@@ -210,21 +210,21 @@
         },
         {
             "name": "bnomei/kirby3-robots-txt",
-            "version": "1.5.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bnomei/kirby3-robots-txt.git",
-                "reference": "375ca49b428df3e22ec4756610032552329d19c9"
+                "reference": "377261809f4f56604411388982e7c65100443627"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/kirby3-robots-txt/zipball/375ca49b428df3e22ec4756610032552329d19c9",
-                "reference": "375ca49b428df3e22ec4756610032552329d19c9",
+                "url": "https://api.github.com/repos/bnomei/kirby3-robots-txt/zipball/377261809f4f56604411388982e7c65100443627",
+                "reference": "377261809f4f56604411388982e7c65100443627",
                 "shasum": ""
             },
             "require": {
                 "getkirby/composer-installer": "^1.1",
-                "php": ">=7.3.0"
+                "php": ">=8.0.0"
             },
             "require-dev": {
                 "getkirby/cms": "^3.5",
@@ -263,7 +263,7 @@
             ],
             "support": {
                 "issues": "https://github.com/bnomei/kirby3-robots-txt/issues",
-                "source": "https://github.com/bnomei/kirby3-robots-txt/tree/v1.5.0"
+                "source": "https://github.com/bnomei/kirby3-robots-txt/tree/v1.7.0"
             },
             "funding": [
                 {
@@ -283,7 +283,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-08-06T13:21:27+00:00"
+            "time": "2023-08-02T10:01:17+00:00"
         },
         {
             "name": "claviska/simpleimage",
