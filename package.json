@@ -9,7 +9,7 @@
     "icons": "node icons.js"
   },
   "devDependencies": {
-    "@prettier/plugin-php": "^0.19.3",
+    "@prettier/plugin-php": "^0.20.0",
     "@tailwindcss/aspect-ratio": "0.4.2",
     "@tailwindcss/typography": "0.5.9",
     "autoprefixer": "10.4.15",

@@ -288,10 +288,10 @@
   dependencies:
     "@octokit/openapi-types" "^16.0.0"
 
-"@prettier/plugin-php@^0.19.3":
-  version "0.19.7"
-  resolved "https://registry.yarnpkg.com/@prettier/plugin-php/-/plugin-php-0.19.7.tgz#c11b710f319f83c276b6b3f8ab3f70f612302785"
-  integrity sha512-QOzBs05nwuR92uak7xBHf7RCZCFXml+6Sk3cjTp2ahQlilBtupqlNjitlTXsOfPIAYwlFgLP1oSfyapS6DN00w==
+"@prettier/plugin-php@^0.20.0":
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/@prettier/plugin-php/-/plugin-php-0.20.0.tgz#f169363be6f493cce43a6105aa491f6ff5d074ab"
+  integrity sha512-bdnK9VKeMD/SoIdSxCUwuiiy/86BOF7sCWrCLVrMHj2dL8FFBgsvVxGzQbd7hxweh0eaFKmr7GszIlVpNyHgzw==
   dependencies:
     linguist-languages "^7.21.0"
     mem "^8.0.0"
