@@ -4,28 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4311452fd695d84f51cbe2573a7b1ed2",
+    "content-hash": "f769f738079bbe6635a4cb261883de91",
     "packages": [
         {
             "name": "arnoson/kirby-vite",
-            "version": "3.1.0",
+            "version": "4.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/arnoson/kirby-vite.git",
-                "reference": "9bf49d1321ec7dbe3315241b6b97826ad994d361"
+                "reference": "4938a8f3e1c8f79f9a13b2e9e099681d6c6fcd20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/arnoson/kirby-vite/zipball/9bf49d1321ec7dbe3315241b6b97826ad994d361",
-                "reference": "9bf49d1321ec7dbe3315241b6b97826ad994d361",
+                "url": "https://api.github.com/repos/arnoson/kirby-vite/zipball/4938a8f3e1c8f79f9a13b2e9e099681d6c6fcd20",
+                "reference": "4938a8f3e1c8f79f9a13b2e9e099681d6c6fcd20",
                 "shasum": ""
             },
             "require": {
                 "getkirby/composer-installer": "^1.2"
-            },
-            "require-dev": {
-                "getkirby/cms": "^3.8",
-                "phpunit/phpunit": "^10.0"
             },
             "type": "kirby-plugin",
             "notification-url": "https://packagist.org/downloads/",
@@ -40,9 +36,9 @@
             "description": "Vite helper for Kirby CMS",
             "support": {
                 "issues": "https://github.com/arnoson/kirby-vite/issues",
-                "source": "https://github.com/arnoson/kirby-vite/tree/v3.1.0"
+                "source": "https://github.com/arnoson/kirby-vite/tree/v4.0.6"
             },
-            "time": "2023-06-28T12:04:51+00:00"
+            "time": "2023-08-21T14:03:32+00:00"
         },
         {
             "name": "bnomei/kirby3-dotenv",
