@@ -1988,12 +1988,12 @@ postsvg@^2.2.7:
     posthtml-parser "^0.4.1"
     posthtml-render "^1.1.2"
 
-prettier-plugin-tailwindcss@^0.5.0:
+prettier-plugin-tailwindcss@0.5.4:
   version "0.5.4"
   resolved "https://registry.yarnpkg.com/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.5.4.tgz#ebfacbcb90e2ca1df671ffe4083e99f81d72040d"
   integrity sha512-QZzzB1bID6qPsKHTeA9qPo1APmmxfFrA5DD3LQ+vbTmAnY40eJI7t9Q1ocqel2EKMWNPLJqdTDWZj1hKYgqSgg==
 
-prettier@^3.0.0:
+prettier@3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.0.3.tgz#432a51f7ba422d1469096c0fdc28e235db8f9643"
   integrity sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==
@@ -2582,10 +2582,10 @@ util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
 
-vite-plugin-kirby@0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/vite-plugin-kirby/-/vite-plugin-kirby-0.2.1.tgz#756cf8bb8d890231ec6383132857ac58a69991f1"
-  integrity sha512-Mn/ILkMO1evMbi7JbNj0A4tmNrHPzUNMTGULDwSaemD+kDkBSgeXkoWTpUg71HJUkvpYfKwUm27uTmOGo3cNcg==
+vite-plugin-kirby@4.0.6:
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/vite-plugin-kirby/-/vite-plugin-kirby-4.0.6.tgz#656ff355e70a368952e4efe508f6fd00df417214"
+  integrity sha512-MqwyJQr5YQtXc5vbuQcX2LdIZcGra+c/VTf8S8tUnWoLBBdrOwAUGgl1AIZNI5L9nKKjySbRZCPAIQO1vg/4Dw==
   dependencies:
     vite-plugin-live-reload "^3.0.2"
 
