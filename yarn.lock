@@ -2598,10 +2598,10 @@ util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
 
-vite-plugin-kirby@4.0.6:
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/vite-plugin-kirby/-/vite-plugin-kirby-4.0.6.tgz#656ff355e70a368952e4efe508f6fd00df417214"
-  integrity sha512-MqwyJQr5YQtXc5vbuQcX2LdIZcGra+c/VTf8S8tUnWoLBBdrOwAUGgl1AIZNI5L9nKKjySbRZCPAIQO1vg/4Dw==
+vite-plugin-kirby@4.0.9:
+  version "4.0.9"
+  resolved "https://registry.yarnpkg.com/vite-plugin-kirby/-/vite-plugin-kirby-4.0.9.tgz#f48d4e5b38de859e9f972d267c2bd60472a7122b"
+  integrity sha512-PD1Wu6bsJRwlrDW2VFMtFLNTO9FkMrVJgQ4YyoLMXhO6VsQArabNjNNZPZGsCWyuxlMV4e4cD9ItDvJwWiwyUQ==
   dependencies:
     vite-plugin-live-reload "^3.0.2"
 
