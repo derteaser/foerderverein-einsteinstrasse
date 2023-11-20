@@ -28,6 +28,6 @@
     "vite": "4.5.0",
     "vite-plugin-kirby": "4.0.9",
     "vite-plugin-live-reload": "3.0.2",
-    "vite-plugin-mkcert": "1.16.0"
+    "vite-plugin-mkcert": "1.17.1"
   }
 }
