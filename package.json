@@ -27,7 +27,7 @@
     "tailwindcss-debug-screens": "2.2.1",
     "vite": "5.0.2",
     "vite-plugin-kirby": "5.0.1",
-    "vite-plugin-live-reload": "3.0.2",
+    "vite-plugin-live-reload": "3.0.3",
     "vite-plugin-mkcert": "1.17.1"
   }
 }
