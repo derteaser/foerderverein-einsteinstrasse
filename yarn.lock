@@ -2638,7 +2638,15 @@ vite-plugin-kirby@5.0.1:
   dependencies:
     vite-plugin-live-reload "^3.0.2"
 
-vite-plugin-live-reload@3.0.2, vite-plugin-live-reload@^3.0.2:
+vite-plugin-live-reload@3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/vite-plugin-live-reload/-/vite-plugin-live-reload-3.0.3.tgz#f32fcb591ed2efb806116ae878bcc899e88d5006"
+  integrity sha512-ce1ygNPmfVdiO6SyjpephroZiK+X5+BFetkceD/FFOYZEPoVSydJRfKT2JPaL4/D3C3NwqJvtPjnla1GSa264A==
+  dependencies:
+    chokidar "^3.5.0"
+    picocolors "^1.0.0"
+
+vite-plugin-live-reload@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/vite-plugin-live-reload/-/vite-plugin-live-reload-3.0.2.tgz#d1026a403dc1a8b015aa38cf22db8613957631d2"
   integrity sha512-7QprEPLN9f4J9ljnovzoe2xmkTKTEn/QpxpwSmvbb2MtRQyWi0c0Zg3+s3cBhxHaKe9eMYHUG4OQGpCYwFwdaw==
