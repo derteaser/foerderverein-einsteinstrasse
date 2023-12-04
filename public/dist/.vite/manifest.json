@@ -120,7 +120,7 @@
     "src": "assets/fonts/roboto-v19-latin-regular.woff2"
   },
   "index.css": {
-    "file": "assets/index-k_Y3fyLf.css",
+    "file": "assets/index-oU3hlgYr.css",
     "isEntry": true,
     "src": "index.css"
   },
@@ -158,9 +158,9 @@
       "assets/quicksand-v24-latin-700-ISgaFN39.svg"
     ],
     "css": [
-      "assets/index-k_Y3fyLf.css"
+      "assets/index-oU3hlgYr.css"
     ],
-    "file": "assets/index-sMmXTznX.js",
+    "file": "assets/index-y6wR1zeN.js",
     "isEntry": true,
     "src": "index.js"
   }
