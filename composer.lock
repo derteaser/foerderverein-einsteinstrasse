@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "90b0b4fc004cb631d37264ee2effb845",
+    "content-hash": "db4474b9688f2c02ddb7709a33555493",
     "packages": [
         {
             "name": "arnoson/kirby-vite",
@@ -206,16 +206,16 @@
         },
         {
             "name": "bnomei/kirby3-robots-txt",
-            "version": "1.7.0",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bnomei/kirby3-robots-txt.git",
-                "reference": "377261809f4f56604411388982e7c65100443627"
+                "reference": "cc7e9dfddbd6b612acc0eaa366420911ef2db2da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/kirby3-robots-txt/zipball/377261809f4f56604411388982e7c65100443627",
-                "reference": "377261809f4f56604411388982e7c65100443627",
+                "url": "https://api.github.com/repos/bnomei/kirby3-robots-txt/zipball/cc7e9dfddbd6b612acc0eaa366420911ef2db2da",
+                "reference": "cc7e9dfddbd6b612acc0eaa366420911ef2db2da",
                 "shasum": ""
             },
             "require": {
@@ -259,7 +259,7 @@
             ],
             "support": {
                 "issues": "https://github.com/bnomei/kirby3-robots-txt/issues",
-                "source": "https://github.com/bnomei/kirby3-robots-txt/tree/v1.7.0"
+                "source": "https://github.com/bnomei/kirby3-robots-txt/tree/v1.8.0"
             },
             "funding": [
                 {
@@ -279,7 +279,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2023-08-02T10:01:17+00:00"
+            "time": "2023-12-09T18:46:15+00:00"
         },
         {
             "name": "claviska/simpleimage",
