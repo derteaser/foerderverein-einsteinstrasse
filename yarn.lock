@@ -2286,10 +2286,10 @@ sigmund@^1.0.1:
   resolved "https://registry.yarnpkg.com/sigmund/-/sigmund-1.0.1.tgz#3ff21f198cad2175f9f3b781853fd94d0d19b590"
   integrity sha512-fCvEXfh6NWpm+YSuY2bpXb/VIihqWA6hLsgboC+0nl71Q7N7o2eaCW8mJa/NLvQhs6jpd3VZV4UiUQlV6+lc8g==
 
-simple-icons@10.2.0:
-  version "10.2.0"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-10.2.0.tgz#f308838cf9b4959b77f82861e836fb404ecd2a47"
-  integrity sha512-NBCvnCEoNAFC6ihODFWPq372NRvD84m1iRRxRtw9e30F7TgX/l/I5jBF1XlHehj5pMgQo0S4m/3cOqafAQhq7w==
+simple-icons@10.3.0:
+  version "10.3.0"
+  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-10.3.0.tgz#b83a543af8b764cf922236adce71ffc82d73622d"
+  integrity sha512-MpqALzcKXPNfVKiNkESkahmXIt0tTVnTOZAhD6q4MmL3XUroaKwy8stPwXZOfK1WoT6jqpjUfc0nopPePZvY7w==
 
 slash@^5.0.0:
   version "5.0.0"
