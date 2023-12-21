@@ -23,7 +23,7 @@
     "prettier-plugin-tailwindcss": "0.5.9",
     "simple-icons": "10.3.0",
     "svg-mixer": "2.3.14",
-    "tailwindcss": "3.3.7",
+    "tailwindcss": "3.4.0",
     "tailwindcss-debug-screens": "2.2.1",
     "vite": "5.0.10",
     "vite-plugin-kirby": "5.1.0",
