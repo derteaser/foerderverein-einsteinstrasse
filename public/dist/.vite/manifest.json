@@ -121,10 +121,16 @@
   },
   "index.css": {
     "file": "assets/index--wKrI_uO.css",
-    "isEntry": true,
-    "src": "index.css"
+    "src": "index.css",
+    "isEntry": true
   },
   "index.js": {
+    "file": "assets/index-swJ2QuIq.js",
+    "src": "index.js",
+    "isEntry": true,
+    "css": [
+      "assets/index--wKrI_uO.css"
+    ],
     "assets": [
       "assets/roboto-v19-latin-100-6Y_8VwDb.eot",
       "assets/roboto-v19-latin-100-STcfQO-0.woff2",
@@ -156,12 +162,6 @@
       "assets/quicksand-v24-latin-700-U_uHrFG3.woff",
       "assets/quicksand-v24-latin-700-a7tSs0tj.ttf",
       "assets/quicksand-v24-latin-700-ISgaFN39.svg"
-    ],
-    "css": [
-      "assets/index--wKrI_uO.css"
-    ],
-    "file": "assets/index-swJ2QuIq.js",
-    "isEntry": true,
-    "src": "index.js"
+    ]
   }
 }
