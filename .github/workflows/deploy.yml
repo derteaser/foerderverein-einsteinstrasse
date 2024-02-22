@@ -7,11 +7,9 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@main
+    - uses: actions/checkout@v4
     - uses: actions/setup-node@v4
       with:
         node-version: 20
@@ -24,6 +22,10 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v5.0.0
       with:
         commit_message: Apply theme changes
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
     - name: executing remote ssh commands using password
       uses: appleboy/ssh-action@master
       with:
@@ -34,4 +36,4 @@ jobs:
         script: |
           cd einstein
           git pull
-          php81 /usr/bin/composer install --no-dev -d ${PWD}
+          php82 /usr/bin/composer install --no-dev -d ${PWD}
