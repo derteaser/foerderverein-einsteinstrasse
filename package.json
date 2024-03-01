@@ -12,7 +12,7 @@
     "@prettier/plugin-php": "^0.22.0",
     "@tailwindcss/aspect-ratio": "0.4.2",
     "@tailwindcss/typography": "0.5.10",
-    "autoprefixer": "10.4.17",
+    "autoprefixer": "10.4.18",
     "bigpicture": "2.6.2",
     "heroicons": "2.1.1",
     "postcss": "8.4.35",
