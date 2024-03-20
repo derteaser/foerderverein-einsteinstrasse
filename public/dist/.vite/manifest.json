@@ -126,6 +126,7 @@
   },
   "index.js": {
     "file": "assets/index-BQd9Renu.js",
+    "name": "index",
     "src": "index.js",
     "isEntry": true,
     "css": [
