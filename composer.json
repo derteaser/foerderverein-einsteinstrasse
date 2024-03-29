@@ -9,7 +9,7 @@
         "getkirby/cms": "3.10.0.1",
         "pedroborges/kirby-meta-tags": "2.1.0",
         "bnomei/kirby3-robots-txt": "1.8.0",
-        "arnoson/kirby-vite": "5.3.0",
+        "arnoson/kirby-vite": "5.3.1",
         "oblik/kirby-link-field": "5.2.2",
         "paulmorel/fathom-analytics": "1.0.0",
         "bnomei/kirby3-dotenv": "2.2.0",
