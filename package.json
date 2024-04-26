@@ -11,7 +11,7 @@
   "devDependencies": {
     "@prettier/plugin-php": "^0.22.0",
     "@tailwindcss/aspect-ratio": "0.4.2",
-    "@tailwindcss/typography": "0.5.12",
+    "@tailwindcss/typography": "0.5.13",
     "autoprefixer": "10.4.19",
     "bigpicture": "2.6.2",
     "heroicons": "2.1.3",
