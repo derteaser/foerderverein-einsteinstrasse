@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f3c088ebd8930096d70dca13e5f23110",
+    "content-hash": "b17aa862e6e59f558a0bb856d706f020",
     "packages": [
         {
             "name": "arnoson/kirby-vite",
@@ -124,24 +124,24 @@
         },
         {
             "name": "bnomei/kirby3-feed",
-            "version": "1.5.8",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bnomei/kirby3-feed.git",
-                "reference": "e6ffb5947b58459cf848a1a3f0ee3c344fa46917"
+                "reference": "522e4318b02fe9efd35c02e4799aed2f8961feb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/kirby3-feed/zipball/e6ffb5947b58459cf848a1a3f0ee3c344fa46917",
-                "reference": "e6ffb5947b58459cf848a1a3f0ee3c344fa46917",
+                "url": "https://api.github.com/repos/bnomei/kirby3-feed/zipball/522e4318b02fe9efd35c02e4799aed2f8961feb6",
+                "reference": "522e4318b02fe9efd35c02e4799aed2f8961feb6",
                 "shasum": ""
             },
             "require": {
                 "getkirby/composer-installer": "^1.2",
-                "php": ">=8.0"
+                "php": ">=8.1"
             },
             "require-dev": {
-                "getkirby/cms": "^3.5",
+                "getkirby/cms": "^4.0",
                 "php-coveralls/php-coveralls": "^2.4",
                 "phpunit/phpunit": "^9.5"
             },
@@ -174,15 +174,15 @@
                 "Sitemap",
                 "feed",
                 "json",
-                "kirby3",
-                "kirby3-cms",
-                "kirby3-plugin",
+                "kirby",
+                "kirby-cms",
+                "kirby-plugin",
                 "rss",
                 "rss-feed"
             ],
             "support": {
                 "issues": "https://github.com/bnomei/kirby3-feed/issues",
-                "source": "https://github.com/bnomei/kirby3-feed/tree/v1.5.8"
+                "source": "https://github.com/bnomei/kirby3-feed/tree/v1.6.1"
             },
             "funding": [
                 {
@@ -202,7 +202,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2023-03-02T10:55:31+00:00"
+            "time": "2024-05-28T14:44:17+00:00"
         },
         {
             "name": "bnomei/kirby3-robots-txt",
