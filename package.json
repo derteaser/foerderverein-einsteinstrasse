@@ -19,7 +19,7 @@
     "postcss-cli": "11.0.0",
     "postcss-import": "16.1.0",
     "postcss-nested": "6.0.1",
-    "prettier": "3.3.0",
+    "prettier": "3.3.1",
     "prettier-plugin-tailwindcss": "0.6.1",
     "simple-icons": "12.1.0",
     "svg-mixer": "2.3.14",
