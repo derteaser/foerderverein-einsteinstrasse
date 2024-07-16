@@ -55,9 +55,6 @@ $logo = asset('img/logo.svg');
                 <a class="inline-flex items-center w-12 h-12 mr-4 bg-white text-blue-800 hover:text-purple-800" href="https://instagram.com/<?= $site->instagram() ?>" target="_blank">
                     <?php snippet('icon', ['name' => 'instagram', 'cssClasses' => 'mx-auto fill-current w-5 h-5']) ?><span class="sr-only">Instagram</span>
                 </a>
-                <a class="inline-flex items-center w-12 h-12 mr-4 bg-white text-blue-800 hover:text-purple-800" href="<?= $site->amazon_smile() ?>" target="_blank">
-                    <?php snippet('icon', ['name' => 'amazon', 'cssClasses' => 'mx-auto fill-current w-5 h-5']) ?><span class="sr-only">Amazon Smile</span>
-                </a>
                 <a class="inline-flex items-center w-12 h-12 mr-4 bg-white text-blue-800 hover:text-purple-800" href="<?= $site->diakonie() ?>" target="_blank">
                     <?php snippet('icon', ['name' => 'diakonie', 'cssClasses' => 'mx-auto fill-current w-5 h-5']) ?><span class="sr-only">Diakonie</span>
                 </a>
