@@ -20,7 +20,7 @@ $link = $section->link()->toLinkObject();
       <a class="flex items-center text-blue-800 text-sm font-bold uppercase hover:underline print:hidden" onclick="fathom.trackGoal('<?= $section->fathom_event() ?>', 0);" <?= $link->attr() ?>>
         <span><?= $link->title() ?></span>
         <span class="ml-2">
-          <?php snippet('icon', ['name' => 'chevron-right', 'cssClasses' => 'mx-auto text-blue-800 fill-current w-4 h-4']) ?>
+          <?php snippet('icons/arrow-right-s-line', ['class' => 'mx-auto text-blue-800 fill-current size-5']) ?>
         </span>
       </a>
     </div>

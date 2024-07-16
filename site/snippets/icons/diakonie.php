@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
+    class="<?= $class ?? '' ?>"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   id="svg116"
    xml:space="preserve"
    viewBox="0 0 51.497858 51.541136"
-   version="1.1"
    height="51.539062"
    width="51.498051"><defs
      id="defs105"><clipPath

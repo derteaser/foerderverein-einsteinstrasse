@@ -50,20 +50,20 @@ $logo = asset('img/logo.svg');
             </ul>
             <div class="flex justify-center">
                 <a class="inline-flex items-center w-12 h-12 mr-4 bg-white text-blue-800 hover:text-purple-800" href="https://facebook.com/<?= $site->facebook() ?>" target="_blank">
-                    <?php snippet('icon', ['name' => 'facebook', 'cssClasses' => 'mx-auto fill-current w-5 h-5']) ?><span class="sr-only">Facebook</span>
+                    <?php snippet('icons/facebook-circle-fill', ['class' => 'mx-auto fill-current size-6']) ?><span class="sr-only">Facebook</span>
                 </a>
                 <a class="inline-flex items-center w-12 h-12 mr-4 bg-white text-blue-800 hover:text-purple-800" href="https://instagram.com/<?= $site->instagram() ?>" target="_blank">
-                    <?php snippet('icon', ['name' => 'instagram', 'cssClasses' => 'mx-auto fill-current w-5 h-5']) ?><span class="sr-only">Instagram</span>
+                    <?php snippet('icons/instagram-line', ['class' => 'mx-auto fill-current size-6']) ?><span class="sr-only">Instagram</span>
                 </a>
                 <a class="inline-flex items-center w-12 h-12 mr-4 bg-white text-blue-800 hover:text-purple-800" href="<?= $site->diakonie() ?>" target="_blank">
-                    <?php snippet('icon', ['name' => 'diakonie', 'cssClasses' => 'mx-auto fill-current w-5 h-5']) ?><span class="sr-only">Diakonie</span>
+                    <?php snippet('icons/diakonie', ['class' => 'mx-auto fill-current size-5']) ?><span class="sr-only">Diakonie</span>
                 </a>
             </div>
         </div>
     </div>
     <div class="text-center text-sm text-gray-500 pt-8 px-4 border-t border-gray-100">
         <p>©<?= date('Y') ?> <?= $site->title() ?></p>
-        <p>Made with <?php snippet('icon', ['name' => 'heart', 'cssClasses' => 'inline-block fill-current w-4 h-4']) ?> and <a href="https://getkirby.com" class="hover:underline" target="_blank" rel="noopener">Kirby</a></p>
+        <p>Made with <?php snippet('icons/heart-fill', ['class' => 'inline-block size-4']) ?> and <a href="https://getkirby.com" class="hover:underline" target="_blank" rel="noopener">Kirby</a></p>
     </div>
 </footer>
 

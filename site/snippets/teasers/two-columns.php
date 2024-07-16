@@ -15,7 +15,7 @@
     <p class="flex items-center text-sm uppercase font-bold text-blue-800">
       <span>Weiterlesen</span>
       <span class="ml-2">
-        <?php snippet('icon', ['name' => 'chevron-right', 'cssClasses' => 'mx-auto text-blue-800 fill-current w-4 h-4']) ?>
+        <?php snippet('icons/arrow-right-s-line', ['class' => 'mx-auto text-blue-800 fill-current size-5']) ?>
       </span>
     </p>
   </a>
