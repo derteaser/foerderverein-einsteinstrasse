@@ -1,1 +1,5 @@
 Template: image
+
+----
+
+Uuid: sSj7O5Sw63J4wZ5W
