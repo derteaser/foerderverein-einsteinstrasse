@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f406c4c73e12386a5fabc196f2b9f0e4",
+    "content-hash": "8292fab72ed17af9677863bdce394ba9",
     "packages": [
         {
             "name": "arnoson/kirby-vite",
@@ -124,16 +124,16 @@
         },
         {
             "name": "bnomei/kirby3-feed",
-            "version": "1.6.1",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bnomei/kirby3-feed.git",
-                "reference": "522e4318b02fe9efd35c02e4799aed2f8961feb6"
+                "reference": "1bb0078638f75395e3dbb64d010c6ae1aa252349"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/kirby3-feed/zipball/522e4318b02fe9efd35c02e4799aed2f8961feb6",
-                "reference": "522e4318b02fe9efd35c02e4799aed2f8961feb6",
+                "url": "https://api.github.com/repos/bnomei/kirby3-feed/zipball/1bb0078638f75395e3dbb64d010c6ae1aa252349",
+                "reference": "1bb0078638f75395e3dbb64d010c6ae1aa252349",
                 "shasum": ""
             },
             "require": {
@@ -182,7 +182,7 @@
             ],
             "support": {
                 "issues": "https://github.com/bnomei/kirby3-feed/issues",
-                "source": "https://github.com/bnomei/kirby3-feed/tree/v1.6.1"
+                "source": "https://github.com/bnomei/kirby3-feed/tree/v1.7.0"
             },
             "funding": [
                 {
@@ -202,7 +202,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2024-05-28T14:44:17+00:00"
+            "time": "2024-08-19T08:18:07+00:00"
         },
         {
             "name": "bnomei/kirby3-robots-txt",
