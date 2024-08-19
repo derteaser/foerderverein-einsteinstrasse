@@ -28,5 +28,6 @@
     "vite-plugin-kirby": "5.3.1",
     "vite-plugin-live-reload": "3.0.3",
     "vite-plugin-mkcert": "1.17.6"
-  }
+  },
+  "packageManager": "yarn@4.4.0"
 }
