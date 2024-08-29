@@ -12,7 +12,7 @@
   "devDependencies": {
     "@prettier/plugin-php": "^0.22.0",
     "@tailwindcss/aspect-ratio": "0.4.2",
-    "@tailwindcss/typography": "0.5.14",
+    "@tailwindcss/typography": "0.5.15",
     "autoprefixer": "10.4.20",
     "bigpicture": "2.6.2",
     "postcss": "8.4.41",
