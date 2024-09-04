@@ -15,7 +15,7 @@
     "@tailwindcss/typography": "0.5.15",
     "autoprefixer": "10.4.20",
     "bigpicture": "2.6.2",
-    "postcss": "8.4.44",
+    "postcss": "8.4.45",
     "postcss-cli": "11.0.0",
     "postcss-import": "16.1.0",
     "postcss-nested": "6.2.0",
