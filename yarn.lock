@@ -410,7 +410,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prettier/plugin-php@npm:^0.22.0":
+"@prettier/plugin-php@npm:0.22.2":
   version: 0.22.2
   resolution: "@prettier/plugin-php@npm:0.22.2"
   dependencies:
@@ -1197,7 +1197,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "fv-einsteinstrasse-tailwind-theme@workspace:."
   dependencies:
-    "@prettier/plugin-php": "npm:^0.22.0"
+    "@prettier/plugin-php": "npm:0.22.2"
     "@tailwindcss/aspect-ratio": "npm:0.4.2"
     "@tailwindcss/typography": "npm:0.5.15"
     autoprefixer: "npm:10.4.20"
