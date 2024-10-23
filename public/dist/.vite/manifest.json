@@ -120,17 +120,17 @@
     "src": "assets/fonts/roboto-v19-latin-regular.woff2"
   },
   "index.css": {
-    "file": "assets/index-BeasmofI.css",
+    "file": "assets/index-D184YmXV.css",
     "src": "index.css",
     "isEntry": true
   },
   "index.js": {
-    "file": "assets/index-B7panacn.js",
+    "file": "assets/index-BZWGPS0H.js",
     "name": "index",
     "src": "index.js",
     "isEntry": true,
     "css": [
-      "assets/index-BeasmofI.css"
+      "assets/index-D184YmXV.css"
     ],
     "assets": [
       "assets/roboto-v19-latin-100-Dpj_xXAN.eot",
