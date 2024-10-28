@@ -1222,7 +1222,7 @@ __metadata:
     postcss-nested: "npm:6.2.0"
     prettier: "npm:3.3.3"
     prettier-plugin-tailwindcss: "npm:0.6.8"
-    remixicon: "npm:4.4.0"
+    remixicon: "npm:4.5.0"
     tailwindcss: "npm:3.4.14"
     tailwindcss-debug-screens: "npm:2.2.1"
     vite: "npm:5.4.10"
@@ -2174,10 +2174,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"remixicon@npm:4.4.0":
-  version: 4.4.0
-  resolution: "remixicon@npm:4.4.0"
-  checksum: 10c0/8e567dd0d95286a6bc929890b5d8ddf4b9c115dbfd1d580ce55cbd8df5a31daf3e2ade73d73a836b360b95f60dca48ac5ccae746d4a64a95406839a0247bce70
+"remixicon@npm:4.5.0":
+  version: 4.5.0
+  resolution: "remixicon@npm:4.5.0"
+  checksum: 10c0/6852694cd80491a23999411b683ea50b27f02a6dd64e3db8bec5ffe75a2893f5eb5f6db896d1586e10058d89957cce353ff45220e2d0f85a6269c4250d99b7a7
   languageName: node
   linkType: hard
 
