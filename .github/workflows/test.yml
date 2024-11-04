@@ -1,0 +1,43 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: Run Pest tests
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@c541c155eee45413f5b09a52248675b1a2575231 # v2
+        with:
+          php-version: '8.3'
+
+      - name: Get composer cache directory
+        id: composer-cache
+        run: echo "dir=$(composer config cache-files-dir)" >> $GITHUB_OUTPUT
+
+      - name: Cache composer dependencies
+        uses: actions/cache@6849a6489940f00c2f30c0fb92c6274307ccb58a # v4
+        with:
+          path: ${{ steps.composer-cache.outputs.dir }}
+          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
+          restore-keys: ${{ runner.os }}-composer-
+
+      - name: Install dependencies
+        run: composer install --no-interaction --no-suggest --prefer-dist
+
+      - name: Copy .env file
+        run: cp .env.ci .env
+
+      - name: Run tests
+        run: vendor/bin/pest

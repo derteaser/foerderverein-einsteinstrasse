@@ -14,7 +14,7 @@ loadenv([
 return [
     'debug' => filter_var(env('APP_DEBUG'), FILTER_VALIDATE_BOOLEAN),
     'auth' => [
-        'methods' => explode(',', env('AUTH_METHODS')),
+        'methods' => explode(',', env('AUTH_METHODS') ?? ''),
     ],
     'slugs' => 'de',
     'locale' => 'de_DE.utf-8',
