@@ -29,5 +29,5 @@
     "vite-plugin-live-reload": "3.0.3",
     "vite-plugin-mkcert": "1.17.6"
   },
-  "packageManager": "yarn@4.5.1"
+  "packageManager": "yarn@4.5.2"
 }
