@@ -715,10 +715,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bigpicture@npm:2.6.2":
-  version: 2.6.2
-  resolution: "bigpicture@npm:2.6.2"
-  checksum: 10c0/7826f197c5c0802d6a820d4853b50af3f16198ad71c9c5029e7c832e97fff7c689c8def92f72ea9c8a0fc8b3a2b8a457b499bd66842f7f66e93d802a03f43431
+"bigpicture@npm:2.6.3":
+  version: 2.6.3
+  resolution: "bigpicture@npm:2.6.3"
+  checksum: 10c0/18e47204c1cb2ef24ef90ca60f352358413666c1002924115681dc3c4e5a547041a5a82e1884cfb13f1e2a93adeaf65c4c72ea05503e853190578e849140ca41
   languageName: node
   linkType: hard
 
@@ -1215,7 +1215,7 @@ __metadata:
     "@tailwindcss/aspect-ratio": "npm:0.4.2"
     "@tailwindcss/typography": "npm:0.5.15"
     autoprefixer: "npm:10.4.20"
-    bigpicture: "npm:2.6.2"
+    bigpicture: "npm:2.6.3"
     postcss: "npm:8.4.49"
     postcss-cli: "npm:11.0.0"
     postcss-import: "npm:16.1.0"
