@@ -13,7 +13,7 @@
         "oblik/kirby-link-field": "5.2.2",
         "paulmorel/fathom-analytics": "1.0.0",
         "bnomei/kirby3-dotenv": "2.2.0",
-        "bnomei/kirby3-feed": "1.7.0"
+        "bnomei/kirby3-feed": "5.0.2"
     },
     "require-dev": {
       "pestphp/pest": "3.3.2",
