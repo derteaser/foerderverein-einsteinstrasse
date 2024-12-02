@@ -1,0 +1,28 @@
+name: 'Setup PHP + Cache and install Composer dependencies + Copy .env file'
+description: 'Setup PHP + Cache and install Composer dependencies + Copy .env file'
+runs:
+  using: 'composite'
+  steps:
+    - uses: shivammathur/setup-php@c541c155eee45413f5b09a52248675b1a2575231 # v2
+      with:
+        php-version: '8.3'
+
+    - name: 🔍 Get composer cache directory
+      id: composer-cache
+      run: echo "dir=$(composer config cache-files-dir)" >> $GITHUB_OUTPUT
+      shell: bash
+
+    - name: 🗄️ Cache composer dependencies
+      uses: actions/cache@6849a6489940f00c2f30c0fb92c6274307ccb58a # v4
+      with:
+        path: ${{ steps.composer-cache.outputs.dir }}
+        key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
+        restore-keys: ${{ runner.os }}-composer-
+
+    - name: 📦 Install dependencies
+      run: composer install --no-interaction --prefer-dist
+      shell: bash
+
+    - name: 📋 Copy .env file
+      run: cp .env.ci .env
+      shell: bash
