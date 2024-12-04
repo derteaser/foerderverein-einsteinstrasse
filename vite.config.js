@@ -1,20 +1,20 @@
-import { resolve } from 'path';
-import kirby from 'vite-plugin-kirby';
-import mkcert from 'vite-plugin-mkcert';
+import { defineConfig } from 'vite';
+import laravel from 'laravel-vite-plugin';
 
-export default ({ mode }) => ({
-  root: 'src',
-  base: mode === 'development' ? '/' : '/dist/',
-
-  build: {
-    outDir: resolve(process.cwd(), 'public/dist'),
-    emptyOutDir: true,
-    rollupOptions: { input: [resolve(process.cwd(), 'src/index.js'), resolve(process.cwd(), 'src/index.css')] },
-  },
-
-  plugins: [kirby(['../content/**/*', '../site/(templates|snippets|controllers|models)/**/*.php']), mkcert()],
-  server: {
-    https: true,
-    host: 'localhost',
-  },
+export default defineConfig(({ command, mode }) => {
+  return {
+    plugins: [
+      laravel({
+        hotFile: 'storage/vite.hot',
+        buildDirectory: 'build',
+        input: [
+          'resources/css/site.css',
+          'resources/js/site.js',
+          'resources/js/fonts.js',
+        ],
+        refresh: ['site/templates/**', 'site/snippets/**'],
+        detectTls: 'foerderverein-einsteinstrasse.test',
+      }),
+    ],
+  };
 });

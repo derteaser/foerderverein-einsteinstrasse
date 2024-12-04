@@ -4,42 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "accf7bfbf3d0f5a7eafd7b16d5d2e8d9",
+    "content-hash": "48fa004795d52ac347c76c4adfcbdeb3",
     "packages": [
-        {
-            "name": "arnoson/kirby-vite",
-            "version": "5.3.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/arnoson/kirby-vite.git",
-                "reference": "9f64fc96700aa5d7ba38e992c3da4340218dac68"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/arnoson/kirby-vite/zipball/9f64fc96700aa5d7ba38e992c3da4340218dac68",
-                "reference": "9f64fc96700aa5d7ba38e992c3da4340218dac68",
-                "shasum": ""
-            },
-            "require": {
-                "getkirby/composer-installer": "^1.2"
-            },
-            "type": "kirby-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Arno Schlipf"
-                }
-            ],
-            "description": "Vite helper for Kirby CMS",
-            "support": {
-                "issues": "https://github.com/arnoson/kirby-vite/issues",
-                "source": "https://github.com/arnoson/kirby-vite/tree/v5.3.1"
-            },
-            "time": "2024-03-26T17:07:58+00:00"
-        },
         {
             "name": "bnomei/kirby3-dotenv",
             "version": "2.2.0",
@@ -819,6 +785,45 @@
                 "source": "https://github.com/thephpleague/color-extractor/tree/0.4.0"
             },
             "time": "2022-09-24T15:57:16+00:00"
+        },
+        {
+            "name": "lukaskleinschmidt/kirby-laravel-vite",
+            "version": "2.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lukaskleinschmidt/kirby-laravel-vite.git",
+                "reference": "e6102c9ea6e79d7f72e2103ccfdeb1c17f8fbb55"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lukaskleinschmidt/kirby-laravel-vite/zipball/e6102c9ea6e79d7f72e2103ccfdeb1c17f8fbb55",
+                "reference": "e6102c9ea6e79d7f72e2103ccfdeb1c17f8fbb55",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.2",
+                "php": "^8.2"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "installer-name": "laravel-vite"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lukas Kleinschmidt",
+                    "email": "contact@kleinschmidt.mozmail.com"
+                }
+            ],
+            "description": "Kirby Laravel Vite",
+            "support": {
+                "issues": "https://github.com/lukaskleinschmidt/kirby-laravel-vite/issues",
+                "source": "https://github.com/lukaskleinschmidt/kirby-laravel-vite/tree/2.1.3"
+            },
+            "time": "2024-03-05T07:51:33+00:00"
         },
         {
             "name": "michelf/php-smartypants",

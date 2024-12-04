@@ -1,0 +1,104 @@
+{
+  "node_modules/.pnpm/@fontsource+quicksand@5.1.0/node_modules/@fontsource/quicksand/files/quicksand-latin-400-normal.woff": {
+    "file": "assets/quicksand-latin-400-normal-cOvQkyzV.woff",
+    "src": "node_modules/.pnpm/@fontsource+quicksand@5.1.0/node_modules/@fontsource/quicksand/files/quicksand-latin-400-normal.woff"
+  },
+  "node_modules/.pnpm/@fontsource+quicksand@5.1.0/node_modules/@fontsource/quicksand/files/quicksand-latin-400-normal.woff2": {
+    "file": "assets/quicksand-latin-400-normal-UA8GZWWY.woff2",
+    "src": "node_modules/.pnpm/@fontsource+quicksand@5.1.0/node_modules/@fontsource/quicksand/files/quicksand-latin-400-normal.woff2"
+  },
+  "node_modules/.pnpm/@fontsource+quicksand@5.1.0/node_modules/@fontsource/quicksand/files/quicksand-latin-700-normal.woff": {
+    "file": "assets/quicksand-latin-700-normal--YYUxR5U.woff",
+    "src": "node_modules/.pnpm/@fontsource+quicksand@5.1.0/node_modules/@fontsource/quicksand/files/quicksand-latin-700-normal.woff"
+  },
+  "node_modules/.pnpm/@fontsource+quicksand@5.1.0/node_modules/@fontsource/quicksand/files/quicksand-latin-700-normal.woff2": {
+    "file": "assets/quicksand-latin-700-normal-waBAXlO4.woff2",
+    "src": "node_modules/.pnpm/@fontsource+quicksand@5.1.0/node_modules/@fontsource/quicksand/files/quicksand-latin-700-normal.woff2"
+  },
+  "node_modules/.pnpm/@fontsource+roboto@5.1.0/node_modules/@fontsource/roboto/files/roboto-latin-100-normal.woff": {
+    "file": "assets/roboto-latin-100-normal-CSgjpIV5.woff",
+    "src": "node_modules/.pnpm/@fontsource+roboto@5.1.0/node_modules/@fontsource/roboto/files/roboto-latin-100-normal.woff"
+  },
+  "node_modules/.pnpm/@fontsource+roboto@5.1.0/node_modules/@fontsource/roboto/files/roboto-latin-100-normal.woff2": {
+    "file": "assets/roboto-latin-100-normal-UGhH1PRC.woff2",
+    "src": "node_modules/.pnpm/@fontsource+roboto@5.1.0/node_modules/@fontsource/roboto/files/roboto-latin-100-normal.woff2"
+  },
+  "node_modules/.pnpm/@fontsource+roboto@5.1.0/node_modules/@fontsource/roboto/files/roboto-latin-300-normal.woff": {
+    "file": "assets/roboto-latin-300-normal-BZ6gvbSO.woff",
+    "src": "node_modules/.pnpm/@fontsource+roboto@5.1.0/node_modules/@fontsource/roboto/files/roboto-latin-300-normal.woff"
+  },
+  "node_modules/.pnpm/@fontsource+roboto@5.1.0/node_modules/@fontsource/roboto/files/roboto-latin-300-normal.woff2": {
+    "file": "assets/roboto-latin-300-normal-BizgZZ3y.woff2",
+    "src": "node_modules/.pnpm/@fontsource+roboto@5.1.0/node_modules/@fontsource/roboto/files/roboto-latin-300-normal.woff2"
+  },
+  "node_modules/.pnpm/@fontsource+roboto@5.1.0/node_modules/@fontsource/roboto/files/roboto-latin-400-normal.woff": {
+    "file": "assets/roboto-latin-400-normal-BVyCgWwA.woff",
+    "src": "node_modules/.pnpm/@fontsource+roboto@5.1.0/node_modules/@fontsource/roboto/files/roboto-latin-400-normal.woff"
+  },
+  "node_modules/.pnpm/@fontsource+roboto@5.1.0/node_modules/@fontsource/roboto/files/roboto-latin-400-normal.woff2": {
+    "file": "assets/roboto-latin-400-normal-DXyFPIdK.woff2",
+    "src": "node_modules/.pnpm/@fontsource+roboto@5.1.0/node_modules/@fontsource/roboto/files/roboto-latin-400-normal.woff2"
+  },
+  "node_modules/.pnpm/@fontsource+roboto@5.1.0/node_modules/@fontsource/roboto/files/roboto-latin-500-normal.woff": {
+    "file": "assets/roboto-latin-500-normal-rpP1_v3s.woff",
+    "src": "node_modules/.pnpm/@fontsource+roboto@5.1.0/node_modules/@fontsource/roboto/files/roboto-latin-500-normal.woff"
+  },
+  "node_modules/.pnpm/@fontsource+roboto@5.1.0/node_modules/@fontsource/roboto/files/roboto-latin-500-normal.woff2": {
+    "file": "assets/roboto-latin-500-normal-C6iW8rdg.woff2",
+    "src": "node_modules/.pnpm/@fontsource+roboto@5.1.0/node_modules/@fontsource/roboto/files/roboto-latin-500-normal.woff2"
+  },
+  "node_modules/.pnpm/@fontsource+roboto@5.1.0/node_modules/@fontsource/roboto/files/roboto-latin-700-normal.woff": {
+    "file": "assets/roboto-latin-700-normal-BWcFiwQV.woff",
+    "src": "node_modules/.pnpm/@fontsource+roboto@5.1.0/node_modules/@fontsource/roboto/files/roboto-latin-700-normal.woff"
+  },
+  "node_modules/.pnpm/@fontsource+roboto@5.1.0/node_modules/@fontsource/roboto/files/roboto-latin-700-normal.woff2": {
+    "file": "assets/roboto-latin-700-normal-CbYYDfWS.woff2",
+    "src": "node_modules/.pnpm/@fontsource+roboto@5.1.0/node_modules/@fontsource/roboto/files/roboto-latin-700-normal.woff2"
+  },
+  "node_modules/.pnpm/@fontsource+roboto@5.1.0/node_modules/@fontsource/roboto/files/roboto-latin-900-normal.woff": {
+    "file": "assets/roboto-latin-900-normal-BVJ4ddzw.woff",
+    "src": "node_modules/.pnpm/@fontsource+roboto@5.1.0/node_modules/@fontsource/roboto/files/roboto-latin-900-normal.woff"
+  },
+  "node_modules/.pnpm/@fontsource+roboto@5.1.0/node_modules/@fontsource/roboto/files/roboto-latin-900-normal.woff2": {
+    "file": "assets/roboto-latin-900-normal-BnsusLPY.woff2",
+    "src": "node_modules/.pnpm/@fontsource+roboto@5.1.0/node_modules/@fontsource/roboto/files/roboto-latin-900-normal.woff2"
+  },
+  "resources/css/site.css": {
+    "file": "assets/site-Dy4BQ2H2.css",
+    "src": "resources/css/site.css",
+    "isEntry": true
+  },
+  "resources/js/fonts.js": {
+    "file": "assets/fonts-DcSpvckK.js",
+    "name": "fonts",
+    "src": "resources/js/fonts.js",
+    "isEntry": true,
+    "css": [
+      "assets/fonts-IRKP6sC8.css"
+    ],
+    "assets": [
+      "assets/quicksand-latin-400-normal-UA8GZWWY.woff2",
+      "assets/quicksand-latin-400-normal-cOvQkyzV.woff",
+      "assets/quicksand-latin-700-normal-waBAXlO4.woff2",
+      "assets/quicksand-latin-700-normal--YYUxR5U.woff",
+      "assets/roboto-latin-100-normal-UGhH1PRC.woff2",
+      "assets/roboto-latin-100-normal-CSgjpIV5.woff",
+      "assets/roboto-latin-300-normal-BizgZZ3y.woff2",
+      "assets/roboto-latin-300-normal-BZ6gvbSO.woff",
+      "assets/roboto-latin-400-normal-DXyFPIdK.woff2",
+      "assets/roboto-latin-400-normal-BVyCgWwA.woff",
+      "assets/roboto-latin-500-normal-C6iW8rdg.woff2",
+      "assets/roboto-latin-500-normal-rpP1_v3s.woff",
+      "assets/roboto-latin-700-normal-CbYYDfWS.woff2",
+      "assets/roboto-latin-700-normal-BWcFiwQV.woff",
+      "assets/roboto-latin-900-normal-BnsusLPY.woff2",
+      "assets/roboto-latin-900-normal-BVJ4ddzw.woff"
+    ]
+  },
+  "resources/js/site.js": {
+    "file": "assets/site-DZC2wwEc.js",
+    "name": "site",
+    "src": "resources/js/site.js",
+    "isEntry": true
+  }
+}

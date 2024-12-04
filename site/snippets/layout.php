@@ -26,7 +26,7 @@ $logo = asset('img/logo.svg');
     <link rel="apple-touch-icon" href="<?= url('/apple-touch-icon.png') ?>">
     <link rel="manifest" href="<?= url('/site.webmanifest') ?>">
     <?= $page->metaTags() ?>
-    <?= vite()->css('index.css') ?>
+    <?= vite(['resources/js/fonts.js', 'resources/css/site.css']) ?>
     <link rel="alternate" type="application/rss+xml" title="Blog" href="<?= site()->url() ?>/feed"/>
     <?php snippet('fathom-analytics-embed') ?>
 </head>
@@ -67,6 +67,6 @@ $logo = asset('img/logo.svg');
     </div>
 </footer>
 
-<?= vite()->js('index.js') ?>
+<?= vite('resources/js/site.js') ?>
 </body>
 </html>

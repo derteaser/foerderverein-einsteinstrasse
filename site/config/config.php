@@ -224,4 +224,8 @@ return [
         'siteId' => env('FATHOM_SITE_ID'),
         'sharePassword' => env('FATHOM_SHARE_PASSWORD'),
     ],
+    'lukaskleinschmidt.laravel-vite' => [
+        'hotFile' => '../storage/vite.hot',
+        'buildDirectory' => 'build',
+    ],
 ];
