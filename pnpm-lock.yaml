@@ -57,8 +57,8 @@ importers:
         specifier: 5.3.1
         version: 5.3.1(vite@5.4.11)
       vite-plugin-live-reload:
-        specifier: 3.0.3
-        version: 3.0.3(vite@5.4.11)
+        specifier: 3.0.4
+        version: 3.0.4(vite@5.4.11)
       vite-plugin-mkcert:
         specifier: 1.17.6
         version: 1.17.6(vite@5.4.11)
@@ -1079,10 +1079,10 @@ packages:
     peerDependencies:
       vite: ^5.0.0
 
-  vite-plugin-live-reload@3.0.3:
-    resolution: {integrity: sha512-ce1ygNPmfVdiO6SyjpephroZiK+X5+BFetkceD/FFOYZEPoVSydJRfKT2JPaL4/D3C3NwqJvtPjnla1GSa264A==}
+  vite-plugin-live-reload@3.0.4:
+    resolution: {integrity: sha512-hhFuCoCnrH3mJCsiRjpbSFPI2EoUOoLQ3evxCXhzptLXRrsC5kFcByk/gUyngsn9LvDuIOn85ZnejqCApM51gg==}
     peerDependencies:
-      vite: ^4.0.0 || ^5.0.0
+      vite: ^4.0.0 || ^5.0.0 || ^6.0.0
 
   vite-plugin-mkcert@1.17.6:
     resolution: {integrity: sha512-4JR1RN0HEg/w17eRQJ/Ve2pSa6KCVQcQO6yKtIaKQCFDyd63zGfXHWpygBkvvRSpqa0GcqNKf0fjUJ0HiJQXVQ==}
@@ -2019,9 +2019,9 @@ snapshots:
   vite-plugin-kirby@5.3.1(vite@5.4.11):
     dependencies:
       vite: 5.4.11
-      vite-plugin-live-reload: 3.0.3(vite@5.4.11)
+      vite-plugin-live-reload: 3.0.4(vite@5.4.11)
 
-  vite-plugin-live-reload@3.0.3(vite@5.4.11):
+  vite-plugin-live-reload@3.0.4(vite@5.4.11):
     dependencies:
       chokidar: 3.6.0
       picocolors: 1.1.1
