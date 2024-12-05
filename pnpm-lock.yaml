@@ -31,7 +31,7 @@ importers:
         version: 2.6.3
       laravel-vite-plugin:
         specifier: 1.1.1
-        version: 1.1.1(vite@6.0.2(jiti@1.21.6)(yaml@2.6.1))
+        version: 1.1.1(vite@6.0.3(jiti@1.21.6)(yaml@2.6.1))
       postcss:
         specifier: 8.4.49
         version: 8.4.49
@@ -60,8 +60,8 @@ importers:
         specifier: 2.2.1
         version: 2.2.1(tailwindcss@3.4.16)
       vite:
-        specifier: 6.0.2
-        version: 6.0.2(jiti@1.21.6)(yaml@2.6.1)
+        specifier: 6.0.3
+        version: 6.0.3(jiti@1.21.6)(yaml@2.6.1)
 
 packages:
 
@@ -982,8 +982,8 @@ packages:
   vite-plugin-full-reload@1.2.0:
     resolution: {integrity: sha512-kz18NW79x0IHbxRSHm0jttP4zoO9P9gXh+n6UTwlNKnviTTEpOlum6oS9SmecrTtSr+muHEn5TUuC75UovQzcA==}
 
-  vite@6.0.2:
-    resolution: {integrity: sha512-XdQ+VsY2tJpBsKGs0wf3U/+azx8BBpYRHFAyKm5VeEZNOJZRB63q7Sc8Iup3k0TrN3KO6QgyzFf+opSbfY1y0g==}
+  vite@6.0.3:
+    resolution: {integrity: sha512-Cmuo5P0ENTN6HxLSo6IHsjCLn/81Vgrp81oaiFFMRa8gGDj5xEjIcEpf2ZymZtZR8oU0P2JX5WuUp/rlXcHkAw==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -1486,10 +1486,10 @@ snapshots:
     optionalDependencies:
       graceful-fs: 4.2.11
 
-  laravel-vite-plugin@1.1.1(vite@6.0.2(jiti@1.21.6)(yaml@2.6.1)):
+  laravel-vite-plugin@1.1.1(vite@6.0.3(jiti@1.21.6)(yaml@2.6.1)):
     dependencies:
       picocolors: 1.1.1
-      vite: 6.0.2(jiti@1.21.6)(yaml@2.6.1)
+      vite: 6.0.3(jiti@1.21.6)(yaml@2.6.1)
       vite-plugin-full-reload: 1.2.0
 
   lilconfig@3.1.2: {}
@@ -1820,7 +1820,7 @@ snapshots:
       picocolors: 1.1.1
       picomatch: 2.3.1
 
-  vite@6.0.2(jiti@1.21.6)(yaml@2.6.1):
+  vite@6.0.3(jiti@1.21.6)(yaml@2.6.1):
     dependencies:
       esbuild: 0.24.0
       postcss: 8.4.49
