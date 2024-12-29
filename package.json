@@ -11,8 +11,8 @@
     "postinstall": "npm run copy-icons"
   },
   "devDependencies": {
-    "@fontsource/roboto": "5.1.0",
-    "@fontsource/quicksand": "5.1.0",
+    "@fontsource/roboto": "5.1.1",
+    "@fontsource/quicksand": "5.1.1",
     "@prettier/plugin-php": "0.22.2",
     "@tailwindcss/aspect-ratio": "0.4.2",
     "@tailwindcss/typography": "0.5.15",
