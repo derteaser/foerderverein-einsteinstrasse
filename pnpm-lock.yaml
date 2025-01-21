@@ -15,8 +15,8 @@ importers:
         specifier: 5.1.1
         version: 5.1.1
       '@prettier/plugin-php':
-        specifier: 0.22.3
-        version: 0.22.3(prettier@3.4.2)
+        specifier: 0.22.4
+        version: 0.22.4(prettier@3.4.2)
       '@tailwindcss/aspect-ratio':
         specifier: 0.4.2
         version: 0.4.2(tailwindcss@3.4.17)
@@ -263,8 +263,8 @@ packages:
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
 
-  '@prettier/plugin-php@0.22.3':
-    resolution: {integrity: sha512-EoThySFj8uMe98TpEqSicFhZFm7hxLJqExKMrFsgoJNtQMDYq72gLi+bhzjwqAthTS2II8gKVALUFM6LInKH0Q==}
+  '@prettier/plugin-php@0.22.4':
+    resolution: {integrity: sha512-uZWqfyrwsxScIYkmVcfnoQGFmKVMXTHD5pqYT4l8fxzm5P3XY94hTPbf8X6TFCi2QTZBIot7GS8lfIjQjldc2g==}
     peerDependencies:
       prettier: ^3.0.0
 
@@ -1184,7 +1184,7 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@prettier/plugin-php@0.22.3(prettier@3.4.2)':
+  '@prettier/plugin-php@0.22.4(prettier@3.4.2)':
     dependencies:
       linguist-languages: 7.27.0
       php-parser: 3.2.2
