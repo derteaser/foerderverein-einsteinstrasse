@@ -14,7 +14,7 @@
     "@fontsource/quicksand": "5.1.1",
     "@fontsource/roboto": "5.1.1",
     "@prettier/plugin-php": "0.22.4",
-    "@tailwindcss/postcss": "^4.0.0",
+    "@tailwindcss/postcss": "4.0.0",
     "@tailwindcss/typography": "0.5.16",
     "bigpicture": "2.6.3",
     "laravel-vite-plugin": "1.2.0",
