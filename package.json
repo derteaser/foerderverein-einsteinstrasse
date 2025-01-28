@@ -11,22 +11,20 @@
     "postinstall": "npm run copy-icons"
   },
   "devDependencies": {
-    "@fontsource/roboto": "5.1.1",
     "@fontsource/quicksand": "5.1.1",
+    "@fontsource/roboto": "5.1.1",
     "@prettier/plugin-php": "0.22.4",
-    "@tailwindcss/aspect-ratio": "0.4.2",
+    "@tailwindcss/postcss": "^4.0.0",
     "@tailwindcss/typography": "0.5.16",
-    "autoprefixer": "10.4.20",
     "bigpicture": "2.6.3",
     "laravel-vite-plugin": "1.2.0",
     "postcss": "8.5.1",
     "postcss-cli": "11.0.0",
-    "postcss-import": "16.1.0",
     "postcss-nested": "7.0.2",
     "prettier": "3.4.2",
     "prettier-plugin-tailwindcss": "0.6.11",
     "remixicon": "4.6.0",
-    "tailwindcss": "3.4.17",
+    "tailwindcss": "4.0.0",
     "vite": "6.0.11"
   },
   "packageManager": "pnpm@9.15.4"

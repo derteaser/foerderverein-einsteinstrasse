@@ -24,10 +24,10 @@ if ($count == 1) {
 <figure>
   <div class="grid <?= $cols ?> print:grid-cols-2 gap-2 image-gallery">
     <?php /** @var File $image */ foreach ($images as $image): ?>
-      <a href="<?= $image->thumb()->url() ?>" class="aspect-w-1 aspect-h-1 relative group">
+      <a href="<?= $image->thumb()->url() ?>" class="aspect-square relative group">
         <img class="w-full h-full object-center object-cover m-0" src="<?= $image->thumb('gallery')->url() ?>" data-bp="<?= $image->thumb()->url() ?>" alt="">
-        <div class="absolute flex items-center justify-center">
-          <div class="rounded-full bg-white/60 backdrop-blur-sm w-12 h-12 sm:w-16 sm:h-16 flex items-center justify-center group-hover:scale-110 transition-all">
+        <div class="absolute flex inset-0 items-center justify-center">
+          <div class="rounded-full bg-white/60 backdrop-blur-xs size-12 sm:size-16 flex items-center justify-center group-hover:scale-110 transition-all">
             <?php snippet('icons/zoom-in-line', ['class' => 'text-gray-700 size-8']) ?>
           </div>
         </div>

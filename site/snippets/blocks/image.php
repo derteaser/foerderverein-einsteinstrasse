@@ -17,52 +17,22 @@ if ($block->location() == 'web') {
   $src = $image->url();
 }
 
-switch ($ratio) {
-  case '1/1':
-    $aspectWidth = 'aspect-w-1';
-    $aspectHeight = 'aspect-h-1';
-    break;
-  case '16/9':
-    $aspectWidth = 'aspect-w-16';
-    $aspectHeight = 'aspect-h-9';
-    break;
-  case '10/8':
-    $aspectWidth = 'aspect-w-10';
-    $aspectHeight = 'aspect-h-8';
-    break;
-  case '21/9':
-    $aspectWidth = 'aspect-w-21';
-    $aspectHeight = 'aspect-h-9';
-    break;
-  case '7/5':
-    $aspectWidth = 'aspect-w-7';
-    $aspectHeight = 'aspect-h-5';
-    break;
-  case '4/3':
-    $aspectWidth = 'aspect-w-4';
-    $aspectHeight = 'aspect-h-3';
-    break;
-  case '5/3':
-    $aspectWidth = 'aspect-w-5';
-    $aspectHeight = 'aspect-h-3';
-    break;
-  case '3/2':
-    $aspectWidth = 'aspect-w-3';
-    $aspectHeight = 'aspect-h-2';
-    break;
-  case '3/1':
-    $aspectWidth = 'aspect-w-3';
-    $aspectHeight = 'aspect-h-1';
-    break;
-  default:
-    $aspectWidth = '';
-    $aspectHeight = '';
-    break;
-}
+$aspectRatio = match ($ratio) {
+  '1/1' => 'aspect-square',
+  '16/9' => 'aspect-video',
+  '10/8' => 'aspect-10/8',
+  '21/9' => 'aspect-21/9',
+  '7/5' => 'aspect-7/5',
+  '4/3' => 'aspect-4/3',
+  '5/3' => 'aspect-5/3',
+  '3/2' => 'aspect-3/2',
+  '3/1' => 'aspect-3/1',
+  default => '',
+};
 ?>
 <?php if ($src): ?>
   <figure class="relative lg:-mx-20 xl:-mx-40 overflow-hidden">
-    <div class="<?= $aspectWidth ?> <?= $aspectHeight ?>">
+    <div class="<?= $aspectRatio ?>">
       <?php if ($link->isNotEmpty()): ?>
         <a href="<?= $link->toUrl() ?>">
       <?php endif ?>
