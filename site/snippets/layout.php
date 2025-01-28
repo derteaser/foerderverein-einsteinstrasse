@@ -30,7 +30,7 @@ $logo = asset('img/logo.svg');
     <link rel="alternate" type="application/rss+xml" title="Blog" href="<?= site()->url() ?>/feed"/>
     <?php snippet('fathom-analytics-embed') ?>
 </head>
-<body class="<?= $kirby->option('debug') ? ' debug-screens' : ''?>">
+<body>
 <?php if ($page->template() != 'home'): ?>
     <?php snippet('header-navigation') ?>
 <?php endif ?>
