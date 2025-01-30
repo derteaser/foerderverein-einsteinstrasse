@@ -1,9 +1,11 @@
 import { defineConfig } from 'vite';
+import tailwindcss from '@tailwindcss/vite';
 import laravel from 'laravel-vite-plugin';
 
 export default defineConfig(({ command, mode }) => {
   return {
     plugins: [
+      tailwindcss(),
       laravel({
         hotFile: 'storage/vite.hot',
         buildDirectory: 'build',
