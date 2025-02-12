@@ -2130,16 +2130,16 @@
         },
         {
             "name": "lukaskleinschmidt/kirby-types",
-            "version": "2.0.1",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lukaskleinschmidt/kirby-types.git",
-                "reference": "b4ee27371c3636ba00a783090907537587b3b0ad"
+                "reference": "d5f6bb7230e532db56e9f7db8ed63106d6f0b730"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lukaskleinschmidt/kirby-types/zipball/b4ee27371c3636ba00a783090907537587b3b0ad",
-                "reference": "b4ee27371c3636ba00a783090907537587b3b0ad",
+                "url": "https://api.github.com/repos/lukaskleinschmidt/kirby-types/zipball/d5f6bb7230e532db56e9f7db8ed63106d6f0b730",
+                "reference": "d5f6bb7230e532db56e9f7db8ed63106d6f0b730",
                 "shasum": ""
             },
             "require": {
@@ -2170,9 +2170,9 @@
             "description": "Kirby Types",
             "support": {
                 "issues": "https://github.com/lukaskleinschmidt/kirby-types/issues",
-                "source": "https://github.com/lukaskleinschmidt/kirby-types/tree/2.0.1"
+                "source": "https://github.com/lukaskleinschmidt/kirby-types/tree/2.0.2"
             },
-            "time": "2023-09-13T15:14:00+00:00"
+            "time": "2025-02-12T13:29:21+00:00"
         },
         {
             "name": "myclabs/deep-copy",
