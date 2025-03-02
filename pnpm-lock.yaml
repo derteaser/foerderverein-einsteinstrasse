@@ -9,11 +9,11 @@ importers:
   .:
     devDependencies:
       '@fontsource/quicksand':
-        specifier: 5.1.1
-        version: 5.1.1
+        specifier: 5.2.5
+        version: 5.2.5
       '@fontsource/roboto':
-        specifier: 5.1.1
-        version: 5.1.1
+        specifier: 5.2.5
+        version: 5.2.5
       '@prettier/plugin-php':
         specifier: 0.22.4
         version: 0.22.4(prettier@3.5.2)
@@ -197,11 +197,11 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@fontsource/quicksand@5.1.1':
-    resolution: {integrity: sha512-NnIL4yqpkn50GEpye7yztBmkkkQ5vjlVvMnjlkLQr/H8PXveUdaCdGIScd5yHvsc1qcTBwOaAtpz/YkDojwA1A==}
+  '@fontsource/quicksand@5.2.5':
+    resolution: {integrity: sha512-V8/RSjgRrLWRqAM0oyLwOWDITf8a9B4mM2RiEZhP6ZVORdXyOWur+MEL908syPi3AiNj90qh2/0d41+bY3LgAQ==}
 
-  '@fontsource/roboto@5.1.1':
-    resolution: {integrity: sha512-XwVVXtERDQIM7HPUIbyDe0FP4SRovpjF7zMI8M7pbqFp3ahLJsJTd18h+E6pkar6UbV3btbwkKjYARr5M+SQow==}
+  '@fontsource/roboto@5.2.5':
+    resolution: {integrity: sha512-70r2UZ0raqLn5W+sPeKhqlf8wGvUXFWlofaDlcbt/S3d06+17gXKr3VNqDODB0I1ASme3dGT5OJj9NABt7OTZQ==}
 
   '@prettier/plugin-php@0.22.4':
     resolution: {integrity: sha512-uZWqfyrwsxScIYkmVcfnoQGFmKVMXTHD5pqYT4l8fxzm5P3XY94hTPbf8X6TFCi2QTZBIot7GS8lfIjQjldc2g==}
@@ -731,9 +731,9 @@ snapshots:
   '@esbuild/win32-x64@0.25.0':
     optional: true
 
-  '@fontsource/quicksand@5.1.1': {}
+  '@fontsource/quicksand@5.2.5': {}
 
-  '@fontsource/roboto@5.1.1': {}
+  '@fontsource/roboto@5.2.5': {}
 
   '@prettier/plugin-php@0.22.4(prettier@3.5.2)':
     dependencies:
