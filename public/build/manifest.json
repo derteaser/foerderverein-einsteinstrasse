@@ -1,19 +1,19 @@
 {
-  "node_modules/.pnpm/@fontsource+quicksand@5.2.5/node_modules/@fontsource/quicksand/files/quicksand-latin-400-normal.woff": {
-    "file": "assets/quicksand-latin-400-normal-cOvQkyzV.woff",
-    "src": "node_modules/.pnpm/@fontsource+quicksand@5.2.5/node_modules/@fontsource/quicksand/files/quicksand-latin-400-normal.woff"
+  "node_modules/.pnpm/@fontsource+quicksand@5.2.6/node_modules/@fontsource/quicksand/files/quicksand-latin-400-normal.woff": {
+    "file": "assets/quicksand-latin-400-normal-B1bXoAxe.woff",
+    "src": "node_modules/.pnpm/@fontsource+quicksand@5.2.6/node_modules/@fontsource/quicksand/files/quicksand-latin-400-normal.woff"
   },
-  "node_modules/.pnpm/@fontsource+quicksand@5.2.5/node_modules/@fontsource/quicksand/files/quicksand-latin-400-normal.woff2": {
-    "file": "assets/quicksand-latin-400-normal-UA8GZWWY.woff2",
-    "src": "node_modules/.pnpm/@fontsource+quicksand@5.2.5/node_modules/@fontsource/quicksand/files/quicksand-latin-400-normal.woff2"
+  "node_modules/.pnpm/@fontsource+quicksand@5.2.6/node_modules/@fontsource/quicksand/files/quicksand-latin-400-normal.woff2": {
+    "file": "assets/quicksand-latin-400-normal-Brw4NP73.woff2",
+    "src": "node_modules/.pnpm/@fontsource+quicksand@5.2.6/node_modules/@fontsource/quicksand/files/quicksand-latin-400-normal.woff2"
   },
-  "node_modules/.pnpm/@fontsource+quicksand@5.2.5/node_modules/@fontsource/quicksand/files/quicksand-latin-700-normal.woff": {
-    "file": "assets/quicksand-latin-700-normal--YYUxR5U.woff",
-    "src": "node_modules/.pnpm/@fontsource+quicksand@5.2.5/node_modules/@fontsource/quicksand/files/quicksand-latin-700-normal.woff"
+  "node_modules/.pnpm/@fontsource+quicksand@5.2.6/node_modules/@fontsource/quicksand/files/quicksand-latin-700-normal.woff": {
+    "file": "assets/quicksand-latin-700-normal-CmeU3reP.woff",
+    "src": "node_modules/.pnpm/@fontsource+quicksand@5.2.6/node_modules/@fontsource/quicksand/files/quicksand-latin-700-normal.woff"
   },
-  "node_modules/.pnpm/@fontsource+quicksand@5.2.5/node_modules/@fontsource/quicksand/files/quicksand-latin-700-normal.woff2": {
-    "file": "assets/quicksand-latin-700-normal-waBAXlO4.woff2",
-    "src": "node_modules/.pnpm/@fontsource+quicksand@5.2.5/node_modules/@fontsource/quicksand/files/quicksand-latin-700-normal.woff2"
+  "node_modules/.pnpm/@fontsource+quicksand@5.2.6/node_modules/@fontsource/quicksand/files/quicksand-latin-700-normal.woff2": {
+    "file": "assets/quicksand-latin-700-normal-DNRMnynu.woff2",
+    "src": "node_modules/.pnpm/@fontsource+quicksand@5.2.6/node_modules/@fontsource/quicksand/files/quicksand-latin-700-normal.woff2"
   },
   "node_modules/.pnpm/@fontsource+roboto@5.2.5/node_modules/@fontsource/roboto/files/roboto-latin-100-normal.woff": {
     "file": "assets/roboto-latin-100-normal-CTbATrY4.woff",
@@ -93,18 +93,18 @@
     "isEntry": true
   },
   "resources/js/fonts.js": {
-    "file": "assets/fonts-CDycsibS.js",
+    "file": "assets/fonts-CQBVAnSd.js",
     "name": "fonts",
     "src": "resources/js/fonts.js",
     "isEntry": true,
     "css": [
-      "assets/fonts-DoEOn2od.css"
+      "assets/fonts-Bgi7Ab4B.css"
     ],
     "assets": [
-      "assets/quicksand-latin-400-normal-UA8GZWWY.woff2",
-      "assets/quicksand-latin-400-normal-cOvQkyzV.woff",
-      "assets/quicksand-latin-700-normal-waBAXlO4.woff2",
-      "assets/quicksand-latin-700-normal--YYUxR5U.woff",
+      "assets/quicksand-latin-400-normal-Brw4NP73.woff2",
+      "assets/quicksand-latin-400-normal-B1bXoAxe.woff",
+      "assets/quicksand-latin-700-normal-DNRMnynu.woff2",
+      "assets/quicksand-latin-700-normal-CmeU3reP.woff",
       "assets/roboto-latin-100-normal-DlpfXJCk.woff2",
       "assets/roboto-latin-100-normal-CTbATrY4.woff",
       "assets/roboto-latin-200-normal-DYFzPcwB.woff2",
