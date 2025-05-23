@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "48fa004795d52ac347c76c4adfcbdeb3",
+    "content-hash": "142c99b7e998b58a5b528ec6a80220d3",
     "packages": [
         {
             "name": "bnomei/kirby3-dotenv",
@@ -788,16 +788,16 @@
         },
         {
             "name": "lukaskleinschmidt/kirby-laravel-vite",
-            "version": "2.1.3",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lukaskleinschmidt/kirby-laravel-vite.git",
-                "reference": "e6102c9ea6e79d7f72e2103ccfdeb1c17f8fbb55"
+                "reference": "f2a5ee427661ccaec2b89bbc42ba906f8c597bf2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lukaskleinschmidt/kirby-laravel-vite/zipball/e6102c9ea6e79d7f72e2103ccfdeb1c17f8fbb55",
-                "reference": "e6102c9ea6e79d7f72e2103ccfdeb1c17f8fbb55",
+                "url": "https://api.github.com/repos/lukaskleinschmidt/kirby-laravel-vite/zipball/f2a5ee427661ccaec2b89bbc42ba906f8c597bf2",
+                "reference": "f2a5ee427661ccaec2b89bbc42ba906f8c597bf2",
                 "shasum": ""
             },
             "require": {
@@ -821,9 +821,9 @@
             "description": "Kirby Laravel Vite",
             "support": {
                 "issues": "https://github.com/lukaskleinschmidt/kirby-laravel-vite/issues",
-                "source": "https://github.com/lukaskleinschmidt/kirby-laravel-vite/tree/2.1.3"
+                "source": "https://github.com/lukaskleinschmidt/kirby-laravel-vite/tree/2.2.0"
             },
-            "time": "2024-03-05T07:51:33+00:00"
+            "time": "2025-05-21T07:46:05+00:00"
         },
         {
             "name": "michelf/php-smartypants",
