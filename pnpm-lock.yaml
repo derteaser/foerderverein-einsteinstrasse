@@ -22,13 +22,13 @@ importers:
         version: 0.5.16(tailwindcss@4.1.11)
       '@tailwindcss/vite':
         specifier: 4.1.11
-        version: 4.1.11(vite@7.0.2(jiti@2.4.2)(lightningcss@1.30.1))
+        version: 4.1.11(vite@7.0.3(jiti@2.4.2)(lightningcss@1.30.1))
       bigpicture:
         specifier: 2.6.4
         version: 2.6.4
       laravel-vite-plugin:
         specifier: 1.3.0
-        version: 1.3.0(vite@7.0.2(jiti@2.4.2)(lightningcss@1.30.1))
+        version: 1.3.0(vite@7.0.3(jiti@2.4.2)(lightningcss@1.30.1))
       prettier:
         specifier: 3.6.2
         version: 3.6.2
@@ -42,8 +42,8 @@ importers:
         specifier: 4.1.11
         version: 4.1.11
       vite:
-        specifier: 7.0.2
-        version: 7.0.2(jiti@2.4.2)(lightningcss@1.30.1)
+        specifier: 7.0.3
+        version: 7.0.3(jiti@2.4.2)(lightningcss@1.30.1)
 
 packages:
 
@@ -691,8 +691,8 @@ packages:
   vite-plugin-full-reload@1.2.0:
     resolution: {integrity: sha512-kz18NW79x0IHbxRSHm0jttP4zoO9P9gXh+n6UTwlNKnviTTEpOlum6oS9SmecrTtSr+muHEn5TUuC75UovQzcA==}
 
-  vite@7.0.2:
-    resolution: {integrity: sha512-hxdyZDY1CM6SNpKI4w4lcUc3Mtkd9ej4ECWVHSMrOdSinVc2zYOAppHeGc/hzmRo3pxM5blMzkuWHOJA/3NiFw==}
+  vite@7.0.3:
+    resolution: {integrity: sha512-y2L5oJZF7bj4c0jgGYgBNSdIu+5HF+m68rn2cQXFbGoShdhV1phX9rbnxy9YXj82aS8MMsCLAAFkRxZeWdldrQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -977,12 +977,12 @@ snapshots:
       postcss-selector-parser: 6.0.10
       tailwindcss: 4.1.11
 
-  '@tailwindcss/vite@4.1.11(vite@7.0.2(jiti@2.4.2)(lightningcss@1.30.1))':
+  '@tailwindcss/vite@4.1.11(vite@7.0.3(jiti@2.4.2)(lightningcss@1.30.1))':
     dependencies:
       '@tailwindcss/node': 4.1.11
       '@tailwindcss/oxide': 4.1.11
       tailwindcss: 4.1.11
-      vite: 7.0.2(jiti@2.4.2)(lightningcss@1.30.1)
+      vite: 7.0.3(jiti@2.4.2)(lightningcss@1.30.1)
 
   '@types/estree@1.0.8': {}
 
@@ -1038,10 +1038,10 @@ snapshots:
 
   jiti@2.4.2: {}
 
-  laravel-vite-plugin@1.3.0(vite@7.0.2(jiti@2.4.2)(lightningcss@1.30.1)):
+  laravel-vite-plugin@1.3.0(vite@7.0.3(jiti@2.4.2)(lightningcss@1.30.1)):
     dependencies:
       picocolors: 1.1.1
-      vite: 7.0.2(jiti@2.4.2)(lightningcss@1.30.1)
+      vite: 7.0.3(jiti@2.4.2)(lightningcss@1.30.1)
       vite-plugin-full-reload: 1.2.0
 
   lightningcss-darwin-arm64@1.30.1:
@@ -1191,7 +1191,7 @@ snapshots:
       picocolors: 1.1.1
       picomatch: 2.3.1
 
-  vite@7.0.2(jiti@2.4.2)(lightningcss@1.30.1):
+  vite@7.0.3(jiti@2.4.2)(lightningcss@1.30.1):
     dependencies:
       esbuild: 0.25.5
       fdir: 6.4.6(picomatch@4.0.2)
