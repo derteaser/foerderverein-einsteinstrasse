@@ -13,7 +13,7 @@
   "devDependencies": {
     "@fontsource/quicksand": "5.2.8",
     "@fontsource/roboto": "5.2.6",
-    "@prettier/plugin-php": "0.22.4",
+    "@prettier/plugin-php": "0.23.0",
     "@tailwindcss/typography": "0.5.16",
     "@tailwindcss/vite": "4.1.11",
     "bigpicture": "2.6.4",

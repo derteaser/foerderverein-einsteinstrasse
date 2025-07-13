@@ -15,8 +15,8 @@ importers:
         specifier: 5.2.6
         version: 5.2.6
       '@prettier/plugin-php':
-        specifier: 0.22.4
-        version: 0.22.4(prettier@3.6.2)
+        specifier: 0.23.0
+        version: 0.23.0(prettier@3.6.2)
       '@tailwindcss/typography':
         specifier: 0.5.16
         version: 0.5.16(tailwindcss@4.1.11)
@@ -224,8 +224,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.29':
     resolution: {integrity: sha512-uw6guiW/gcAGPDhLmd77/6lW8QLeiV5RUTsAX46Db6oLhGaVj4lhnPwb184s1bkc8kdVg/+h988dro8GRDpmYQ==}
 
-  '@prettier/plugin-php@0.22.4':
-    resolution: {integrity: sha512-uZWqfyrwsxScIYkmVcfnoQGFmKVMXTHD5pqYT4l8fxzm5P3XY94hTPbf8X6TFCi2QTZBIot7GS8lfIjQjldc2g==}
+  '@prettier/plugin-php@0.23.0':
+    resolution: {integrity: sha512-8VeSOewhR9eBaQbxDS+NCkbjk57VKlCroz4zTNDKnLl6h4JXG2MLITZR89WDFdHS/E35s/uwtSDgnigWlbGvkQ==}
     peerDependencies:
       prettier: ^3.0.0
 
@@ -543,8 +543,8 @@ packages:
     resolution: {integrity: sha512-xi6IyHML+c9+Q3W0S4fCQJOym42pyurFiJUHEcEyHS0CeKzia4yZDEsLlqOFykxOdHpNy0NmvVO31vcSqAxJCg==}
     engines: {node: '>= 12.0.0'}
 
-  linguist-languages@7.31.2:
-    resolution: {integrity: sha512-UQv5iuzEcGoYWdc/Ea2yqLiFbe8rQmIa5uD1FLwF5vBYmwbTvJlPJfHaIVtfYZTQf2wg7pzhxkwkGPP3q+v+EA==}
+  linguist-languages@8.0.0:
+    resolution: {integrity: sha512-qfzYmWmM/HOsrO/6YwN2f1DD39p3ObSuq8YgF9JLY9toQO39ZsPBPJoWwTtrqRvhkG+cQUgCOS9h/xRgwfqLxQ==}
 
   lodash.castarray@4.4.0:
     resolution: {integrity: sha512-aVx8ztPv7/2ULbArGJ2Y42bG1mEQ5mGjpdvrbJcJFU3TbYybe+QlLS4pst9zV52ymy2in1KpFPiZnAOATxD4+Q==}
@@ -576,8 +576,8 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  php-parser@3.2.4:
-    resolution: {integrity: sha512-X1HIaSHCb9aAReEqb+U/AAB3evE1iKD6tAY/lw9+wT4koCkWhg22m4LNtFGwd3Qv4PYIL2+zl+oXh00ALKya0Q==}
+  php-parser@3.2.5:
+    resolution: {integrity: sha512-M1ZYlALFFnESbSdmRtTQrBFUHSriHgPhgqtTF/LCbZM4h7swR5PHtUceB2Kzby5CfqcsYwBn7OXTJ0+8Sajwkw==}
 
   picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
@@ -845,10 +845,10 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.4
 
-  '@prettier/plugin-php@0.22.4(prettier@3.6.2)':
+  '@prettier/plugin-php@0.23.0(prettier@3.6.2)':
     dependencies:
-      linguist-languages: 7.31.2
-      php-parser: 3.2.4
+      linguist-languages: 8.0.0
+      php-parser: 3.2.5
       prettier: 3.6.2
 
   '@rollup/rollup-android-arm-eabi@4.44.2':
@@ -1095,7 +1095,7 @@ snapshots:
       lightningcss-win32-arm64-msvc: 1.30.1
       lightningcss-win32-x64-msvc: 1.30.1
 
-  linguist-languages@7.31.2: {}
+  linguist-languages@8.0.0: {}
 
   lodash.castarray@4.4.0: {}
 
@@ -1117,7 +1117,7 @@ snapshots:
 
   nanoid@3.3.11: {}
 
-  php-parser@3.2.4: {}
+  php-parser@3.2.5: {}
 
   picocolors@1.1.1: {}
 
