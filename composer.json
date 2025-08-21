@@ -16,7 +16,7 @@
         "bnomei/kirby3-feed": "1.7.0"
     },
     "require-dev": {
-      "pestphp/pest": "3.3.2",
+      "pestphp/pest": "4.0.0",
       "lukaskleinschmidt/kirby-types": "^2.0"
     },
     "config": {
