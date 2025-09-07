@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@fontsource/quicksand':
-        specifier: 5.2.8
-        version: 5.2.8
+        specifier: 5.2.9
+        version: 5.2.9
       '@fontsource/roboto':
         specifier: 5.2.6
         version: 5.2.6
@@ -203,8 +203,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@fontsource/quicksand@5.2.8':
-    resolution: {integrity: sha512-YRgnt2eQfNrk5OWqYJZmFoi6B6sioRIbjKJj3/l5CnezeE0TzD8XL35Q4fRNfHLpOzLi/ckNvTZySBHVVP1G6w==}
+  '@fontsource/quicksand@5.2.9':
+    resolution: {integrity: sha512-/oXf8596gz6Looap/9WWr4sFsRaThWGhX979ssU3azqG08mx8Gg4ubO2h8WmeD8IUnq5xJ6tChugZ9qNJO4dVQ==}
 
   '@fontsource/roboto@5.2.6':
     resolution: {integrity: sha512-hzarG7yAhMoP418smNgfY4fO7UmuUEm5JUtbxCoCcFHT0hOJB+d/qAEyoNjz7YkPU5OjM2LM8rJnW8hfm0JLaA==}
@@ -827,7 +827,7 @@ snapshots:
   '@esbuild/win32-x64@0.25.9':
     optional: true
 
-  '@fontsource/quicksand@5.2.8': {}
+  '@fontsource/quicksand@5.2.9': {}
 
   '@fontsource/roboto@5.2.6': {}
 
