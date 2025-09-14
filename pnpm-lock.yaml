@@ -12,8 +12,8 @@ importers:
         specifier: 5.2.9
         version: 5.2.9
       '@fontsource/roboto':
-        specifier: 5.2.6
-        version: 5.2.6
+        specifier: 5.2.7
+        version: 5.2.7
       '@prettier/plugin-php':
         specifier: 0.24.0
         version: 0.24.0(prettier@3.6.2)
@@ -206,8 +206,8 @@ packages:
   '@fontsource/quicksand@5.2.9':
     resolution: {integrity: sha512-/oXf8596gz6Looap/9WWr4sFsRaThWGhX979ssU3azqG08mx8Gg4ubO2h8WmeD8IUnq5xJ6tChugZ9qNJO4dVQ==}
 
-  '@fontsource/roboto@5.2.6':
-    resolution: {integrity: sha512-hzarG7yAhMoP418smNgfY4fO7UmuUEm5JUtbxCoCcFHT0hOJB+d/qAEyoNjz7YkPU5OjM2LM8rJnW8hfm0JLaA==}
+  '@fontsource/roboto@5.2.7':
+    resolution: {integrity: sha512-fca6Jtyxn6kPR51+TTTMCFm0FOhnKaLEYYiAQc8P/4iFCKoKGR0aX89QR4CfP+N64RPXJus64UxhJaVENnSM6Q==}
 
   '@isaacs/fs-minipass@4.0.1':
     resolution: {integrity: sha512-wgm9Ehl2jpeqP3zw/7mo3kRHFp5MEDhqAdwy1fTGkHAwnkGOVsgpvQhL8B5n1qlb01jV3n/bI0ZfZp5lWA1k4w==}
@@ -834,7 +834,7 @@ snapshots:
 
   '@fontsource/quicksand@5.2.9': {}
 
-  '@fontsource/roboto@5.2.6': {}
+  '@fontsource/roboto@5.2.7': {}
 
   '@isaacs/fs-minipass@4.0.1':
     dependencies:
