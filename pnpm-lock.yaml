@@ -9,11 +9,11 @@ importers:
   .:
     devDependencies:
       '@fontsource/quicksand':
-        specifier: 5.2.9
-        version: 5.2.9
+        specifier: 5.2.10
+        version: 5.2.10
       '@fontsource/roboto':
-        specifier: 5.2.7
-        version: 5.2.7
+        specifier: 5.2.8
+        version: 5.2.8
       '@prettier/plugin-php':
         specifier: 0.24.0
         version: 0.24.0(prettier@3.6.2)
@@ -203,11 +203,11 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@fontsource/quicksand@5.2.9':
-    resolution: {integrity: sha512-/oXf8596gz6Looap/9WWr4sFsRaThWGhX979ssU3azqG08mx8Gg4ubO2h8WmeD8IUnq5xJ6tChugZ9qNJO4dVQ==}
+  '@fontsource/quicksand@5.2.10':
+    resolution: {integrity: sha512-rck0ccT6vJF9RnbSW2ON1grq5qFZvjVOGvYIUixATXF8mNh4KglD+8Sn8QpRgKQBSBJF5yOR3SBYBWPg/Y8YbQ==}
 
-  '@fontsource/roboto@5.2.7':
-    resolution: {integrity: sha512-fca6Jtyxn6kPR51+TTTMCFm0FOhnKaLEYYiAQc8P/4iFCKoKGR0aX89QR4CfP+N64RPXJus64UxhJaVENnSM6Q==}
+  '@fontsource/roboto@5.2.8':
+    resolution: {integrity: sha512-oh9g4Cg3loVMz9MWeKWfDI+ooxxG1aRVetkiKIb2ESS2rrryGecQ/y4pAj4z5A5ebyw450dYRi/c4k/I3UBhHA==}
 
   '@isaacs/fs-minipass@4.0.1':
     resolution: {integrity: sha512-wgm9Ehl2jpeqP3zw/7mo3kRHFp5MEDhqAdwy1fTGkHAwnkGOVsgpvQhL8B5n1qlb01jV3n/bI0ZfZp5lWA1k4w==}
@@ -832,9 +832,9 @@ snapshots:
   '@esbuild/win32-x64@0.25.9':
     optional: true
 
-  '@fontsource/quicksand@5.2.9': {}
+  '@fontsource/quicksand@5.2.10': {}
 
-  '@fontsource/roboto@5.2.7': {}
+  '@fontsource/roboto@5.2.8': {}
 
   '@isaacs/fs-minipass@4.0.1':
     dependencies:
