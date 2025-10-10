@@ -36,8 +36,8 @@ importers:
         specifier: 0.6.14
         version: 0.6.14(prettier@3.6.2)
       remixicon:
-        specifier: 4.6.0
-        version: 4.6.0
+        specifier: 4.7.0
+        version: 4.7.0
       tailwindcss:
         specifier: 4.1.14
         version: 4.1.14
@@ -666,8 +666,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  remixicon@4.6.0:
-    resolution: {integrity: sha512-bKM5odjqE1yzVxEZGJE7F79WHhNrJFIKHXR+GG+P1IWXn8AnJZhl8SbIRDJsNAvIqx4VPkNwjuHfc42tutMDpQ==}
+  remixicon@4.7.0:
+    resolution: {integrity: sha512-g2pHOofQWARWpxdbrQu5+K3C8ZbqguQFzE54HIMWFCpFa63pumaAltIgZmFMRQpKKBScRWQASQfWxS9asNCcHQ==}
 
   rollup@4.52.4:
     resolution: {integrity: sha512-CLEVl+MnPAiKh5pl4dEWSyMTpuflgNQiLGhMv8ezD5W/qP8AKvmYpCOKRRNOh7oRKnauBZ4SyeYkMS+1VSyKwQ==}
@@ -1143,7 +1143,7 @@ snapshots:
 
   prettier@3.6.2: {}
 
-  remixicon@4.6.0: {}
+  remixicon@4.7.0: {}
 
   rollup@4.52.4:
     dependencies:
