@@ -88,9 +88,10 @@
     "src": "node_modules/.pnpm/@fontsource+roboto@5.2.8/node_modules/@fontsource/roboto/files/roboto-latin-900-normal.woff2"
   },
   "resources/css/site.css": {
-    "file": "assets/site-DOdp76UX.css",
+    "file": "assets/site-BsbeSt0v.css",
     "src": "resources/css/site.css",
     "isEntry": true,
+    "name": "site",
     "names": [
       "site.css"
     ]
