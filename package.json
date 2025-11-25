@@ -24,5 +24,5 @@
     "tailwindcss": "4.1.17",
     "vite": "7.2.4"
   },
-  "packageManager": "pnpm@10.22.0"
+  "packageManager": "pnpm@10.23.0"
 }
