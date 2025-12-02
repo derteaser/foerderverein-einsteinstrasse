@@ -16,7 +16,7 @@ importers:
         version: 5.2.9
       '@prettier/plugin-php':
         specifier: 0.24.0
-        version: 0.24.0(prettier@3.7.2)
+        version: 0.24.0(prettier@3.7.3)
       '@tailwindcss/typography':
         specifier: 0.5.19
         version: 0.5.19(tailwindcss@4.1.17)
@@ -30,11 +30,11 @@ importers:
         specifier: 2.0.1
         version: 2.0.1(vite@7.2.4(jiti@2.6.1)(lightningcss@1.30.2))
       prettier:
-        specifier: 3.7.2
-        version: 3.7.2
+        specifier: 3.7.3
+        version: 3.7.3
       prettier-plugin-tailwindcss:
         specifier: 0.7.1
-        version: 0.7.1(prettier@3.7.2)
+        version: 0.7.1(prettier@3.7.3)
       remixicon:
         specifier: 4.7.0
         version: 4.7.0
@@ -645,8 +645,8 @@ packages:
       prettier-plugin-svelte:
         optional: true
 
-  prettier@3.7.2:
-    resolution: {integrity: sha512-n3HV2J6QhItCXndGa3oMWvWFAgN1ibnS7R9mt6iokScBOC0Ul9/iZORmU2IWUMcyAQaMPjTlY3uT34TqocUxMA==}
+  prettier@3.7.3:
+    resolution: {integrity: sha512-QgODejq9K3OzoBbuyobZlUhznP5SKwPqp+6Q6xw6o8gnhr4O85L2U915iM2IDcfF2NPXVaM9zlo9tdwipnYwzg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -822,11 +822,11 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@prettier/plugin-php@0.24.0(prettier@3.7.2)':
+  '@prettier/plugin-php@0.24.0(prettier@3.7.3)':
     dependencies:
       linguist-languages: 8.2.0
       php-parser: 3.2.5
-      prettier: 3.7.2
+      prettier: 3.7.3
 
   '@rollup/rollup-android-arm-eabi@4.53.2':
     optional: true
@@ -1102,11 +1102,11 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  prettier-plugin-tailwindcss@0.7.1(prettier@3.7.2):
+  prettier-plugin-tailwindcss@0.7.1(prettier@3.7.3):
     dependencies:
-      prettier: 3.7.2
+      prettier: 3.7.3
 
-  prettier@3.7.2: {}
+  prettier@3.7.3: {}
 
   remixicon@4.7.0: {}
 
