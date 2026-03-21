@@ -15,13 +15,13 @@
     "@fontsource/roboto": "5.2.10",
     "@prettier/plugin-php": "0.24.0",
     "@tailwindcss/typography": "0.5.19",
-    "@tailwindcss/vite": "4.2.1",
+    "@tailwindcss/vite": "4.2.2",
     "bigpicture": "2.6.4",
     "laravel-vite-plugin": "2.1.0",
     "prettier": "3.8.1",
     "prettier-plugin-tailwindcss": "0.7.2",
     "remixicon": "4.9.1",
-    "tailwindcss": "4.2.1",
+    "tailwindcss": "4.2.2",
     "vite": "8.0.0"
   },
   "packageManager": "pnpm@10.32.1"
