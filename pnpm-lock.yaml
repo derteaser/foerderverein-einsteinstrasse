@@ -15,8 +15,8 @@ importers:
         specifier: 5.2.10
         version: 5.2.10
       '@prettier/plugin-php':
-        specifier: 0.24.0
-        version: 0.24.0(prettier@3.8.1)
+        specifier: 0.25.0
+        version: 0.25.0(prettier@3.8.1)
       '@tailwindcss/typography':
         specifier: 0.5.19
         version: 0.5.19(tailwindcss@4.2.2)
@@ -240,8 +240,8 @@ packages:
   '@oxc-project/types@0.122.0':
     resolution: {integrity: sha512-oLAl5kBpV4w69UtFZ9xqcmTi+GENWOcPF7FCrczTiBbmC0ibXxCwyvZGbO39rCVEuLGAZM84DH0pUIyyv/YJzA==}
 
-  '@prettier/plugin-php@0.24.0':
-    resolution: {integrity: sha512-x9l65fCE/pgoET6RQowgdgG8Xmzs44z6j6Hhg3coINCyCw9JBGJ5ZzMR2XHAM2jmAdbJAIgqB6cUn4/3W3XLTA==}
+  '@prettier/plugin-php@0.25.0':
+    resolution: {integrity: sha512-hi0NhucbspYqw5pZYKywEk5CxsBwA0pBcG6K08AZw7OQDoUm4Hhbxql7z/SzQGeTRHqak5PwDnVNgttZiZdrlg==}
     peerDependencies:
       prettier: ^3.0.0
 
@@ -579,8 +579,8 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  php-parser@3.2.5:
-    resolution: {integrity: sha512-M1ZYlALFFnESbSdmRtTQrBFUHSriHgPhgqtTF/LCbZM4h7swR5PHtUceB2Kzby5CfqcsYwBn7OXTJ0+8Sajwkw==}
+  php-parser@3.5.1:
+    resolution: {integrity: sha512-0By/iMXxBM9nIapBXOdFGHlD2os9t/3Pk1aIavUzCH7jKFPjq1WYeOVOv/iXhELCjlL4ZlzKwK1keyxLQjll8g==}
 
   picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
@@ -864,10 +864,10 @@ snapshots:
 
   '@oxc-project/types@0.122.0': {}
 
-  '@prettier/plugin-php@0.24.0(prettier@3.8.1)':
+  '@prettier/plugin-php@0.25.0(prettier@3.8.1)':
     dependencies:
       linguist-languages: 8.2.0
-      php-parser: 3.2.5
+      php-parser: 3.5.1
       prettier: 3.8.1
 
   '@rolldown/binding-android-arm64@1.0.0-rc.12':
@@ -1113,7 +1113,7 @@ snapshots:
 
   nanoid@3.3.11: {}
 
-  php-parser@3.2.5: {}
+  php-parser@3.5.1: {}
 
   picocolors@1.1.1: {}
 
