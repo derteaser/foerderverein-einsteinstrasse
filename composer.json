@@ -32,7 +32,7 @@
     "scripts": {
       "start": [
         "Composer\\Config::disableProcessTimeout",
-        "@php -S localhost:8000 kirby/router.php"
+        "@php -S localhost:8000 server.php"
       ],
       "post-autoload-dump": [
         "@php post-autoload-dump.php"
