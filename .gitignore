@@ -53,3 +53,4 @@ Icon
 /.idea/*
 .env
 /site/config/config.*.php
+/.claude/settings.local.json
