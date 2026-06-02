@@ -1,6 +1,6 @@
 <?php
 $autoloadFile = __DIR__ . '/vendor/autoload.php';
-$customLine = "<?php \ndefine('KIRBY_HELPER_E', false);\n";
+$customLine = "<?php \nif (!defined('KIRBY_HELPER_E')) {\n    define('KIRBY_HELPER_E', false);\n}\n";
 
 $content = file_get_contents($autoloadFile);
 $content = str_replace('<?php', $customLine, $content);

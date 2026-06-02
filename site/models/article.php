@@ -12,7 +12,7 @@ use Kirby\Toolkit\Str;
  * @method Field tags()
  */
 class ArticlePage extends Page {
-    public function image(string $filename = null): ?\Kirby\Cms\File {
+    public function image(?string $filename = null): ?\Kirby\Cms\File {
         if ($filename === null) {
             return $this->main_image()->toFile();
         }
