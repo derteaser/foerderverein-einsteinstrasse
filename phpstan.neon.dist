@@ -1,0 +1,33 @@
+parameters:
+    level: 8
+
+    # Kirby's Collection::last(), Pages::first(), etc. docblocks claim non-null
+    # TValue returns, but their runtime implementations return null on empty
+    # collections. Trust defensive null checks in our code over Kirby's docblocks.
+    treatPhpDocTypesAsCertain: false
+
+    paths:
+        - site/models
+        - site/controllers
+
+    bootstrapFiles:
+        - vendor/autoload.php
+
+    # Kirby resolves blueprint fields via __call (e.g. $page->date(), $site->title()).
+    # PHPStan has no way to know which method names exist without parsing blueprints,
+    # and no maintained PHPStan extension provides that. Silence method.notFound on the
+    # dynamic-dispatch classes; real bugs in these calls surface at runtime during tests.
+    reportUnmatchedIgnoredErrors: false
+    ignoreErrors:
+        -
+            identifier: method.notFound
+            messages:
+                # Kirby blueprint field accessors can use snake_case (e.g. $page->main_image()).
+                - '#Call to an undefined method [A-Za-z]+Page::[a-zA-Z_]+\(\)\.#'
+                - '#Call to an undefined method Kirby\\Cms\\(Site|Page)::[a-zA-Z_]+\(\)\.#'
+                # File methods resolve through several union types depending on call site.
+                - '#Call to an undefined method Kirby\\Cms\\File(\|Kirby\\Cms\\FileVersion)?(\|Kirby\\Image\\Image)?(\|Kirby\\Filesystem\\Asset)?::[a-zA-Z_]+\(\)\.#'
+                - '#Call to an undefined method Kirby\\Content\\(Content|Field)::[a-zA-Z_]+\(\)\.#'
+                - '#Call to an undefined method Kirby\\Cms\\Ingredients::[a-zA-Z_]+\(\)\.#'
+
+    tmpDir: .phpstan.cache

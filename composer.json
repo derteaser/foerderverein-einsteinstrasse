@@ -16,7 +16,25 @@
     },
     "require-dev": {
       "pestphp/pest": "^3.0",
-      "lukaskleinschmidt/kirby-types": "^2.0"
+      "lukaskleinschmidt/kirby-types": "^2.0",
+      "derteaser/kirby-testing": "^1.2",
+      "phpstan/phpstan": "^2.1"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/derteaser/kirby-testing.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
     },
     "config": {
         "optimize-autoloader": true,
@@ -33,6 +51,7 @@
         "Composer\\Config::disableProcessTimeout",
         "@php -S localhost:8000 -t public/ kirby/router.php"
       ],
+      "analyze": "vendor/bin/phpstan analyse --memory-limit=512M",
       "post-autoload-dump": [
         "@php post-autoload-dump.php"
       ]
