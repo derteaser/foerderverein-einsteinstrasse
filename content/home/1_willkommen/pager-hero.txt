@@ -8,19 +8,15 @@ Headline: Willkommen beim Förderverein evangelisches Familienzentrum Einsteinst
 
 Buttons:
 
-- 
-  link:
-    type: page
-    value: home
-    text: Mitglied werden
-    hash: mitglied-werden
+-
+  text: Mitglied werden
+  link: '#mitglied-werden'
+  target: 'false'
   primary: 'true'
-- 
-  link:
-    type: page
-    text: Unterstützen
-    hash: unterstuetzen
-    value: home
+-
+  text: Unterstützen
+  link: '#unterstuetzen'
+  target: 'false'
   primary: 'false'
 
 ----
