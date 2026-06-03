@@ -16,9 +16,9 @@
                   $buttonTarget = $button->target()->toBool() ? '_blank' : null;
                 @endphp
                 @if ($button->primary()->toBool() === true)
-                  <a class="inline-block print:hidden w-full md:w-auto mb-2 md:mb-0 py-5 px-8 mr-6 text-center text-sm font-bold uppercase bg-yellow-500 hover:bg-yellow-400 transition duration-200" href="{{ $buttonUrl }}" @if ($buttonTarget) target="{{ $buttonTarget }}" rel="noopener" @endif>{{ $button->text() }}</a>
+                  <a class="inline-block print:hidden w-full md:w-auto mb-2 md:mb-0 py-5 px-8 mr-6 text-center text-sm font-bold uppercase bg-yellow-500 hover:bg-yellow-400 transition duration-200" href="{{ $buttonUrl }}" @if ($buttonTarget) target="{{ $buttonTarget }}" rel="noopener noreferrer" @endif>{{ $button->text() }}</a>
                 @else
-                  <a class="inline-block print:hidden w-full md:w-auto py-5 px-8 text-center text-sm text-white font-bold uppercase border border-white hover:bg-blue-800 hover:border-blue-800 transition duration-200" href="{{ $buttonUrl }}" @if ($buttonTarget) target="{{ $buttonTarget }}" rel="noopener" @endif>{{ $button->text() }}</a>
+                  <a class="inline-block print:hidden w-full md:w-auto py-5 px-8 text-center text-sm text-white font-bold uppercase border border-white hover:bg-blue-800 hover:border-blue-800 transition duration-200" href="{{ $buttonUrl }}" @if ($buttonTarget) target="{{ $buttonTarget }}" rel="noopener noreferrer" @endif>{{ $button->text() }}</a>
                 @endif
               @endforeach
             </div>
