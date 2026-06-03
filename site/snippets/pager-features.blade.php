@@ -1,8 +1,8 @@
-<?php
-/** @var PagerFeaturesPage $section */
-
-$features = $section->features()->toStructure(); ?>
-<section class="relative bg-blue-50 print:bg-white py-24 print:py-0 overflow-hidden" id="<?= $section->slug() ?>">
+@php
+    /** @var PagerFeaturesPage $section */
+    $features = $section->features()->toStructure();
+@endphp
+<section class="relative bg-blue-50 print:bg-white py-24 print:py-0 overflow-hidden" id="{{ $section->slug() }}">
   <div class="absolute inset-0 print:hidden">
     <svg class="mt-20" width="705" height="798" viewBox="0 0 705 798" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g opacity="0.15">
@@ -14,28 +14,26 @@ $features = $section->features()->toStructure(); ?>
   </div>
   <div class="relative container mx-auto px-4">
     <div class="max-w-2xl mb-16 mx-auto text-center print:text-left">
-      <h2 class="mb-6 text-4xl font-bold font-heading text-blue-800"><?= $section->headline() ?></h2>
-      <?php if ($section->intro()->isNotEmpty()): ?>
-        <p class="mb-10 text-lg text-gray-500"><?= $section->intro() ?></p>
-      <?php endif; ?>
+      <h2 class="mb-6 text-4xl font-bold font-heading text-blue-800">{{ $section->headline() }}</h2>
+      @if ($section->intro()->isNotEmpty())
+        <p class="mb-10 text-lg text-gray-500">{{ $section->intro() }}</p>
+      @endif
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 <?php if (
-      $features->length > 2
-    ): ?>lg:grid-cols-3 <?php endif; ?> gap-x-4 gap-y-6">
-      <?php foreach ($features as $feature): ?>
-        <?php if ($feature->public()->toBool()): ?>
+    <div class="grid grid-cols-1 md:grid-cols-2 @if ($features->length > 2) lg:grid-cols-3 @endif gap-x-4 gap-y-6">
+      @foreach ($features as $feature)
+        @if ($feature->public()->toBool())
           <div class="bg-white print:grid print:grid-cols-2 print:gap-12">
-            <?php if ($image = $feature->cover()->toFile()): ?>
-              <?php $resizedImage = $image->thumb('feature'); ?>
-              <img class="w-full h-64 lg:h-72 object-cover" src="<?= $resizedImage->url() ?>" width="<?= $resizedImage->width() ?>" height="<?= $resizedImage->height() ?>" alt="">
-            <?php endif; ?>
+            @if ($image = $feature->cover()->toFile())
+              @php $resizedImage = $image->thumb('feature'); @endphp
+              <img class="w-full h-64 lg:h-72 object-cover" src="{{ $resizedImage->url() }}" width="{{ $resizedImage->width() }}" height="{{ $resizedImage->height() }}" alt="">
+            @endif
             <div class="py-16 px-10 text-center print:py-0 print:px-0 print:text-left">
-              <h3 class="mb-4 text-lg text-blue-800 font-bold uppercase font-heading"><?= $feature->headline() ?></h3>
-              <div class="prose prose-gray-500"><?= $feature->intro() ?></div>
+              <h3 class="mb-4 text-lg text-blue-800 font-bold uppercase font-heading">{{ $feature->headline() }}</h3>
+              <div class="prose prose-gray-500">{{ $feature->intro() }}</div>
             </div>
           </div>
-        <?php endif; ?>
-      <?php endforeach; ?>
+        @endif
+      @endforeach
     </div>
   </div>
 </section>

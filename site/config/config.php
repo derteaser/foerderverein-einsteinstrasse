@@ -24,6 +24,7 @@ return [
         'sharePassword' => env('FATHOM_SHARE_PASSWORD'),
     ],
     'lukaskleinschmidt.laravel-vite' => require __DIR__ . '/vite.php',
+    'leitsch.blade' => require __DIR__ . '/blade.php',
     'tobimori.seo' => require __DIR__ . '/seo.php',
     'thathoff.sentry' => require __DIR__ . '/sentry.php',
     'thathoff.git-content' => require __DIR__ . '/git-content.php',

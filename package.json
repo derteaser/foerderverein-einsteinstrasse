@@ -14,6 +14,7 @@
     "@fontsource/quicksand": "5.2.10",
     "@fontsource/roboto": "5.2.10",
     "@prettier/plugin-php": "0.25.0",
+    "@shufo/prettier-plugin-blade": "1.16.2",
     "@tailwindcss/typography": "0.5.19",
     "@tailwindcss/vite": "4.3.0",
     "bigpicture": "2.6.4",
