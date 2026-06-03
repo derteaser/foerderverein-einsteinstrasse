@@ -4,7 +4,7 @@ use Kirby\Cms\Field;
 use Kirby\Cms\Page;
 
 /**
- * @method Field function()
+ * @method Field funktion()
  * @method Field email()
  * @method Field main_image()
  */

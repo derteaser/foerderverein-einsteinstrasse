@@ -8,7 +8,7 @@ use Kirby\Toolkit\Html;
     <div class="flex flex-wrap items-center -mx-4">
       <div class="w-full md:w-2/3 px-4 mb-8 md:mb-0 print:w-2/3">
         <h3 class="mb-2 text-3xl font-semibold font-heading text-white print:text-black"><?= $person->title() ?></h3>
-        <p class="mb-2 text-sm uppercase text-yellow-300 print:text-gray-800"><?= $person->function() ?></p>
+        <p class="mb-2 text-sm uppercase text-yellow-300 print:text-gray-800"><?= $person->funktion() ?></p>
         <?php if ($person->email()->isNotEmpty()): ?>
           <?= Html::email($person->email(), null, ['class' => 'text-blue-400 hover:underline text-sm']) ?>
         <?php endif ?>

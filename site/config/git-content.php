@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'commit' => !env('APP_DEBUG', false),
+    'commit' => !filter_var(env('APP_DEBUG'), FILTER_VALIDATE_BOOLEAN),
 ];

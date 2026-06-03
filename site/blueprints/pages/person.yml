@@ -10,7 +10,7 @@ columns:
   left:
     width: 2/3
     fields:
-      function:
+      funktion:
         type: text
         label: Funktion
         required: true

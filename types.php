@@ -1291,16 +1291,16 @@ namespace
     class PersonPage
     {
         /**
-         * Returns the function field.
+         * Returns the funktion field.
          *
          * Uses a `text` field in the `pages/person` blueprint.
          *
          * @see https://getkirby.com/docs/reference/panel/fields/text
          */
-        public function function(): \Kirby\Content\Field
+        public function funktion(): \Kirby\Content\Field
         {
             /** @var \PersonPage $instance */
-            return $instance->function();
+            return $instance->funktion();
         }
         /**
          * Returns the email field.
