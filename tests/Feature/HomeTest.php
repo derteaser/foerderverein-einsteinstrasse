@@ -1,13 +1,14 @@
 <?php
 
 it('has home page', function () {
-  $response = site()->homePage()->render();
+  $page = $this->site()->homePage();
+  $response = $this->get($page->url());
 
-  expect($response)->toBeString();
+  $response->assertStatus(200);
 });
 
 it('renders home page with home template', function () {
-  $page = site()->homePage();
+  $page = $this->site()->homePage();
 
   expect($page->template()->name())->toBe('home');
 });

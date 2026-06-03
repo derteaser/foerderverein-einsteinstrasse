@@ -54,3 +54,4 @@ Icon
 .env
 /site/config/config.*.php
 /.claude/settings.local.json
+/.phpstan.cache/

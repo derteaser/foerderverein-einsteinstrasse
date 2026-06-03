@@ -13,76 +13,16 @@ loadenv([
 
 return [
     'debug' => filter_var(env('APP_DEBUG'), FILTER_VALIDATE_BOOLEAN),
-    'auth' => [
-        'methods' => explode(',', env('AUTH_METHODS') ?? ''),
-    ],
     'slugs' => 'de',
     'locale' => 'de_DE.utf-8',
     'date' => [
         'handler' => 'strftime',
     ],
-    'panel' => [
-        'language' => 'de',
-        'css' => 'custom-panel/styles.css',
-    ],
-    'email' => [
-        'transport' => [
-            'type' => 'smtp',
-            'host' => env('EMAIL_HOST'),
-            'port' => 465,
-            'security' => true,
-            'auth' => true,
-            'username' => env('EMAIL_USERNAME'),
-            'password' => env('EMAIL_PASSWORD'),
-        ],
-    ],
-    'thumbs' => [
-        'presets' => [
-            'default' => ['width' => 1036, 'quality' => 80],
-            'one-column-teaser' => ['width' => 740, 'quality' => 80],
-            'feature' => ['width' => 610, 'height' => 260, 'crop' => true, 'quality' => 80],
-            'gallery' => ['width' => 610, 'height' => 610, 'crop' => true, 'quality' => 80],
-            'person' => ['width' => 500, 'height' => 500, 'crop' => true],
-        ],
-    ],
-    'routes' => [
-        [
-            'pattern' => 'sitemap.xml',
-            'method' => 'GET',
-            'action' => function () {
-                $options = [
-                    'images' => false,
-                    'videos' => false,
-                    'xsl' => false,
-                ];
-
-                return site()
-                    ->index()
-                    ->published()
-                    ->filter(function (Page $page) {
-                        return match ($page->template()->name()) {
-                            'persons', 'person' => false,
-                            default => !$page->parent() || $page->parent()->template() != 'home',
-                        };
-                    })
-                    ->sitemap($options);
-            },
-        ],
-        [
-            'pattern' => 'feed',
-            'method' => 'GET',
-            'action' => function () {
-                $options = [
-                    'title' => site()->title(),
-                    'link' => 'blog',
-                ];
-
-                return collection('latest-blog-articles')
-                    ->limit(10)
-                    ->feed($options);
-            },
-        ],
-    ],
+    'auth' => require __DIR__ . '/auth.php',
+    'panel' => require __DIR__ . '/panel.php',
+    'email' => require __DIR__ . '/email.php',
+    'thumbs' => require __DIR__ . '/thumbs.php',
+    'routes' => require __DIR__ . '/routes.php',
     'bnomei.robots-txt.sitemap' => 'sitemap.xml',
     'pedroborges.meta-tags.default' => function ($page, $site) {
         $image = $page->main_image()->toFile();
@@ -224,8 +164,5 @@ return [
         'siteId' => env('FATHOM_SITE_ID'),
         'sharePassword' => env('FATHOM_SHARE_PASSWORD'),
     ],
-    'lukaskleinschmidt.laravel-vite' => [
-        'hotFile' => '../storage/vite.hot',
-        'buildDirectory' => 'build',
-    ],
+    'lukaskleinschmidt.laravel-vite' => require __DIR__ . '/vite.php',
 ];
