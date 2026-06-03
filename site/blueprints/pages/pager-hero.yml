@@ -20,9 +20,22 @@ columns:
           buttons:
             type: structure
             fields:
+              text:
+                type: text
+                required: true
               link:
                 type: link
                 required: true
+                options:
+                  - page
+                  - url
+                  - anchor
+              target:
+                type: toggle
+                label: In neuem Fenster öffnen
+                text:
+                  - "nein"
+                  - "ja"
               primary:
                 type: toggle
                 label: Primärer Button

@@ -12,10 +12,9 @@ Intro: Förderer kann jeder werden! Eltern, Großeltern, Verwandte, Paten, Freun
 
 Link:
 
-type: file
-value: flyer.pdf
 text: Flyer herunterladen
-popup: true
+link: file://eaXIHQhcmMGwuPCf
+target: 'true'
 
 ----
 

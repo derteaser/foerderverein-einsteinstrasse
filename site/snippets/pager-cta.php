@@ -1,10 +1,9 @@
 <?php
-use Oblik\LinkField\Link;
-
 /** @var PagerCtaPage $section */
 
-/** @var Link $link */
-$link = $section->link()->toLinkObject();
+$link = $section->link()->toObject();
+$linkUrl = $link->link()->toUrl();
+$linkTarget = $link->target()->toBool() ? '_blank' : null;
 ?>
 <section class="relative py-20 print:py-0 overflow-hidden bg-blue-100" id="<?= $section->slug() ?>">
   <?php if ($image = $section->background()->toFile()): ?>
@@ -17,8 +16,8 @@ $link = $section->link()->toLinkObject();
     <div class="max-w-xl print:max-w-none mx-auto lg:mx-0 py-12 pl-16 pr-32 bg-white clip-path-right-top">
       <h3 class="mb-4 text-2xl font-semibold text-blue-800"><?= $section->headline() ?></h3>
       <p class="mb-7 text-gray-500 text-base leading-relaxed"><?= $section->intro() ?></p>
-      <a class="flex items-center text-blue-800 text-sm font-bold uppercase hover:underline print:hidden" onclick="fathom.trackGoal('<?= $section->fathom_event() ?>', 0);" <?= $link->attr() ?>>
-        <span><?= $link->title() ?></span>
+      <a class="flex items-center text-blue-800 text-sm font-bold uppercase hover:underline print:hidden" onclick="fathom.trackGoal('<?= $section->fathom_event() ?>', 0);" href="<?= $linkUrl ?>"<?php if ($linkTarget): ?> target="<?= $linkTarget ?>" rel="noopener"<?php endif ?>>
+        <span><?= $link->text() ?></span>
         <span class="ml-2">
           <?php snippet('icons/arrow-right-s-line', ['class' => 'mx-auto text-blue-800 fill-current size-5']) ?>
         </span>

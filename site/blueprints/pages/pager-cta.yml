@@ -22,8 +22,21 @@ columns:
             buttons: false
             required: true
           link:
-            type: link
-            required: true
+            type: object
+            label: Link
+            fields:
+              text:
+                type: text
+                required: true
+              link:
+                type: link
+                required: true
+              target:
+                type: toggle
+                label: In neuem Fenster öffnen
+                text:
+                  - "nein"
+                  - "ja"
           fathom_event:
             type: text
             label: Fathom Event ID
