@@ -55,3 +55,4 @@ Icon
 /site/config/config.*.php
 /.claude/settings.local.json
 /.phpstan.cache/
+/site/logs/

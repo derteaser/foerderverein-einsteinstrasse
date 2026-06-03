@@ -27,4 +27,17 @@ class ArticlePage extends Page {
 
         return $this->text()->toBlocks()->excerpt(100);
     }
+
+    /**
+     * @return array<string, string|null>
+     */
+    public function metaDefaults(?string $lang = null): array {
+        $image = $this->main_image()->toFile();
+
+        return [
+            'metaDescription' => $this->excerpt(),
+            'og:image' => $image?->url(),
+            'og:type' => 'article',
+        ];
+    }
 }
