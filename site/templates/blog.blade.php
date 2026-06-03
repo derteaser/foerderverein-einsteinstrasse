@@ -10,7 +10,7 @@
       </div>
       <div class="flex flex-wrap -mx-4 -mb-20">
         @foreach ($articles as $article)
-          @snippet('teasers/one-column', ['article' => $article])
+          {!! snippet('teasers/one-column', ['article' => $article]) !!}
         @endforeach
       </div>
     </div>

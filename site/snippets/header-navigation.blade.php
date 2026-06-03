@@ -5,7 +5,7 @@
   <nav>
     <a class="flex justify-between items-center group" href="/">
       <div class="text-xl text-white group-hover:text-blue-300 font-semibold flex items-center print:hidden">
-        @snippet('icons/home-4-line', ['class' => 'fill-current size-6 mr-2'])
+        {!! snippet('icons/home-4-line', ['class' => 'fill-current size-6 mr-2']) !!}
         <span class="hidden sm:inline">Zur Startseite</span>
       </div>
       <img src="{{ $logo->url() }}" width="{{ $logo->width() }}" height="{{ $logo->height() }}" alt="Sonne, Wolke, Regenbogen, Eis, Mond" class="w-64 object-contain">

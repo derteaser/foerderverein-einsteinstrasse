@@ -17,7 +17,7 @@
     </div>
     <div class="flex flex-wrap -mx-8 -mb-8 lg:-mb-20">
       @foreach ($section->persons()->toPages() as $person)
-        @snippet('person', ['person' => $person])
+        {!! snippet('person', ['person' => $person]) !!}
       @endforeach
     </div>
   </div>

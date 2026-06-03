@@ -24,7 +24,7 @@
         <img class="w-full h-full object-center object-cover m-0" src="{{ $image->thumb('gallery')->url() }}" data-bp="{{ $image->thumb()->url() }}" alt="">
         <div class="absolute flex inset-0 items-center justify-center">
           <div class="rounded-full bg-white/60 backdrop-blur-xs size-12 sm:size-16 flex items-center justify-center group-hover:scale-110 transition-all">
-            @snippet('icons/zoom-in-line', ['class' => 'text-gray-700 size-8'])
+            {!! snippet('icons/zoom-in-line', ['class' => 'text-gray-700 size-8']) !!}
           </div>
         </div>
       </a>

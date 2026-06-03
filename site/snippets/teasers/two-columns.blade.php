@@ -15,7 +15,7 @@
     <p class="flex items-center text-sm uppercase font-bold text-blue-800">
       <span>Weiterlesen</span>
       <span class="ml-2">
-        @snippet('icons/arrow-right-s-line', ['class' => 'mx-auto text-blue-800 fill-current size-5'])
+        {!! snippet('icons/arrow-right-s-line', ['class' => 'mx-auto text-blue-800 fill-current size-5']) !!}
       </span>
     </p>
   </a>

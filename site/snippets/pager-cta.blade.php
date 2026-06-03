@@ -19,7 +19,7 @@
       <a class="flex items-center text-blue-800 text-sm font-bold uppercase hover:underline print:hidden" onclick="fathom.trackGoal('{{ $section->fathom_event() }}', 0);" href="{{ $linkUrl }}" @if ($linkTarget) target="{{ $linkTarget }}" rel="noopener noreferrer" @endif>
         <span>{{ $link->text() }}</span>
         <span class="ml-2">
-          @snippet('icons/arrow-right-s-line', ['class' => 'mx-auto text-blue-800 fill-current size-5'])
+          {!! snippet('icons/arrow-right-s-line', ['class' => 'mx-auto text-blue-800 fill-current size-5']) !!}
         </span>
       </a>
     </div>
