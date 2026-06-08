@@ -5,7 +5,7 @@
     "keywords": ["kirby", "cms"],
     "homepage": "https://www.foerderverein-familienzentrum-einsteinstrasse-neuss.de",
     "require": {
-        "php": "~8.3.0",
+        "php": "~8.5.0",
         "getkirby/cms": "^5.0",
         "lukaskleinschmidt/kirby-laravel-vite": "^2.2",
         "paulmorel/fathom-analytics": "1.0.0",
