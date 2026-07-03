@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2554e8482952b9bb9a9b8fb527d3d290",
+    "content-hash": "97fe465a56fdcef447c76d5e107f14a3",
     "packages": [
         {
             "name": "bnomei/kirby3-dotenv",
@@ -2587,16 +2587,16 @@
         },
         {
             "name": "nerdcel/kirby-impersonate",
-            "version": "0.0.1",
+            "version": "0.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nerdcel/kirby-impersonate.git",
-                "reference": "b5fa0316eb41a72539c29e1ae8a49a4e12cb150e"
+                "reference": "a6935627c2d4ac1e06b4bf95b77c3fafe61e26d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nerdcel/kirby-impersonate/zipball/b5fa0316eb41a72539c29e1ae8a49a4e12cb150e",
-                "reference": "b5fa0316eb41a72539c29e1ae8a49a4e12cb150e",
+                "url": "https://api.github.com/repos/nerdcel/kirby-impersonate/zipball/a6935627c2d4ac1e06b4bf95b77c3fafe61e26d3",
+                "reference": "a6935627c2d4ac1e06b4bf95b77c3fafe61e26d3",
                 "shasum": ""
             },
             "require": {
@@ -2636,9 +2636,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nerdcel/kirby-impersonate/issues",
-                "source": "https://github.com/nerdcel/kirby-impersonate/tree/0.0.1"
+                "source": "https://github.com/nerdcel/kirby-impersonate/tree/0.0.2"
             },
-            "time": "2024-05-08T11:24:46+00:00"
+            "time": "2026-07-03T13:56:24+00:00"
         },
         {
             "name": "nesbot/carbon",

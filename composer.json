@@ -17,7 +17,7 @@
         "thathoff/kirby-git-content": "^5.3",
         "distantnative/retour-for-kirby": "^5.5",
         "bvdputte/kirby-logbook": "^1.0",
-        "nerdcel/kirby-impersonate": "^0.0.1",
+        "nerdcel/kirby-impersonate": "^0.0.2",
         "bnomei/kirby3-recently-modified": "^5.0",
         "getkirby/cli": "^1.8",
         "bnomei/kirby3-security-headers": "^5.1"
