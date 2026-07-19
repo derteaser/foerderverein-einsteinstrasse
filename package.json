@@ -23,7 +23,7 @@
     "prettier-plugin-tailwindcss": "0.8.1",
     "remixicon": "4.9.1",
     "tailwindcss": "4.3.2",
-    "vite": "8.1.4"
+    "vite": "8.1.5"
   },
   "packageManager": "pnpm@11.11.0"
 }
