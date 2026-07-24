@@ -16,7 +16,7 @@ importers:
         version: 5.2.10
       '@prettier/plugin-php':
         specifier: 0.25.0
-        version: 0.25.0(prettier@3.9.5)
+        version: 0.25.0(prettier@3.9.6)
       '@shufo/prettier-plugin-blade':
         specifier: 1.16.2
         version: 1.16.2
@@ -33,11 +33,11 @@ importers:
         specifier: 3.1.3
         version: 3.1.3(vite@8.1.5(jiti@1.21.7))
       prettier:
-        specifier: 3.9.5
-        version: 3.9.5
+        specifier: 3.9.6
+        version: 3.9.6
       prettier-plugin-tailwindcss:
         specifier: 0.8.1
-        version: 0.8.1(prettier@3.9.5)
+        version: 0.8.1(prettier@3.9.6)
       remixicon:
         specifier: 4.9.1
         version: 4.9.1
@@ -953,8 +953,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  prettier@3.9.5:
-    resolution: {integrity: sha512-/FVl766LpUfB5vXgCYOYa0MeV/441Ia99AeICQIQFTY/Nw0roZwULcXpku5i1/m5kt/baz+s4Zogspd839HSMg==}
+  prettier@3.9.6:
+    resolution: {integrity: sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1268,17 +1268,17 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@prettier/plugin-php@0.24.0(prettier@3.9.5)':
+  '@prettier/plugin-php@0.24.0(prettier@3.9.6)':
     dependencies:
       linguist-languages: 8.2.0
       php-parser: 3.5.1
-      prettier: 3.9.5
+      prettier: 3.9.6
 
-  '@prettier/plugin-php@0.25.0(prettier@3.9.5)':
+  '@prettier/plugin-php@0.25.0(prettier@3.9.6)':
     dependencies:
       linguist-languages: 8.2.0
       php-parser: 3.5.1
-      prettier: 3.9.5
+      prettier: 3.9.6
 
   '@rolldown/binding-android-arm64@1.1.5':
     optional: true
@@ -1470,7 +1470,7 @@ snapshots:
 
   blade-formatter@1.44.4:
     dependencies:
-      '@prettier/plugin-php': 0.24.0(prettier@3.9.5)
+      '@prettier/plugin-php': 0.24.0(prettier@3.9.6)
       '@shufo/tailwindcss-class-sorter': 3.0.1
       aigle: 1.14.1
       ajv: 8.20.0
@@ -1484,7 +1484,7 @@ snapshots:
       js-beautify: 1.15.4
       lodash: 4.18.1
       php-parser: 3.5.0
-      prettier: 3.9.5
+      prettier: 3.9.6
       string-replace-async: 2.0.0
       tailwindcss: 3.4.19
       vscode-oniguruma: 1.7.0
@@ -1904,13 +1904,13 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  prettier-plugin-tailwindcss@0.8.1(prettier@3.9.5):
+  prettier-plugin-tailwindcss@0.8.1(prettier@3.9.6):
     dependencies:
-      prettier: 3.9.5
+      prettier: 3.9.6
 
   prettier@3.8.1: {}
 
-  prettier@3.9.5: {}
+  prettier@3.9.6: {}
 
   proto-list@1.2.4: {}
 
