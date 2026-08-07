@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "97fe465a56fdcef447c76d5e107f14a3",
+    "content-hash": "02314607e2589337e631a603ef81190a",
     "packages": [
         {
             "name": "bnomei/kirby3-dotenv",
@@ -5240,16 +5240,16 @@
         },
         {
             "name": "tobimori/kirby-seo",
-            "version": "2.0.0-beta.4",
+            "version": "2.0.0-beta.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tobimori/kirby-seo.git",
-                "reference": "7a364eaccefc69cf82a164f8eeefd2fa50869985"
+                "reference": "181c47e2c2215f1e7aca3c1f04c74346423b773d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tobimori/kirby-seo/zipball/7a364eaccefc69cf82a164f8eeefd2fa50869985",
-                "reference": "7a364eaccefc69cf82a164f8eeefd2fa50869985",
+                "url": "https://api.github.com/repos/tobimori/kirby-seo/zipball/181c47e2c2215f1e7aca3c1f04c74346423b773d",
+                "reference": "181c47e2c2215f1e7aca3c1f04c74346423b773d",
                 "shasum": ""
             },
             "require": {
@@ -5292,7 +5292,7 @@
             "homepage": "https://github.com/tobimori/kirby-seo#readme",
             "support": {
                 "issues": "https://github.com/tobimori/kirby-seo/issues",
-                "source": "https://github.com/tobimori/kirby-seo/tree/2.0.0-beta.4"
+                "source": "https://github.com/tobimori/kirby-seo/tree/2.0.0-beta.5"
             },
             "funding": [
                 {
@@ -5304,7 +5304,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-16T15:38:48+00:00"
+            "time": "2026-08-07T08:42:06+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
