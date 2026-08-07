@@ -12,7 +12,7 @@
         "bnomei/kirby3-dotenv": "^5.0",
         "bnomei/kirby3-feed": "^5.0",
         "leitsch/kirby-blade": "^3.0",
-        "tobimori/kirby-seo": "2.0.0-beta.4",
+        "tobimori/kirby-seo": "2.0.0-beta.5",
         "thathoff/kirby-sentry": "^3.2",
         "thathoff/kirby-git-content": "^5.3",
         "distantnative/retour-for-kirby": "^5.5",
