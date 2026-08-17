@@ -30,8 +30,8 @@ importers:
         specifier: 2.6.4
         version: 2.6.4
       laravel-vite-plugin:
-        specifier: 3.1.3
-        version: 3.1.3(vite@8.2.1(jiti@1.21.7))
+        specifier: 3.2.0
+        version: 3.2.0(vite@8.2.1(jiti@1.21.7))
       prettier:
         specifier: 3.9.6
         version: 3.9.6
@@ -615,8 +615,8 @@ packages:
   json-schema-traverse@1.0.0:
     resolution: {integrity: sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug==}
 
-  laravel-vite-plugin@3.1.3:
-    resolution: {integrity: sha512-cI5Anw4QHY+UzvZczFaj+j8NhwT2FtyEN8aqS/hOdt6DpEFBsn6x3GENxALem3cc+TsGvd9MacneimEvShvKMA==}
+  laravel-vite-plugin@3.2.0:
+    resolution: {integrity: sha512-xSxY9Gzeb/eancd8WeK09piAFP+a6i5QIBqNCKNv9L0Eq6wziwzSem7F1GvMSrtjMh5F/QVKFxn8t9naGOA66A==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -1726,7 +1726,7 @@ snapshots:
 
   json-schema-traverse@1.0.0: {}
 
-  laravel-vite-plugin@3.1.3(vite@8.2.1(jiti@1.21.7)):
+  laravel-vite-plugin@3.2.0(vite@8.2.1(jiti@1.21.7)):
     dependencies:
       picocolors: 1.1.1
       tinyglobby: 0.2.17
