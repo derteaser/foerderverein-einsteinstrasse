@@ -23,7 +23,7 @@
         "bnomei/kirby3-security-headers": "^5.1"
     },
     "require-dev": {
-      "pestphp/pest": "^4.0",
+      "pestphp/pest": "^5.0",
       "lukaskleinschmidt/kirby-types": "^2.0",
       "derteaser/kirby-testing": "^1.2",
       "phpstan/phpstan": "^2.1"
