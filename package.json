@@ -19,7 +19,7 @@
     "@tailwindcss/vite": "4.3.3",
     "bigpicture": "2.6.4",
     "laravel-vite-plugin": "3.2.0",
-    "prettier": "3.9.8",
+    "prettier": "3.9.9",
     "prettier-plugin-tailwindcss": "0.8.1",
     "remixicon": "4.9.1",
     "tailwindcss": "4.3.3",
