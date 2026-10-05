@@ -5149,16 +5149,16 @@
         },
         {
             "name": "thathoff/kirby-git-content",
-            "version": "v5.4.0",
+            "version": "v5.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thathoff/kirby-git-content.git",
-                "reference": "d0311d191e70868dc2366f4cde79129d4301f0c8"
+                "reference": "25e746d40c4de3be6e7af9183ccac01b90ed78d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thathoff/kirby-git-content/zipball/d0311d191e70868dc2366f4cde79129d4301f0c8",
-                "reference": "d0311d191e70868dc2366f4cde79129d4301f0c8",
+                "url": "https://api.github.com/repos/thathoff/kirby-git-content/zipball/25e746d40c4de3be6e7af9183ccac01b90ed78d7",
+                "reference": "25e746d40c4de3be6e7af9183ccac01b90ed78d7",
                 "shasum": ""
             },
             "require": {
@@ -5166,7 +5166,8 @@
                 "getkirby/composer-installer": "^1.2"
             },
             "require-dev": {
-                "getkirby/cms": "^3.6.0|^4.0.0|^5.0.0"
+                "phpstan/phpstan": "^2.0",
+                "squizlabs/php_codesniffer": "^3.10"
             },
             "type": "kirby-plugin",
             "extra": {
@@ -5197,7 +5198,7 @@
                 "issues": "https://github.com/thathoff/kirby-git-content/issues",
                 "source": "https://github.com/thathoff/kirby-git-content"
             },
-            "time": "2025-11-01T18:11:12+00:00"
+            "time": "2026-10-04T19:54:24+00:00"
         },
         {
             "name": "thathoff/kirby-sentry",
