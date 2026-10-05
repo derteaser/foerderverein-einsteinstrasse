@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "02314607e2589337e631a603ef81190a",
+    "content-hash": "3b9c6e5926b33f6128e507fbe521fe2b",
     "packages": [
         {
             "name": "bnomei/kirby3-dotenv",
@@ -5247,16 +5247,16 @@
         },
         {
             "name": "tobimori/kirby-seo",
-            "version": "2.0.0-beta.5",
+            "version": "2.0.0-rc.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tobimori/kirby-seo.git",
-                "reference": "181c47e2c2215f1e7aca3c1f04c74346423b773d"
+                "reference": "05fbf5f1f9e2bf6636a475703e6456eaf0d3ea5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tobimori/kirby-seo/zipball/181c47e2c2215f1e7aca3c1f04c74346423b773d",
-                "reference": "181c47e2c2215f1e7aca3c1f04c74346423b773d",
+                "url": "https://api.github.com/repos/tobimori/kirby-seo/zipball/05fbf5f1f9e2bf6636a475703e6456eaf0d3ea5e",
+                "reference": "05fbf5f1f9e2bf6636a475703e6456eaf0d3ea5e",
                 "shasum": ""
             },
             "require": {
@@ -5273,6 +5273,7 @@
             "suggest": {
                 "ext-imagick": "Rasterize non-resizable images (SVG, etc.) for AI alt text generation",
                 "getkirby/cli": "Enable background processing support",
+                "league/html-to-markdown": "Enable automatic conversion for LLM-friendly Markdown responses",
                 "spatie/schema-org": "Enable the Schema.org support",
                 "tobimori/kirby-queues": "Enable background processing support"
             },
@@ -5299,11 +5300,11 @@
             "homepage": "https://github.com/tobimori/kirby-seo#readme",
             "support": {
                 "issues": "https://github.com/tobimori/kirby-seo/issues",
-                "source": "https://github.com/tobimori/kirby-seo/tree/2.0.0-beta.5"
+                "source": "https://github.com/tobimori/kirby-seo/tree/2.0.0-rc.1"
             },
             "funding": [
                 {
-                    "url": "https://plugins.andkindness.com/seo/preorder",
+                    "url": "https://www.andkindness.com/buy?plugin=seo",
                     "type": "custom"
                 },
                 {
@@ -5311,7 +5312,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-08-07T08:42:06+00:00"
+            "time": "2026-10-04T16:12:20+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -9248,7 +9249,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "tobimori/kirby-seo": 10
+        "tobimori/kirby-seo": 5
     },
     "prefer-stable": false,
     "prefer-lowest": false,
