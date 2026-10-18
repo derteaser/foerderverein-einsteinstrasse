@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3b9c6e5926b33f6128e507fbe521fe2b",
+    "content-hash": "e2e1b8cbd3f692ab9713c81302643250",
     "packages": [
         {
             "name": "bnomei/kirby3-dotenv",
@@ -5248,34 +5248,39 @@
         },
         {
             "name": "tobimori/kirby-seo",
-            "version": "2.0.0-rc.1",
+            "version": "2.0.0-rc.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tobimori/kirby-seo.git",
-                "reference": "05fbf5f1f9e2bf6636a475703e6456eaf0d3ea5e"
+                "reference": "2771fe026a859db94e0484a89b69894ee6baf979"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tobimori/kirby-seo/zipball/05fbf5f1f9e2bf6636a475703e6456eaf0d3ea5e",
-                "reference": "05fbf5f1f9e2bf6636a475703e6456eaf0d3ea5e",
+                "url": "https://api.github.com/repos/tobimori/kirby-seo/zipball/2771fe026a859db94e0484a89b69894ee6baf979",
+                "reference": "2771fe026a859db94e0484a89b69894ee6baf979",
                 "shasum": ""
             },
             "require": {
                 "getkirby/composer-installer": "^1.2.1",
                 "php": ">=8.3.0"
             },
+            "conflict": {
+                "spatie/schema-org": "<5.0"
+            },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.48",
+                "carthage-software/mago": "^1.57.0",
                 "getkirby/cli": "^1.8.0",
                 "getkirby/cms": "^5.0.0",
-                "spatie/schema-org": "^3.23",
+                "league/html-to-markdown": "^5.1",
+                "spatie/schema-org": "^5.0",
+                "tobimori/kirby-agents": "^0.1.1",
                 "tobimori/kirby-queues": "^1.0.0-beta.1"
             },
             "suggest": {
                 "ext-imagick": "Rasterize non-resizable images (SVG, etc.) for AI alt text generation",
                 "getkirby/cli": "Enable background processing support",
                 "league/html-to-markdown": "Enable automatic conversion for LLM-friendly Markdown responses",
-                "spatie/schema-org": "Enable the Schema.org support",
+                "spatie/schema-org": "Enable the Schema.org support (^5.0)",
                 "tobimori/kirby-queues": "Enable background processing support"
             },
             "type": "kirby-plugin",
@@ -5301,7 +5306,7 @@
             "homepage": "https://github.com/tobimori/kirby-seo#readme",
             "support": {
                 "issues": "https://github.com/tobimori/kirby-seo/issues",
-                "source": "https://github.com/tobimori/kirby-seo/tree/2.0.0-rc.1"
+                "source": "https://github.com/tobimori/kirby-seo/tree/2.0.0-rc.2"
             },
             "funding": [
                 {
@@ -5313,7 +5318,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-10-04T16:12:20+00:00"
+            "time": "2026-10-18T15:38:18+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
