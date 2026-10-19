@@ -643,16 +643,16 @@
         },
         {
             "name": "distantnative/retour-for-kirby",
-            "version": "5.6.0",
+            "version": "5.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/distantnative/retour-for-kirby.git",
-                "reference": "a959f468e9f7608b7d372aca8be35f2d8d6adb14"
+                "reference": "17717fcb71a50bcd01998e39197aee3fc1a9e352"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/distantnative/retour-for-kirby/zipball/a959f468e9f7608b7d372aca8be35f2d8d6adb14",
-                "reference": "a959f468e9f7608b7d372aca8be35f2d8d6adb14",
+                "url": "https://api.github.com/repos/distantnative/retour-for-kirby/zipball/17717fcb71a50bcd01998e39197aee3fc1a9e352",
+                "reference": "17717fcb71a50bcd01998e39197aee3fc1a9e352",
                 "shasum": ""
             },
             "require": {
@@ -662,6 +662,9 @@
             },
             "type": "kirby-plugin",
             "extra": {
+                "kirby": {
+                    "compatible": "^4.3.1 || ^5.0"
+                },
                 "installer-name": "retour",
                 "kirby-cms-path": false
             },
@@ -679,15 +682,9 @@
             "homepage": "https://distantnative.com/retour-for-kirby/",
             "support": {
                 "issues": "https://github.com/distantnative/retour-for-kirby/issues",
-                "source": "https://github.com/distantnative/retour-for-kirby/tree/5.6.0"
+                "source": "https://github.com/distantnative/retour-for-kirby/tree/5.7.0"
             },
-            "funding": [
-                {
-                    "url": "https://paypal.me/distantnative",
-                    "type": "custom"
-                }
-            ],
-            "time": "2026-02-28T21:35:54+00:00"
+            "time": "2026-10-16T14:16:30+00:00"
         },
         {
             "name": "doctrine/inflector",
