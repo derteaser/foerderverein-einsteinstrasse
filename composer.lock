@@ -5231,16 +5231,16 @@
         },
         {
             "name": "thathoff/kirby-git-content",
-            "version": "v5.5.0",
+            "version": "v5.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thathoff/kirby-git-content.git",
-                "reference": "25e746d40c4de3be6e7af9183ccac01b90ed78d7"
+                "reference": "26c0370884b0de753e433ee53c11a02a046aa744"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thathoff/kirby-git-content/zipball/25e746d40c4de3be6e7af9183ccac01b90ed78d7",
-                "reference": "25e746d40c4de3be6e7af9183ccac01b90ed78d7",
+                "url": "https://api.github.com/repos/thathoff/kirby-git-content/zipball/26c0370884b0de753e433ee53c11a02a046aa744",
+                "reference": "26c0370884b0de753e433ee53c11a02a046aa744",
                 "shasum": ""
             },
             "require": {
@@ -5280,7 +5280,7 @@
                 "issues": "https://github.com/thathoff/kirby-git-content/issues",
                 "source": "https://github.com/thathoff/kirby-git-content"
             },
-            "time": "2026-10-04T19:54:24+00:00"
+            "time": "2026-10-20T12:46:33+00:00"
         },
         {
             "name": "thathoff/kirby-sentry",
