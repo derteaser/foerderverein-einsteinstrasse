@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e2e1b8cbd3f692ab9713c81302643250",
+    "content-hash": "f68f377331a69f58411ac3408ec26a2b",
     "packages": [
         {
             "name": "bnomei/kirby3-dotenv",
@@ -5329,16 +5329,16 @@
         },
         {
             "name": "tobimori/kirby-seo",
-            "version": "2.0.0-rc.2",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tobimori/kirby-seo.git",
-                "reference": "2771fe026a859db94e0484a89b69894ee6baf979"
+                "reference": "1a0e8d6558889eb7ef45833b0707e66fec95528d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tobimori/kirby-seo/zipball/2771fe026a859db94e0484a89b69894ee6baf979",
-                "reference": "2771fe026a859db94e0484a89b69894ee6baf979",
+                "url": "https://api.github.com/repos/tobimori/kirby-seo/zipball/1a0e8d6558889eb7ef45833b0707e66fec95528d",
+                "reference": "1a0e8d6558889eb7ef45833b0707e66fec95528d",
                 "shasum": ""
             },
             "require": {
@@ -5349,13 +5349,13 @@
                 "spatie/schema-org": "<5.0"
             },
             "require-dev": {
-                "carthage-software/mago": "^1.57.0",
+                "carthage-software/mago": "^1.58.2",
                 "getkirby/cli": "^1.8.0",
                 "getkirby/cms": "^5.0.0",
                 "league/html-to-markdown": "^5.1",
                 "spatie/schema-org": "^5.0",
                 "tobimori/kirby-agents": "^0.1.1",
-                "tobimori/kirby-queues": "^1.0.0-beta.1"
+                "tobimori/kirby-queues": "^1.1.0"
             },
             "suggest": {
                 "ext-imagick": "Rasterize non-resizable images (SVG, etc.) for AI alt text generation",
@@ -5387,7 +5387,7 @@
             "homepage": "https://github.com/tobimori/kirby-seo#readme",
             "support": {
                 "issues": "https://github.com/tobimori/kirby-seo/issues",
-                "source": "https://github.com/tobimori/kirby-seo/tree/2.0.0-rc.2"
+                "source": "https://github.com/tobimori/kirby-seo/tree/2.0.0"
             },
             "funding": [
                 {
@@ -5399,7 +5399,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-10-18T15:38:18+00:00"
+            "time": "2026-10-22T21:39:11+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -9365,9 +9365,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "tobimori/kirby-seo": 5
-    },
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
