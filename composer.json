@@ -19,7 +19,7 @@
         "bvdputte/kirby-logbook": "^1.0",
         "nerdcel/kirby-impersonate": "^0.0.2",
         "bnomei/kirby3-recently-modified": "^5.0",
-        "getkirby/cli": "^1.8",
+        "getkirby/cli": "^2.0",
         "bnomei/kirby3-security-headers": "^5.1"
     },
     "require-dev": {
