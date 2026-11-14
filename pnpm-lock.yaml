@@ -183,13 +183,13 @@ importers:
         version: 0.5.20(tailwindcss@4.3.5)
       '@tailwindcss/vite':
         specifier: 4.3.5
-        version: 4.3.5(vite@8.3.7(jiti@1.21.7))
+        version: 4.3.5(vite@8.3.8(jiti@1.21.7))
       bigpicture:
         specifier: 2.6.4
         version: 2.6.4
       laravel-vite-plugin:
         specifier: 3.2.1
-        version: 3.2.1(vite@8.3.7(jiti@1.21.7))
+        version: 3.2.1(vite@8.3.8(jiti@1.21.7))
       prettier:
         specifier: 3.9.10
         version: 3.9.10
@@ -203,8 +203,8 @@ importers:
         specifier: 4.3.5
         version: 4.3.5
       vite:
-        specifier: 8.3.7
-        version: 8.3.7(jiti@1.21.7)
+        specifier: 8.3.8
+        version: 8.3.8(jiti@1.21.7)
 
 packages:
 
@@ -1174,8 +1174,8 @@ packages:
   vite-plugin-full-reload@1.2.0:
     resolution: {integrity: sha512-kz18NW79x0IHbxRSHm0jttP4zoO9P9gXh+n6UTwlNKnviTTEpOlum6oS9SmecrTtSr+muHEn5TUuC75UovQzcA==}
 
-  vite@8.3.7:
-    resolution: {integrity: sha512-oxh0dMxrayBr33ScJvvBJ2HBQ2jc1TBrXKR2NyL/MJ9WPuX19mN2DXWUmywKdyw5RFVQBo8hmtb2FMC0LHrnng==}
+  vite@8.3.8:
+    resolution: {integrity: sha512-LzOn3h9rG/0vhLdXrV4yJ4QFA9eEoqCl+Yx+kGJd7aB9w6nfNgVHKSYwLPZUHrz4ZGa+t+kXjV9itvcHDLQouA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -1461,12 +1461,12 @@ snapshots:
       postcss-selector-parser: 6.0.10
       tailwindcss: 4.3.5
 
-  '@tailwindcss/vite@4.3.5(vite@8.3.7(jiti@1.21.7))':
+  '@tailwindcss/vite@4.3.5(vite@8.3.8(jiti@1.21.7))':
     dependencies:
       '@tailwindcss/node': 4.3.5
       '@tailwindcss/oxide': 4.3.5
       tailwindcss: 4.3.5
-      vite: 8.3.7(jiti@1.21.7)
+      vite: 8.3.8(jiti@1.21.7)
 
   '@tybys/wasm-util@0.10.4':
     dependencies:
@@ -1722,11 +1722,11 @@ snapshots:
 
   json-schema-traverse@1.0.0: {}
 
-  laravel-vite-plugin@3.2.1(vite@8.3.7(jiti@1.21.7)):
+  laravel-vite-plugin@3.2.1(vite@8.3.8(jiti@1.21.7)):
     dependencies:
       picocolors: 1.1.1
       tinyglobby: 0.2.17
-      vite: 8.3.7(jiti@1.21.7)
+      vite: 8.3.8(jiti@1.21.7)
       vite-plugin-full-reload: 1.2.0
 
   lightningcss-android-arm64@1.33.0:
@@ -2054,7 +2054,7 @@ snapshots:
       picocolors: 1.1.1
       picomatch: 2.3.2
 
-  vite@8.3.7(jiti@1.21.7):
+  vite@8.3.8(jiti@1.21.7):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
