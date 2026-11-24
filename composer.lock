@@ -2656,16 +2656,16 @@
         },
         {
             "name": "lukaskleinschmidt/kirby-laravel-vite",
-            "version": "2.2.3",
+            "version": "2.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lukaskleinschmidt/kirby-laravel-vite.git",
-                "reference": "2d468971053d560f22359d715fc6a618236fd682"
+                "reference": "431fc2aaa344dbac862f57385fd5ae6ca144d46b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lukaskleinschmidt/kirby-laravel-vite/zipball/2d468971053d560f22359d715fc6a618236fd682",
-                "reference": "2d468971053d560f22359d715fc6a618236fd682",
+                "url": "https://api.github.com/repos/lukaskleinschmidt/kirby-laravel-vite/zipball/431fc2aaa344dbac862f57385fd5ae6ca144d46b",
+                "reference": "431fc2aaa344dbac862f57385fd5ae6ca144d46b",
                 "shasum": ""
             },
             "require": {
@@ -2690,10 +2690,10 @@
             "homepage": "https://github.com/lukaskleinschmidt/kirby-laravel-vite#readme",
             "support": {
                 "issues": "https://github.com/lukaskleinschmidt/kirby-laravel-vite/issues",
-                "source": "https://github.com/lukaskleinschmidt/kirby-laravel-vite/tree/2.2.3"
+                "source": "https://github.com/lukaskleinschmidt/kirby-laravel-vite/tree/2.2.4"
             },
-            "time": "2026-11-23T13:21:48+00:00",
-            "published-time": "2026-11-23T13:22:32+00:00"
+            "time": "2026-11-24T08:09:38+00:00",
+            "published-time": "2026-11-24T08:10:02+00:00"
         },
         {
             "name": "michelf/php-smartypants",
